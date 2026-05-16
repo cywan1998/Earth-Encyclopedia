@@ -6,24 +6,27 @@ import type { LayerState } from '../hooks/useLayers'
 import type { MineralRecord } from '../layers/types'
 import { groupMineralsByCountryId } from '../layers/minerals'
 
-function ringCrossesAntimeridian(ring: number[][]): boolean {
-  for (let i = 0; i < ring.length - 1; i++) {
-    if (Math.abs(ring[i][0] - ring[i + 1][0]) > 180) return true
+function fixRing(ring: number[][]): number[][] {
+  const result: number[][] = [ring[0]]
+  for (let i = 1; i < ring.length; i++) {
+    const prev = result[i - 1]
+    const curr = [ring[i][0], ring[i][1]]
+    while (curr[0] - prev[0] > 180) curr[0] -= 360
+    while (prev[0] - curr[0] > 180) curr[0] += 360
+    result.push(curr)
   }
-  return false
+  return result
 }
 
 function fixAntimeridian(geo: GeoJSON.FeatureCollection): void {
   for (const feature of geo.features) {
     const geom = feature.geometry
     if (geom.type === 'MultiPolygon') {
-      geom.coordinates = geom.coordinates.filter(
-        polygon => !polygon.some(ringCrossesAntimeridian)
+      geom.coordinates = geom.coordinates.map(
+        polygon => polygon.map(fixRing)
       )
     } else if (geom.type === 'Polygon') {
-      if (geom.coordinates.some(ringCrossesAntimeridian)) {
-        geom.coordinates = []
-      }
+      geom.coordinates = geom.coordinates.map(fixRing)
     }
   }
 }
@@ -67,7 +70,7 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
           { id: 'osm-tiles', type: 'raster', source: 'osm-tiles', minzoom: 0, maxzoom: 19 },
         ],
       },
-      center: [20, 20],
+      center: [105, 30],
       zoom: 1.8,
       attributionControl: {},
     })
