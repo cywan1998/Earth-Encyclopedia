@@ -43,6 +43,12 @@ export function groupMineralsByCountryId(features: GeoJSON.Feature[]): Map<strin
       country: p.country,
       country_id: p.country_id,
       reserve_level: p.reserve_level,
+      reserves: p.reserves ?? '',
+      annual_production: p.annual_production,
+      grade: p.grade,
+      discovery_year: p.discovery_year,
+      operator: p.operator,
+      description: p.description ?? '',
       status: p.status,
       coordinates: coords,
     }

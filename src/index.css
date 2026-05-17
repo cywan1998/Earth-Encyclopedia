@@ -197,47 +197,78 @@ html, body, #root {
   margin-left: auto;
 }
 
-.mineral-card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 10px 12px;
-  margin-bottom: 6px;
-  border: 1px solid #e2e8f0;
-  transition: box-shadow 0.15s;
-}
-
-.mineral-card:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+.mineral-collapse-label {
+  display: flex;
+  align-items: center;
 }
 
 .mineral-card-name {
   font-size: 13px;
   font-weight: 500;
   color: #1e293b;
-  margin-bottom: 6px;
 }
 
-.mineral-card-meta {
+.mineral-detail-content {
+  padding: 0;
+}
+
+.mineral-description {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #475569;
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  border-left: 3px solid #3b82f6;
+}
+
+.mineral-info-grid {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.mineral-card-status {
-  font-size: 11px;
-  color: #64748b;
+.mineral-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 4px 0;
+  border-bottom: 1px dashed #f1f5f9;
 }
 
-.mineral-card-status[data-status="开采中"] {
-  color: #16a34a;
+.mineral-info-label {
+  font-size: 12px;
+  color: #94a3b8;
+  flex-shrink: 0;
 }
 
-.mineral-card-status[data-status="勘探中"] {
-  color: #d97706;
+.mineral-info-value {
+  font-size: 12px;
+  color: #1e293b;
+  font-weight: 500;
+  text-align: right;
 }
 
-.mineral-card-status[data-status="已关闭"] {
-  color: #dc2626;
+.mineral-group .ant-collapse {
+  background: transparent;
+  border: none;
+}
+
+.mineral-group .ant-collapse-item {
+  background: #fff;
+  border-radius: 8px !important;
+  margin-bottom: 6px;
+  border: 1px solid #e2e8f0 !important;
+  overflow: hidden;
+}
+
+.mineral-group .ant-collapse-header {
+  padding: 10px 12px !important;
+}
+
+.mineral-group .ant-collapse-content-box {
+  padding: 8px 12px 12px !important;
 }
 
 /* ── MapLibre overrides ── */

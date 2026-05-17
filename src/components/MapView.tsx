@@ -4,7 +4,7 @@ import * as topojson from 'topojson-client'
 import type { Topology, GeometryCollection } from 'topojson-specification'
 import type { LayerState } from '../hooks/useLayers'
 import type { MineralRecord } from '../layers/types'
-import { groupMineralsByCountryId } from '../layers/minerals'
+import { groupMineralsByCountryId, MINERAL_COLORS } from '../layers/minerals'
 
 function fixRing(ring: number[][]): number[][] {
   const result: number[][] = [ring[0]]
@@ -101,9 +101,27 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
 
       geo.features = geo.features.filter(feature => {
         const id = String(feature.id)
-        const count = grouped.get(id)?.length ?? 0
-        if (count === 0) return false
-        feature.properties = { ...feature.properties, mineral_count: count, country_id: id }
+        const minerals = grouped.get(id)
+        if (!minerals?.length) return false
+
+        const RESERVE_WEIGHT: Record<string, number> = { '超大型': 4, '大型': 2, '中型': 1 }
+        const typeScores = new Map<string, number>()
+        for (const m of minerals) {
+          const weight = RESERVE_WEIGHT[m.reserve_level] ?? 1
+          typeScores.set(m.mineral_type, (typeScores.get(m.mineral_type) ?? 0) + weight)
+        }
+        let dominantType = ''
+        let maxScore = 0
+        for (const [type, score] of typeScores) {
+          if (score > maxScore) { dominantType = type; maxScore = score }
+        }
+
+        feature.properties = {
+          ...feature.properties,
+          mineral_count: minerals.length,
+          country_id: id,
+          dominant_color: MINERAL_COLORS[dominantType] ?? '#95a5a6',
+        }
         return true
       })
 
@@ -120,15 +138,15 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
           type: 'fill',
           source: COUNTRIES_SOURCE,
           paint: {
-            'fill-color': [
+            'fill-color': ['get', 'dominant_color'],
+            'fill-opacity': [
               'interpolate', ['linear'], ['get', 'mineral_count'],
-              1, '#dbeafe',
-              3, '#93c5fd',
-              5, '#3b82f6',
-              8, '#1d4ed8',
-              12, '#1e3a5f',
+              1, 0.25,
+              3, 0.4,
+              6, 0.55,
+              10, 0.7,
+              15, 0.8,
             ],
-            'fill-opacity': 0.55,
           },
         })
       }

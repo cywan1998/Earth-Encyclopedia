@@ -3,1122 +3,5252 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [122.9, 41.1] },
-      "properties": { "name": "鞍山铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [117.0, 36.7] },
-      "properties": { "name": "莱芜铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.9, 40.1] },
-      "properties": { "name": "迁安铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [101.8, 36.6] },
-      "properties": { "name": "镜铁山铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.5, -29.0] },
-      "properties": { "name": "Sishen铁矿", "mineral_type": "铁矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [118.2, -22.3] },
-      "properties": { "name": "皮尔巴拉铁矿区", "mineral_type": "铁矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-43.9, -19.9] },
-      "properties": { "name": "卡拉加斯铁矿", "mineral_type": "铁矿", "country": "巴西", "country_id": "076", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [59.9, 53.4] },
-      "properties": { "name": "马格尼托哥尔斯克铁矿", "mineral_type": "铁矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [37.5, 52.6] },
-      "properties": { "name": "库尔斯克磁异常铁矿", "mineral_type": "铁矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-92.5, 47.5] },
-      "properties": { "name": "梅萨比铁矿", "mineral_type": "铁矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [20.5, 67.8] },
-      "properties": { "name": "基律纳铁矿", "mineral_type": "铁矿", "country": "瑞典", "country_id": "752", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-67.5, 7.5] },
-      "properties": { "name": "塞罗博利瓦尔铁矿", "mineral_type": "铁矿", "country": "委内瑞拉", "country_id": "862", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [36.8, -3.4] },
-      "properties": { "name": "利甘加铁矿", "mineral_type": "铁矿", "country": "坦桑尼亚", "country_id": "834", "reserve_level": "大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-66.8, 52.8] },
-      "properties": { "name": "拉布拉多铁矿", "mineral_type": "铁矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [78.0, 22.5] },
-      "properties": { "name": "奥里萨邦铁矿", "mineral_type": "铁矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-10.5, 12.5] },
-      "properties": { "name": "西芒杜铁矿", "mineral_type": "铁矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开发中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.1, -26.2] },
-      "properties": { "name": "威特沃特斯兰德金矿", "mineral_type": "金矿", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [121.5, -31.8] },
-      "properties": { "name": "卡尔古利金矿", "mineral_type": "金矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-78.5, -6.8] },
-      "properties": { "name": "亚纳科查金矿", "mineral_type": "金矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-117.0, 40.8] },
-      "properties": { "name": "内华达金矿带", "mineral_type": "金矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.8, 62.5] },
-      "properties": { "name": "苏霍伊洛格金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.4, 25.0] },
-      "properties": { "name": "紫金山金铜矿", "mineral_type": "金矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [120.3, 37.5] },
-      "properties": { "name": "招远金矿", "mineral_type": "金矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.0, 7.5] },
-      "properties": { "name": "塔克瓦金矿", "mineral_type": "金矿", "country": "加纳", "country_id": "288", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6, 6.1] },
-      "properties": { "name": "奥布阿西金矿", "mineral_type": "金矿", "country": "加纳", "country_id": "288", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-80.0, 47.5] },
-      "properties": { "name": "蒂明斯金矿", "mineral_type": "金矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [60.0, 52.0] },
-      "properties": { "name": "南乌拉尔金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [69.0, 41.0] },
-      "properties": { "name": "穆龙套金矿", "mineral_type": "金矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.6, -2.5] },
-      "properties": { "name": "基巴利金矿", "mineral_type": "金矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [34.8, 0.1] },
-      "properties": { "name": "北马拉金矿", "mineral_type": "金矿", "country": "坦桑尼亚", "country_id": "834", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [132.4, -14.5] },
-      "properties": { "name": "坦纳米沙漠金矿", "mineral_type": "金矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-4.0, 12.0] },
-      "properties": { "name": "赛灵吉金矿", "mineral_type": "金矿", "country": "马里", "country_id": "466", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-54.0, 4.5] },
-      "properties": { "name": "罗西纽金矿", "mineral_type": "金矿", "country": "苏里南", "country_id": "740", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-69.1, -21.5] },
-      "properties": { "name": "丘基卡马塔铜矿", "mineral_type": "铜矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-70.1, -24.3] },
-      "properties": { "name": "埃斯孔迪达铜矿", "mineral_type": "铜矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-70.3, -33.1] },
-      "properties": { "name": "埃尔特尼恩特铜矿", "mineral_type": "铜矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [137.1, -4.1] },
-      "properties": { "name": "格拉斯伯格铜金矿", "mineral_type": "铜矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.0, -12.8] },
-      "properties": { "name": "赞比亚铜矿带", "mineral_type": "铜矿", "country": "赞比亚", "country_id": "894", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [117.6, 28.9] },
-      "properties": { "name": "德兴铜矿", "mineral_type": "铜矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [89.5, 29.3] },
-      "properties": { "name": "驱龙铜矿", "mineral_type": "铜矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开发中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-111.0, 40.7] },
-      "properties": { "name": "宾厄姆峡谷铜矿", "mineral_type": "铜矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.8, 31.9] },
-      "properties": { "name": "莫伦西铜矿", "mineral_type": "铜矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [135.5, -31.3] },
-      "properties": { "name": "奥林匹克坝铜矿", "mineral_type": "铜矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.0, -11.5] },
-      "properties": { "name": "刚果铜钴矿带", "mineral_type": "铜矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-75.5, -15.0] },
-      "properties": { "name": "塞罗贝尔德铜矿", "mineral_type": "铜矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-76.1, -10.4] },
-      "properties": { "name": "安塔米纳铜锌矿", "mineral_type": "铜矿", "country": "秘鲁", "country_id": "604", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [66.4, 40.5] },
-      "properties": { "name": "阿尔马雷克铜矿", "mineral_type": "铜矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [106.8, -2.6] },
-      "properties": { "name": "邦加锡铜矿", "mineral_type": "铜矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [68.5, 39.5] },
-      "properties": { "name": "艾达克铜金矿", "mineral_type": "铜矿", "country": "塔吉克斯坦", "country_id": "762", "reserve_level": "大型", "status": "勘探中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [130.0, -16.5] },
-      "properties": { "name": "韦帕铝土矿", "mineral_type": "铝土矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [149.5, -23.2] },
-      "properties": { "name": "达令山铝土矿", "mineral_type": "铝土矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-12.5, 11.0] },
-      "properties": { "name": "桑加雷迪铝土矿", "mineral_type": "铝土矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-13.5, 11.8] },
-      "properties": { "name": "弗里亚铝土矿", "mineral_type": "铝土矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-56.0, -1.5] },
-      "properties": { "name": "特龙贝塔斯铝土矿", "mineral_type": "铝土矿", "country": "巴西", "country_id": "076", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [83.0, 23.0] },
-      "properties": { "name": "奥里萨邦铝土矿", "mineral_type": "铝土矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [107.8, 23.8] },
-      "properties": { "name": "平果铝土矿", "mineral_type": "铝土矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.5, 24.5] },
-      "properties": { "name": "云南铝土矿", "mineral_type": "铝土矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-57.5, -22.5] },
-      "properties": { "name": "巴西帕拉铝土矿", "mineral_type": "铝土矿", "country": "巴西", "country_id": "076", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-58.5, 6.0] },
-      "properties": { "name": "林登铝土矿", "mineral_type": "铝土矿", "country": "圭亚那", "country_id": "328", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-77.8, 18.2] },
-      "properties": { "name": "牙买加铝土矿", "mineral_type": "铝土矿", "country": "牙买加", "country_id": "388", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [110.0, 1.5] },
-      "properties": { "name": "沙捞越铝土矿", "mineral_type": "铝土矿", "country": "马来西亚", "country_id": "458", "reserve_level": "中型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-68.5, -20.5] },
-      "properties": { "name": "乌尤尼盐湖锂矿", "mineral_type": "锂矿", "country": "玻利维亚", "country_id": "068", "reserve_level": "超大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-68.3, -23.4] },
-      "properties": { "name": "阿塔卡马盐湖锂矿", "mineral_type": "锂矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [128.7, -33.9] },
-      "properties": { "name": "格林布什锂矿", "mineral_type": "锂矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [121.3, -33.4] },
-      "properties": { "name": "皮尔甘古拉锂矿", "mineral_type": "锂矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [101.7, 32.9] },
-      "properties": { "name": "甲基卡锂矿", "mineral_type": "锂矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.1, 28.7] },
-      "properties": { "name": "宜春锂云母矿", "mineral_type": "锂矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-66.5, -24.0] },
-      "properties": { "name": "翁布雷穆埃尔托盐湖锂矿", "mineral_type": "锂矿", "country": "阿根廷", "country_id": "032", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-66.9, -23.4] },
-      "properties": { "name": "卡奇锂矿", "mineral_type": "锂矿", "country": "阿根廷", "country_id": "032", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-119.7, 35.8] },
-      "properties": { "name": "塞尔斯湖锂矿", "mineral_type": "锂矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-117.2, 33.5] },
-      "properties": { "name": "萨尔顿海锂矿", "mineral_type": "锂矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [30.0, -2.5] },
-      "properties": { "name": "刚果锂矿", "mineral_type": "锂矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.2, -1.9] },
-      "properties": { "name": "比绍夫图锂矿", "mineral_type": "锂矿", "country": "津巴布韦", "country_id": "716", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [112.5, 39.8] },
-      "properties": { "name": "大同煤矿", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [110.0, 39.0] },
-      "properties": { "name": "神东煤田", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [113.6, 35.5] },
-      "properties": { "name": "晋城无烟煤", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [117.0, 33.5] },
-      "properties": { "name": "淮南煤田", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-81.0, 38.0] },
-      "properties": { "name": "阿巴拉契亚煤田", "mineral_type": "煤矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-106.0, 44.5] },
-      "properties": { "name": "粉河盆地煤田", "mineral_type": "煤矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [87.5, 53.7] },
-      "properties": { "name": "库兹巴斯煤田", "mineral_type": "煤矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [150.0, -32.5] },
-      "properties": { "name": "猎人谷煤田", "mineral_type": "煤矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [148.5, -23.5] },
-      "properties": { "name": "鲍恩盆地煤田", "mineral_type": "煤矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [84.0, 23.7] },
-      "properties": { "name": "贾里亚煤田", "mineral_type": "煤矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [7.0, 51.5] },
-      "properties": { "name": "鲁尔煤田", "mineral_type": "煤矿", "country": "德国", "country_id": "276", "reserve_level": "大型", "status": "已关闭" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [19.0, 50.2] },
-      "properties": { "name": "上西里西亚煤田", "mineral_type": "煤矿", "country": "波兰", "country_id": "616", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [32.5, -25.5] },
-      "properties": { "name": "莫桑比克煤田", "mineral_type": "煤矿", "country": "莫桑比克", "country_id": "508", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.0, -26.0] },
-      "properties": { "name": "南非姆普马兰加煤田", "mineral_type": "煤矿", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [105.8, 21.0] },
-      "properties": { "name": "鸿基煤田", "mineral_type": "煤矿", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [129.0, 40.0] },
-      "properties": { "name": "平壤煤田", "mineral_type": "煤矿", "country": "朝鲜", "country_id": "408", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-114.5, 52.0] },
-      "properties": { "name": "艾伯塔煤田", "mineral_type": "煤矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [67.8, 48.0] },
-      "properties": { "name": "哈萨克斯坦卡拉干达煤田", "mineral_type": "煤矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [49.5, 27.0] },
-      "properties": { "name": "加瓦尔油田", "mineral_type": "石油", "country": "沙特阿拉伯", "country_id": "682", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [50.3, 28.9] },
-      "properties": { "name": "布尔甘油田", "mineral_type": "石油", "country": "科威特", "country_id": "414", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [53.0, 30.0] },
-      "properties": { "name": "马伦油田", "mineral_type": "石油", "country": "伊朗", "country_id": "364", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [47.5, 30.5] },
-      "properties": { "name": "鲁迈拉油田", "mineral_type": "石油", "country": "伊拉克", "country_id": "368", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [54.5, 24.5] },
-      "properties": { "name": "扎库姆油田", "mineral_type": "石油", "country": "阿联酋", "country_id": "784", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [73.5, 61.5] },
-      "properties": { "name": "萨莫特洛尔油田", "mineral_type": "石油", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [124.5, 45.5] },
-      "properties": { "name": "大庆油田", "mineral_type": "石油", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [118.5, 38.0] },
-      "properties": { "name": "胜利油田", "mineral_type": "石油", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [5.5, 5.5] },
-      "properties": { "name": "尼日尔三角洲油田", "mineral_type": "石油", "country": "尼日利亚", "country_id": "566", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-97.5, 31.5] },
-      "properties": { "name": "二叠纪盆地", "mineral_type": "石油", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-149.5, 70.3] },
-      "properties": { "name": "普拉德霍湾油田", "mineral_type": "石油", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.5, 56.7] },
-      "properties": { "name": "阿萨巴斯卡油砂", "mineral_type": "石油", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-63.5, 8.5] },
-      "properties": { "name": "奥里诺科重油带", "mineral_type": "石油", "country": "委内瑞拉", "country_id": "862", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [2.0, 28.0] },
-      "properties": { "name": "哈西梅萨乌德油田", "mineral_type": "石油", "country": "阿尔及利亚", "country_id": "012", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [18.5, -6.0] },
-      "properties": { "name": "刚果盆地油田", "mineral_type": "石油", "country": "安哥拉", "country_id": "024", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [1.5, 57.5] },
-      "properties": { "name": "北海油田", "mineral_type": "石油", "country": "英国", "country_id": "826", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-46.0, -22.0] },
-      "properties": { "name": "盐下层油田", "mineral_type": "石油", "country": "巴西", "country_id": "076", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [97.5, 16.5] },
-      "properties": { "name": "缅甸油田", "mineral_type": "石油", "country": "缅甸", "country_id": "104", "reserve_level": "中型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [51.5, 25.5] },
-      "properties": { "name": "北方-南帕斯气田", "mineral_type": "天然气", "country": "卡塔尔", "country_id": "634", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [52.5, 27.5] },
-      "properties": { "name": "南帕斯气田", "mineral_type": "天然气", "country": "伊朗", "country_id": "364", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [58.4, 38.5] },
-      "properties": { "name": "加尔金内什气田", "mineral_type": "天然气", "country": "土库曼斯坦", "country_id": "795", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [73.0, 67.5] },
-      "properties": { "name": "乌连戈伊气田", "mineral_type": "天然气", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [75.5, 66.0] },
-      "properties": { "name": "亚马尔气田", "mineral_type": "天然气", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-97.0, 36.0] },
-      "properties": { "name": "马塞勒斯页岩气", "mineral_type": "天然气", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [108.5, 29.5] },
-      "properties": { "name": "涪陵页岩气田", "mineral_type": "天然气", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [31.5, 31.0] },
-      "properties": { "name": "祖赫尔气田", "mineral_type": "天然气", "country": "埃及", "country_id": "818", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [2.5, 57.0] },
-      "properties": { "name": "北海气田", "mineral_type": "天然气", "country": "挪威", "country_id": "578", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [145.0, -10.0] },
-      "properties": { "name": "巴布亚新几内亚LNG", "mineral_type": "天然气", "country": "巴布亚新几内亚", "country_id": "598", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.0, -20.0] },
-      "properties": { "name": "西北大陆架气田", "mineral_type": "天然气", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-114.5, 56.5] },
-      "properties": { "name": "蒙特尼气田", "mineral_type": "天然气", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [41.0, -10.5] },
-      "properties": { "name": "莫桑比克气田", "mineral_type": "天然气", "country": "莫桑比克", "country_id": "508", "reserve_level": "超大型", "status": "开发中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [110.0, 41.8] },
-      "properties": { "name": "白云鄂博稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [115.0, 24.5] },
-      "properties": { "name": "赣南离子型稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [100.5, 24.0] },
-      "properties": { "name": "四川冕宁稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-115.5, 35.5] },
-      "properties": { "name": "芒廷帕斯稀土矿", "mineral_type": "稀土", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.0, -33.8] },
-      "properties": { "name": "韦尔德山稀土矿", "mineral_type": "稀土", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [100.5, 18.0] },
-      "properties": { "name": "缅甸稀土矿", "mineral_type": "稀土", "country": "缅甸", "country_id": "104", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [78.0, 11.0] },
-      "properties": { "name": "印度独居石稀土矿", "mineral_type": "稀土", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-49.0, -21.0] },
-      "properties": { "name": "巴西稀土矿", "mineral_type": "稀土", "country": "巴西", "country_id": "076", "reserve_level": "大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [37.5, 68.0] },
-      "properties": { "name": "科拉半岛稀土矿", "mineral_type": "稀土", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [104.5, 17.5] },
-      "properties": { "name": "越南稀土矿", "mineral_type": "稀土", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "勘探中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [121.5, 0.5] },
-      "properties": { "name": "苏拉威西镍矿", "mineral_type": "镍矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [127.5, -1.5] },
-      "properties": { "name": "哈马黑拉镍矿", "mineral_type": "镍矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [125.5, 8.0] },
-      "properties": { "name": "苏里高镍矿", "mineral_type": "镍矿", "country": "菲律宾", "country_id": "608", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [165.5, -21.5] },
-      "properties": { "name": "新喀里多尼亚镍矿", "mineral_type": "镍矿", "country": "法国", "country_id": "250", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [60.5, 61.5] },
-      "properties": { "name": "诺里尔斯克镍矿", "mineral_type": "镍矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [88.2, 69.3] },
-      "properties": { "name": "泰梅尔镍矿", "mineral_type": "镍矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-81.0, 48.5] },
-      "properties": { "name": "萨德伯里镍矿", "mineral_type": "镍矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [132.0, -19.5] },
-      "properties": { "name": "穆林穆林镍矿", "mineral_type": "镍矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-76.0, 9.0] },
-      "properties": { "name": "塞罗马托索镍矿", "mineral_type": "镍矿", "country": "哥伦比亚", "country_id": "170", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-75.5, 22.5] },
-      "properties": { "name": "莫亚镍矿", "mineral_type": "镍矿", "country": "古巴", "country_id": "192", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [102.0, 25.0] },
-      "properties": { "name": "金川镍矿", "mineral_type": "镍矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.5, -25.5] },
-      "properties": { "name": "卡拉哈里锰矿", "mineral_type": "锰矿", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.5, -1.5] },
-      "properties": { "name": "莫安达锰矿", "mineral_type": "锰矿", "country": "加蓬", "country_id": "266", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [134.0, -22.3] },
-      "properties": { "name": "格鲁特岛锰矿", "mineral_type": "锰矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [47.5, 43.5] },
-      "properties": { "name": "奇阿图拉锰矿", "mineral_type": "锰矿", "country": "格鲁吉亚", "country_id": "268", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-46.0, -6.0] },
-      "properties": { "name": "卡拉雅斯锰矿", "mineral_type": "锰矿", "country": "巴西", "country_id": "076", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [110.3, 22.5] },
-      "properties": { "name": "广西大新锰矿", "mineral_type": "锰矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [85.0, 22.0] },
-      "properties": { "name": "印度锰矿带", "mineral_type": "锰矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [47.0, 9.0] },
-      "properties": { "name": "尼基托波尔锰矿", "mineral_type": "锰矿", "country": "乌克兰", "country_id": "804", "reserve_level": "超大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [106.0, -2.0] },
-      "properties": { "name": "邦加锡矿", "mineral_type": "锡矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [105.0, -3.5] },
-      "properties": { "name": "勿里洞锡矿", "mineral_type": "锡矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [101.0, 5.3] },
-      "properties": { "name": "马来西亚锡矿带", "mineral_type": "锡矿", "country": "马来西亚", "country_id": "458", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [99.0, 19.0] },
-      "properties": { "name": "泰国锡矿", "mineral_type": "锡矿", "country": "泰国", "country_id": "764", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [98.5, 16.0] },
-      "properties": { "name": "缅甸锡矿", "mineral_type": "锡矿", "country": "缅甸", "country_id": "104", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-66.5, -18.5] },
-      "properties": { "name": "波托西锡矿", "mineral_type": "锡矿", "country": "玻利维亚", "country_id": "068", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [111.5, 24.0] },
-      "properties": { "name": "广西大厂锡矿", "mineral_type": "锡矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [103.5, 23.4] },
-      "properties": { "name": "个旧锡矿", "mineral_type": "锡矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.0, -11.0] },
-      "properties": { "name": "加丹加铜钴矿带", "mineral_type": "钴矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5, -10.5] },
-      "properties": { "name": "科卢韦齐钴矿", "mineral_type": "钴矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.5, -12.0] },
-      "properties": { "name": "赞比亚铜钴矿", "mineral_type": "钴矿", "country": "赞比亚", "country_id": "894", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [136.0, -31.0] },
-      "properties": { "name": "奥林匹克坝钴矿", "mineral_type": "钴矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-76.5, 7.5] },
-      "properties": { "name": "哥伦比亚钴矿", "mineral_type": "钴矿", "country": "哥伦比亚", "country_id": "170", "reserve_level": "中型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [125.0, 8.5] },
-      "properties": { "name": "菲律宾镍钴矿", "mineral_type": "钴矿", "country": "菲律宾", "country_id": "608", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [88.0, 69.0] },
-      "properties": { "name": "诺里尔斯克钴矿", "mineral_type": "钴矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.3, 25.8] },
-      "properties": { "name": "赣南钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.0, 25.3] },
-      "properties": { "name": "行洛坑钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [111.5, 25.5] },
-      "properties": { "name": "湖南柿竹园钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [88.0, 69.5] },
-      "properties": { "name": "俄罗斯钨矿", "mineral_type": "钨矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-5.0, 40.0] },
-      "properties": { "name": "西班牙钨矿", "mineral_type": "钨矿", "country": "西班牙", "country_id": "724", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-4.5, 50.5] },
-      "properties": { "name": "赫默登钨矿", "mineral_type": "钨矿", "country": "英国", "country_id": "826", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [104.8, 17.8] },
-      "properties": { "name": "越南钨矿", "mineral_type": "钨矿", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [136.5, -31.5] },
-      "properties": { "name": "布罗肯希尔锌矿", "mineral_type": "锌矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [145.0, -20.5] },
-      "properties": { "name": "坎宁顿锌矿", "mineral_type": "锌矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-76.5, -10.0] },
-      "properties": { "name": "塞罗德帕斯科锌矿", "mineral_type": "锌矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [104.5, 27.5] },
-      "properties": { "name": "兰坪锌铅矿", "mineral_type": "锌矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-8.5, 53.0] },
-      "properties": { "name": "塔拉锌矿", "mineral_type": "锌矿", "country": "爱尔兰", "country_id": "372", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [85.0, 23.5] },
-      "properties": { "name": "拉贾斯坦锌矿", "mineral_type": "锌矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-103.0, 24.5] },
-      "properties": { "name": "墨西哥锌矿", "mineral_type": "锌矿", "country": "墨西哥", "country_id": "484", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-96.0, 54.5] },
-      "properties": { "name": "红狗锌矿", "mineral_type": "锌矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [69.0, 39.5] },
-      "properties": { "name": "哈萨克斯坦锌矿", "mineral_type": "锌矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [134.5, -25.5] },
-      "properties": { "name": "奥林匹克坝铀矿", "mineral_type": "铀矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-107.0, 55.5] },
-      "properties": { "name": "阿萨巴斯卡铀矿", "mineral_type": "铀矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [68.5, 41.5] },
-      "properties": { "name": "纳沃伊铀矿", "mineral_type": "铀矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [68.0, 48.5] },
-      "properties": { "name": "哈萨克斯坦铀矿", "mineral_type": "铀矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [7.5, 17.5] },
-      "properties": { "name": "阿尔利特铀矿", "mineral_type": "铀矿", "country": "尼日尔", "country_id": "562", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5, -22.5] },
-      "properties": { "name": "罗辛铀矿", "mineral_type": "铀矿", "country": "纳米比亚", "country_id": "516", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.5, -26.5] },
-      "properties": { "name": "南非铀矿", "mineral_type": "铀矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.5, -24.5] },
-      "properties": { "name": "奥拉帕钻石矿", "mineral_type": "钻石矿", "country": "博茨瓦纳", "country_id": "072", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.3, -21.3] },
-      "properties": { "name": "杰万嫩钻石矿", "mineral_type": "钻石矿", "country": "博茨瓦纳", "country_id": "072", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [114.0, 62.0] },
-      "properties": { "name": "雅库特钻石矿", "mineral_type": "钻石矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [37.5, 65.0] },
-      "properties": { "name": "阿尔汉格尔斯克钻石矿", "mineral_type": "钻石矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.5, -26.0] },
-      "properties": { "name": "金伯利钻石矿", "mineral_type": "钻石矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "已关闭" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.5, -5.0] },
-      "properties": { "name": "刚果钻石矿", "mineral_type": "钻石矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.0, -8.5] },
-      "properties": { "name": "安哥拉钻石矿", "mineral_type": "钻石矿", "country": "安哥拉", "country_id": "024", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-114.0, 64.8] },
-      "properties": { "name": "戴维克钻石矿", "mineral_type": "钻石矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [132.0, -14.5] },
-      "properties": { "name": "阿盖尔钻石矿", "mineral_type": "钻石矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "已关闭" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-10.0, 7.5] },
-      "properties": { "name": "塞拉利昂钻石矿", "mineral_type": "钻石矿", "country": "塞拉利昂", "country_id": "694", "reserve_level": "中型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.8, -25.8] },
-      "properties": { "name": "布什维尔德铂矿", "mineral_type": "铂族金属", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.0, -25.0] },
-      "properties": { "name": "英帕拉铂矿", "mineral_type": "铂族金属", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [88.5, 69.5] },
-      "properties": { "name": "诺里尔斯克铂钯矿", "mineral_type": "铂族金属", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.0, -15.5] },
-      "properties": { "name": "津巴布韦大岩墙铂矿", "mineral_type": "铂族金属", "country": "津巴布韦", "country_id": "716", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-81.5, 46.5] },
-      "properties": { "name": "萨德伯里铂钯矿", "mineral_type": "铂族金属", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-111.5, 44.0] },
-      "properties": { "name": "斯蒂尔沃特铂钯矿", "mineral_type": "铂族金属", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [36.0, 62.5] },
-      "properties": { "name": "科拉半岛磷灰石矿", "mineral_type": "磷矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-6.8, 32.0] },
-      "properties": { "name": "摩洛哥磷矿", "mineral_type": "磷矿", "country": "摩洛哥", "country_id": "504", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [107.0, 24.0] },
-      "properties": { "name": "贵州开阳磷矿", "mineral_type": "磷矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [111.5, 30.5] },
-      "properties": { "name": "湖北宜昌磷矿", "mineral_type": "磷矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-82.0, 28.0] },
-      "properties": { "name": "佛罗里达磷矿", "mineral_type": "磷矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [8.0, 34.0] },
-      "properties": { "name": "突尼斯磷矿", "mineral_type": "磷矿", "country": "突尼斯", "country_id": "788", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [46.5, 31.5] },
-      "properties": { "name": "约旦磷矿", "mineral_type": "磷矿", "country": "约旦", "country_id": "400", "reserve_level": "大型", "status": "开采中" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-104.5, 51.5] },
-      "properties": { "name": "萨斯喀彻温钾盐矿", "mineral_type": "钾盐", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.5, 52.5] },
-      "properties": { "name": "白俄罗斯钾盐矿", "mineral_type": "钾盐", "country": "白俄罗斯", "country_id": "112", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [56.5, 58.5] },
-      "properties": { "name": "别列兹尼基钾盐矿", "mineral_type": "钾盐", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [11.5, 51.5] },
-      "properties": { "name": "德国钾盐矿", "mineral_type": "钾盐", "country": "德国", "country_id": "276", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.5, 31.0] },
-      "properties": { "name": "死海钾盐矿", "mineral_type": "钾盐", "country": "以色列", "country_id": "376", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [90.5, 37.5] },
-      "properties": { "name": "青海察尔汗钾盐矿", "mineral_type": "钾盐", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [102.5, 16.5] },
-      "properties": { "name": "泰国钾盐矿", "mineral_type": "钾盐", "country": "泰国", "country_id": "764", "reserve_level": "大型", "status": "勘探中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [102.0, 17.5] },
-      "properties": { "name": "老挝钾盐矿", "mineral_type": "钾盐", "country": "老挝", "country_id": "418", "reserve_level": "大型", "status": "开采中" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9,
+          41.1
+        ]
+      },
+      "properties": {
+        "name": "鞍山铁矿",
+        "mineral_type": "铁矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨",
+        "annual_production": "年产 5000 万吨",
+        "grade": "平均品位 Fe 30%",
+        "discovery_year": "1916",
+        "operator": "鞍钢集团",
+        "description": "中国最大的铁矿基地之一，位于辽宁省鞍山市，以贫磁铁矿为主，是新中国钢铁工业的摇篮。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0,
+          36.7
+        ]
+      },
+      "properties": {
+        "name": "莱芜铁矿",
+        "mineral_type": "铁矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 6 亿吨",
+        "annual_production": "年产 800 万吨",
+        "grade": "平均品位 Fe 32%",
+        "discovery_year": "1958",
+        "operator": "山东钢铁集团",
+        "description": "山东省重要的铁矿基地，位于莱芜市，以磁铁矿为主，为华东地区钢铁工业提供重要原料。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9,
+          40.1
+        ]
+      },
+      "properties": {
+        "name": "迁安铁矿",
+        "mineral_type": "铁矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 亿吨",
+        "annual_production": "年产 4000 万吨",
+        "grade": "平均品位 Fe 28%",
+        "discovery_year": "1950",
+        "operator": "首钢集团",
+        "description": "河北省最大的铁矿区，储量居华北之首，以低品位磁铁矿为主，经选矿可获高品位铁精矿。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8,
+          36.6
+        ]
+      },
+      "properties": {
+        "name": "镜铁山铁矿",
+        "mineral_type": "铁矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 亿吨",
+        "annual_production": "年产 500 万吨",
+        "grade": "平均品位 Fe 40%",
+        "discovery_year": "1955",
+        "operator": "酒泉钢铁集团",
+        "description": "位于甘肃省祁连山区，海拔 4000 米以上的高寒铁矿，品位较高，是西北地区重要的铁矿石来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          -29.0
+        ]
+      },
+      "properties": {
+        "name": "Sishen铁矿",
+        "mineral_type": "铁矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 24 亿吨",
+        "annual_production": "年产 3600 万吨",
+        "grade": "平均品位 Fe 64%",
+        "discovery_year": "1953",
+        "operator": "安赛乐米塔尔 (ArcelorMittal)",
+        "description": "南非最大的露天铁矿之一，位于北开普省，以高品位赤铁矿著称，是南非铁矿石出口的主力矿山。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2,
+          -22.3
+        ]
+      },
+      "properties": {
+        "name": "皮尔巴拉铁矿区",
+        "mineral_type": "铁矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 400 亿吨",
+        "annual_production": "年产 9 亿吨",
+        "grade": "平均品位 Fe 58%",
+        "discovery_year": "1952",
+        "operator": "必和必拓 (BHP) / 力拓 (Rio Tinto) / FMG",
+        "description": "全球最大的铁矿石产区，位于西澳大利亚，拥有世界级高品位赤铁矿资源，主导全球铁矿石贸易。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9,
+          -19.9
+        ]
+      },
+      "properties": {
+        "name": "卡拉加斯铁矿",
+        "mineral_type": "铁矿",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 180 亿吨",
+        "annual_production": "年产 3.5 亿吨",
+        "grade": "平均品位 Fe 66%",
+        "discovery_year": "1967",
+        "operator": "淡水河谷 (Vale)",
+        "description": "全球最大的露天铁矿，品位高达 66%，位于巴西帕拉州亚马孙雨林中，是巴西最重要的铁矿石出口基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.9,
+          53.4
+        ]
+      },
+      "properties": {
+        "name": "马格尼托哥尔斯克铁矿",
+        "mineral_type": "铁矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 8 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "平均品位 Fe 38%",
+        "discovery_year": "1747",
+        "operator": "马格尼托哥尔斯克钢铁 (MMK)",
+        "description": "位于乌拉尔山脉东麓，因含铁量高的磁铁矿得名\"磁山\"，是苏联时期重要的钢铁工业基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          52.6
+        ]
+      },
+      "properties": {
+        "name": "库尔斯克磁异常铁矿",
+        "mineral_type": "铁矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 亿吨",
+        "annual_production": "年产 1 亿吨",
+        "grade": "平均品位 Fe 36%",
+        "discovery_year": "1931",
+        "operator": "利别土夫矿业公司 (Lebedinsky GOK)",
+        "description": "世界上最大的磁异常铁矿区，储量占全球约十分之一，因异常强烈的地磁场被发现，位于俄罗斯中部。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5,
+          47.5
+        ]
+      },
+      "properties": {
+        "name": "梅萨比铁矿",
+        "mineral_type": "铁矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 40 亿吨",
+        "annual_production": "年产 4000 万吨",
+        "grade": "平均品位 Fe 25%",
+        "discovery_year": "1866",
+        "operator": "克利夫兰-克利夫斯 (Cleveland-Cliffs)",
+        "description": "美国最重要的铁矿产区，位于明尼苏达州，曾以高品位矿石闻名，现主要生产铁矿球团。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          67.8
+        ]
+      },
+      "properties": {
+        "name": "基律纳铁矿",
+        "mineral_type": "铁矿",
+        "country": "瑞典",
+        "country_id": "752",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 亿吨",
+        "annual_production": "年产 2700 万吨",
+        "grade": "平均品位 Fe 60%",
+        "discovery_year": "1696",
+        "operator": "LKAB (瑞典国有矿业公司)",
+        "description": "世界最大的地下铁矿，位于北极圈内的瑞典北部，高品位磷灰石-磁铁矿体延伸至地下超过 1300 米。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5,
+          7.5
+        ]
+      },
+      "properties": {
+        "name": "塞罗博利瓦尔铁矿",
+        "mineral_type": "铁矿",
+        "country": "委内瑞拉",
+        "country_id": "862",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "平均品位 Fe 60%",
+        "discovery_year": "1947",
+        "operator": "委内瑞拉国家矿业公司 (CVG Ferrominera)",
+        "description": "委内瑞拉最大的铁矿，位于奥里诺科河南岸的圭亚那高原上，露天开采，以高品位赤铁矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8,
+          -3.4
+        ]
+      },
+      "properties": {
+        "name": "利甘加铁矿",
+        "mineral_type": "铁矿",
+        "country": "坦桑尼亚",
+        "country_id": "834",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 3 亿吨",
+        "grade": "平均品位 Fe 50%",
+        "discovery_year": "1956",
+        "description": "坦桑尼亚最大的铁矿床之一，位于南部高地，含钒钛磁铁矿，目前仍处于勘探和可行性研究阶段。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8,
+          52.8
+        ]
+      },
+      "properties": {
+        "name": "拉布拉多铁矿",
+        "mineral_type": "铁矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 亿吨",
+        "annual_production": "年产 3500 万吨",
+        "grade": "平均品位 Fe 38%",
+        "discovery_year": "1892",
+        "operator": "力拓 (Rio Tinto) / 冶炼公司 (IOC)",
+        "description": "加拿大最大的铁矿区，横跨纽芬兰与拉布拉多和魁北克省，以条带状铁建造 (BIF) 矿石为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0,
+          22.5
+        ]
+      },
+      "properties": {
+        "name": "奥里萨邦铁矿",
+        "mineral_type": "铁矿",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 80 亿吨",
+        "annual_production": "年产 8000 万吨",
+        "grade": "平均品位 Fe 62%",
+        "discovery_year": "1900",
+        "operator": "印度国家矿业开发公司 (NMDC)",
+        "description": "印度最重要的铁矿区，位于奥里萨邦和恰蒂斯加尔邦，以高品位赤铁矿著称，是印度铁矿石出口主产区。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.5,
+          12.5
+        ]
+      },
+      "properties": {
+        "name": "西芒杜铁矿",
+        "mineral_type": "铁矿",
+        "country": "几内亚",
+        "country_id": "324",
+        "reserve_level": "超大型",
+        "status": "开发中",
+        "reserves": "探明储量 20 亿吨",
+        "grade": "平均品位 Fe 65%",
+        "discovery_year": "1997",
+        "operator": "赢联盟 (SMB-Winning) / 力拓 (Rio Tinto)",
+        "description": "全球尚未开发的最大高品位铁矿，位于几内亚东南部，品位可达 65% 以上，被视为改变全球铁矿石格局的关键项目。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1,
+          -26.2
+        ]
+      },
+      "properties": {
+        "name": "威特沃特斯兰德金矿",
+        "mineral_type": "金矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 3 万吨 (历史累计产金超 5 万吨)",
+        "annual_production": "年产 90 吨",
+        "grade": "平均品位 Au 5-10 g/t",
+        "discovery_year": "1886",
+        "operator": "和谐金矿 (Harmony Gold) / 西巴涅 (Sibanye-Stillwater)",
+        "description": "人类历史上产金量最大的矿区，累计产金超过 5 万吨，占人类历史总产金量的约 30%，位于南非约翰内斯堡附近。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          -31.8
+        ]
+      },
+      "properties": {
+        "name": "卡尔古利金矿",
+        "mineral_type": "金矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1500 吨",
+        "annual_production": "年产 25 吨",
+        "grade": "平均品位 Au 2.1 g/t",
+        "discovery_year": "1893",
+        "operator": "北方之星 (Northern Star Resources)",
+        "description": "澳大利亚最著名的\"超级坑\"金矿，位于西澳大利亚州，露天坑长 3.5 公里，是澳洲最大的产金中心。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5,
+          -6.8
+        ]
+      },
+      "properties": {
+        "name": "亚纳科查金矿",
+        "mineral_type": "金矿",
+        "country": "秘鲁",
+        "country_id": "604",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 800 吨",
+        "annual_production": "年产 15 吨",
+        "grade": "平均品位 Au 0.7 g/t",
+        "discovery_year": "1981",
+        "operator": "纽蒙特 (Newmont)",
+        "description": "南美洲最大的金矿，位于秘鲁安第斯山脉高海拔地区，采用堆浸工艺处理低品位氧化矿石。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          40.8
+        ]
+      },
+      "properties": {
+        "name": "内华达金矿带",
+        "mineral_type": "金矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2000 吨",
+        "annual_production": "年产 100 吨",
+        "grade": "平均品位 Au 3.5 g/t",
+        "discovery_year": "1962",
+        "operator": "内华达金矿公司 (Nevada Gold Mines, 巴里克/纽蒙特合资)",
+        "description": "全球最重要的卡林型金矿集中区，位于美国内华达州北部，产金量占美国总产量的 75% 以上。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8,
+          62.5
+        ]
+      },
+      "properties": {
+        "name": "苏霍伊洛格金矿",
+        "mineral_type": "金矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 2800 吨",
+        "annual_production": "年产 25 吨",
+        "grade": "平均品位 Au 2.1 g/t",
+        "discovery_year": "1961",
+        "operator": "波利斯金矿 (Polyus Gold)",
+        "description": "俄罗斯最大的金矿床，位于伊尔库茨克州帕通高原，储量居世界前列，目前正在进行大规模开发。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4,
+          25.0
+        ]
+      },
+      "properties": {
+        "name": "紫金山金铜矿",
+        "mineral_type": "金矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 吨 (金) / 200 万吨 (铜)",
+        "annual_production": "年产 15 吨 (金)",
+        "grade": "平均品位 Au 0.4 g/t",
+        "discovery_year": "1992",
+        "operator": "紫金矿业集团",
+        "description": "中国最大的金铜矿之一，位于福建省上杭县，紫金矿业通过低品位资源高效利用技术实现了经济开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3,
+          37.5
+        ]
+      },
+      "properties": {
+        "name": "招远金矿",
+        "mineral_type": "金矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 吨",
+        "annual_production": "年产 20 吨",
+        "grade": "平均品位 Au 4.5 g/t",
+        "discovery_year": "1935",
+        "operator": "中矿金业 / 招金矿业",
+        "description": "中国\"金都\"招远的核心矿区，位于山东省胶东半岛，是中国产金量最大的地区之一，以石英脉型金矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0,
+          7.5
+        ]
+      },
+      "properties": {
+        "name": "塔克瓦金矿",
+        "mineral_type": "金矿",
+        "country": "加纳",
+        "country_id": "288",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 350 吨",
+        "annual_production": "年产 15 吨",
+        "grade": "平均品位 Au 1.3 g/t",
+        "discovery_year": "1879",
+        "operator": "金田 (Gold Fields)",
+        "description": "加纳历史最悠久的金矿之一，位于西非比里姆盆地，是全球重要的古砾岩型金矿，采用露天开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6,
+          6.1
+        ]
+      },
+      "properties": {
+        "name": "奥布阿西金矿",
+        "mineral_type": "金矿",
+        "country": "加纳",
+        "country_id": "288",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 900 吨",
+        "annual_production": "年产 12 吨",
+        "grade": "平均品位 Au 5.8 g/t",
+        "discovery_year": "1897",
+        "operator": "英美资源集团 (AngloGold Ashanti)",
+        "description": "西非最大的地下金矿之一，位于加纳阿散蒂地区，以高品位矿脉闻名，深部矿体开采已超过 1500 米。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0,
+          47.5
+        ]
+      },
+      "properties": {
+        "name": "蒂明斯金矿",
+        "mineral_type": "金矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 400 吨",
+        "annual_production": "年产 8 吨",
+        "grade": "平均品位 Au 3.0 g/t",
+        "discovery_year": "1909",
+        "operator": "泛美白银 (Pan American Silver) / 柯克兰湖金矿",
+        "description": "加拿大安大略省著名的金矿区，位于阿比提比绿岩带上，已有百年开采历史，累计产金超过 2000 吨。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.0,
+          52.0
+        ]
+      },
+      "properties": {
+        "name": "南乌拉尔金矿",
+        "mineral_type": "金矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 600 吨",
+        "annual_production": "年产 10 吨",
+        "grade": "平均品位 Au 2.5 g/t",
+        "discovery_year": "1745",
+        "operator": "南乌拉尔矿业公司",
+        "description": "俄罗斯乌拉尔山脉南部的金矿集中区，开采历史超过 250 年，以造山型金矿床为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.0,
+          41.0
+        ]
+      },
+      "properties": {
+        "name": "穆龙套金矿",
+        "mineral_type": "金矿",
+        "country": "乌兹别克斯坦",
+        "country_id": "860",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5300 吨",
+        "annual_production": "年产 65 吨",
+        "grade": "平均品位 Au 3.0 g/t",
+        "discovery_year": "1958",
+        "operator": "纳沃伊矿冶联合体 (NMMC)",
+        "description": "世界最大的露天金矿之一，位于乌兹别克斯坦克孜勒库姆沙漠中，以巨型石英脉金矿体闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6,
+          -2.5
+        ]
+      },
+      "properties": {
+        "name": "基巴利金矿",
+        "mineral_type": "金矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 700 吨",
+        "annual_production": "年产 25 吨",
+        "grade": "平均品位 Au 3.6 g/t",
+        "discovery_year": "1905",
+        "operator": "巴里克黄金 (Barrick Gold)",
+        "description": "非洲最大的金矿之一，位于刚果(金)东北部基洛-莫托绿岩带，采用露天与地下联合开采方式。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8,
+          0.1
+        ]
+      },
+      "properties": {
+        "name": "北马拉金矿",
+        "mineral_type": "金矿",
+        "country": "坦桑尼亚",
+        "country_id": "834",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 吨",
+        "annual_production": "年产 8 吨",
+        "grade": "平均品位 Au 2.8 g/t",
+        "discovery_year": "1930",
+        "operator": "巴里克黄金 (Barrick Gold)",
+        "description": "坦桑尼亚最大的金矿之一，位于维多利亚湖畔绿岩带上，以条带状铁建造中的金矿化为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.4,
+          -14.5
+        ]
+      },
+      "properties": {
+        "name": "坦纳米沙漠金矿",
+        "mineral_type": "金矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 吨",
+        "annual_production": "年产 16 吨",
+        "grade": "平均品位 Au 5.5 g/t",
+        "discovery_year": "1900",
+        "operator": "纽蒙特 (Newmont)",
+        "description": "澳大利亚北领地偏远沙漠中的大型地下金矿，以高品位石英脉型矿体为主，采用自动化采矿技术。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0,
+          12.0
+        ]
+      },
+      "properties": {
+        "name": "赛灵吉金矿",
+        "mineral_type": "金矿",
+        "country": "马里",
+        "country_id": "466",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 400 吨",
+        "annual_production": "年产 10 吨",
+        "grade": "平均品位 Au 2.2 g/t",
+        "discovery_year": "1990",
+        "operator": "B2Gold 公司",
+        "description": "马里最重要的金矿之一，位于西非前寒武纪绿岩带上，该地区是非洲新兴的产金中心。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0,
+          4.5
+        ]
+      },
+      "properties": {
+        "name": "罗西纽金矿",
+        "mineral_type": "金矿",
+        "country": "苏里南",
+        "country_id": "740",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 250 吨",
+        "annual_production": "年产 9 吨",
+        "grade": "平均品位 Au 1.0 g/t",
+        "discovery_year": "1879",
+        "operator": "伊格尔矿业 (IAMGOLD)",
+        "description": "苏里南最大的金矿，位于圭亚那地盾上的热带雨林中，采用露天开采和碳浸法提金工艺。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1,
+          -21.5
+        ]
+      },
+      "properties": {
+        "name": "丘基卡马塔铜矿",
+        "mineral_type": "铜矿",
+        "country": "智利",
+        "country_id": "152",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 6500 万吨 (铜金属量)",
+        "annual_production": "年产 30 万吨 (铜)",
+        "grade": "平均品位 Cu 0.7%",
+        "discovery_year": "1882",
+        "operator": "智利国家铜业公司 (Codelco)",
+        "description": "全球历史最悠久的特大型斑岩铜矿，位于智利阿塔卡马沙漠，露天坑深超过 1000 米，正在转为地下开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1,
+          -24.3
+        ]
+      },
+      "properties": {
+        "name": "埃斯孔迪达铜矿",
+        "mineral_type": "铜矿",
+        "country": "智利",
+        "country_id": "152",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5000 万吨 (铜金属量)",
+        "annual_production": "年产 100 万吨 (铜)",
+        "grade": "平均品位 Cu 0.6%",
+        "discovery_year": "1981",
+        "operator": "必和必拓 (BHP) / 力拓 (Rio Tinto)",
+        "description": "全球产量最大的铜矿，位于智利安托法加斯塔大区，海拔 3100 米，年产铜占全球约 5%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3,
+          -33.1
+        ]
+      },
+      "properties": {
+        "name": "埃尔特尼恩特铜矿",
+        "mineral_type": "铜矿",
+        "country": "智利",
+        "country_id": "152",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 7500 万吨 (铜金属量)",
+        "annual_production": "年产 40 万吨 (铜)",
+        "grade": "平均品位 Cu 0.8%",
+        "discovery_year": "1819",
+        "operator": "智利国家铜业公司 (Codelco)",
+        "description": "全球最大的地下铜矿，位于安第斯山脉海拔 2300 米处，地下巷道总长超过 3000 公里。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.1,
+          -4.1
+        ]
+      },
+      "properties": {
+        "name": "格拉斯伯格铜金矿",
+        "mineral_type": "铜矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 3600 万吨 (铜金属量) / 2600 吨 (金)",
+        "annual_production": "年产 60 万吨 (铜) / 50 吨 (金)",
+        "grade": "平均品位 Cu 1.0% / Au 0.8 g/t",
+        "discovery_year": "1936",
+        "operator": "自由港麦克莫兰 (Freeport-McMoRan) / PT印尼",
+        "description": "世界最大的金矿和第二大铜矿，位于印尼巴布亚省海拔 4200 米的热带冰川区，正在从露天转入地下开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -12.8
+        ]
+      },
+      "properties": {
+        "name": "赞比亚铜矿带",
+        "mineral_type": "铜矿",
+        "country": "赞比亚",
+        "country_id": "894",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 3000 万吨 (铜金属量)",
+        "annual_production": "年产 80 万吨 (铜)",
+        "grade": "平均品位 Cu 2.5%",
+        "discovery_year": "1928",
+        "operator": "第一量子 (FQM) / 巴里克 (Barrick) / 嘉能可 (Glencore)",
+        "description": "非洲最重要的铜矿集中区，横跨赞比亚北部，以高品位沉积型铜矿闻名，有近百年开采历史。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.6,
+          28.9
+        ]
+      },
+      "properties": {
+        "name": "德兴铜矿",
+        "mineral_type": "铜矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1000 万吨 (铜金属量)",
+        "annual_production": "年产 15 万吨 (铜)",
+        "grade": "平均品位 Cu 0.4%",
+        "discovery_year": "1955",
+        "operator": "江西铜业集团",
+        "description": "亚洲最大的露天铜矿，位于江西省德兴市，以大型斑岩铜矿为主，是中国最重要的铜生产基地之一。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.5,
+          29.3
+        ]
+      },
+      "properties": {
+        "name": "驱龙铜矿",
+        "mineral_type": "铜矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开发中",
+        "reserves": "探明储量 1500 万吨 (铜金属量)",
+        "grade": "平均品位 Cu 0.5%",
+        "discovery_year": "2006",
+        "operator": "紫金矿业集团 / 中铜资源",
+        "description": "中国最大的斑岩铜矿，位于西藏自治区墨竹工卡县，海拔 4800 米以上，目前正在建设开发中。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0,
+          40.7
+        ]
+      },
+      "properties": {
+        "name": "宾厄姆峡谷铜矿",
+        "mineral_type": "铜矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 2700 万吨 (铜金属量)",
+        "annual_production": "年产 20 万吨 (铜)",
+        "grade": "平均品位 Cu 0.5%",
+        "discovery_year": "1848",
+        "operator": "力拓 (Rio Tinto / Kennecott)",
+        "description": "世界上最大的露天铜矿之一，位于美国犹他州盐湖城附近，露天坑深超过 1200 米，已持续开采超过百年。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8,
+          31.9
+        ]
+      },
+      "properties": {
+        "name": "莫伦西铜矿",
+        "mineral_type": "铜矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2000 万吨 (铜金属量)",
+        "annual_production": "年产 40 万吨 (铜)",
+        "grade": "平均品位 Cu 0.3%",
+        "discovery_year": "1872",
+        "operator": "自由港麦克莫兰 (Freeport-McMoRan)",
+        "description": "北美最大的铜矿之一，位于美国亚利桑那州，以低品位斑岩铜矿的大规模露天开采和堆浸提铜闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5,
+          -31.3
+        ]
+      },
+      "properties": {
+        "name": "奥林匹克坝铜矿",
+        "mineral_type": "铜矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 7000 万吨 (铜金属量)",
+        "annual_production": "年产 15 万吨 (铜)",
+        "grade": "平均品位 Cu 0.8%",
+        "discovery_year": "1975",
+        "operator": "必和必拓 (BHP)",
+        "description": "世界上最大的已知铜-铀-金-银多金属矿床，位于南澳大利亚州，采用地下采矿法，拥有巨量资源储量。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0,
+          -11.5
+        ]
+      },
+      "properties": {
+        "name": "刚果铜钴矿带",
+        "mineral_type": "铜矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5000 万吨 (铜金属量)",
+        "annual_production": "年产 200 万吨 (铜)",
+        "grade": "平均品位 Cu 3.0%",
+        "discovery_year": "1892",
+        "operator": "嘉能可 (Glencore) / 洛阳钼业 / 中色矿业",
+        "description": "全球最大的铜钴矿集中区之一，位于刚果(金)加丹加省，以高品位沉积型铜钴矿闻名，钴产量占全球 70%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5,
+          -15.0
+        ]
+      },
+      "properties": {
+        "name": "塞罗贝尔德铜矿",
+        "mineral_type": "铜矿",
+        "country": "秘鲁",
+        "country_id": "604",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 900 万吨 (铜金属量)",
+        "annual_production": "年产 50 万吨 (铜)",
+        "grade": "平均品位 Cu 0.4%",
+        "discovery_year": "1868",
+        "operator": "自由港麦克莫兰 (Freeport-McMoRan) / 住友金属",
+        "description": "秘鲁最大的铜矿之一，位于阿雷基帕地区安第斯山脉中，以大型斑岩铜钼矿体为主，采用露天开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1,
+          -10.4
+        ]
+      },
+      "properties": {
+        "name": "安塔米纳铜锌矿",
+        "mineral_type": "铜矿",
+        "country": "秘鲁",
+        "country_id": "604",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1200 万吨 (铜金属量)",
+        "annual_production": "年产 45 万吨 (铜)",
+        "grade": "平均品位 Cu 1.0% / Zn 1.5%",
+        "discovery_year": "1860",
+        "operator": "必和必拓 (BHP) / 嘉能可 (Glencore) / 泰克资源 (Teck)",
+        "description": "世界最大的铜锌矿之一，位于秘鲁安卡什地区海拔 4300 米的安第斯山脉，以矽卡岩型矿床为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.4,
+          40.5
+        ]
+      },
+      "properties": {
+        "name": "阿尔马雷克铜矿",
+        "mineral_type": "铜矿",
+        "country": "乌兹别克斯坦",
+        "country_id": "860",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2500 万吨 (铜金属量)",
+        "annual_production": "年产 10 万吨 (铜)",
+        "grade": "平均品位 Cu 0.4%",
+        "discovery_year": "1948",
+        "operator": "乌兹别克斯坦国家矿业公司 (AGMK)",
+        "description": "中亚最大的铜矿综合体，位于乌兹别克斯坦塔什干州，包括卡尔马克尔等多个斑岩铜矿，规模居世界前列。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8,
+          -2.6
+        ]
+      },
+      "properties": {
+        "name": "邦加锡铜矿",
+        "mineral_type": "铜矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (铜金属量)",
+        "annual_production": "年产 5 万吨 (铜)",
+        "grade": "平均品位 Cu 0.8%",
+        "discovery_year": "1710",
+        "operator": "印尼国营锡业公司 (PT Timah)",
+        "description": "印尼邦加岛上的铜矿资源，与锡矿共生，该岛长期以锡矿开采为主，铜矿作为伴生资源逐步开发。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.5,
+          39.5
+        ]
+      },
+      "properties": {
+        "name": "艾达克铜金矿",
+        "mineral_type": "铜矿",
+        "country": "塔吉克斯坦",
+        "country_id": "762",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 500 万吨 (铜金属量)",
+        "grade": "平均品位 Cu 0.5% / Au 0.3 g/t",
+        "discovery_year": "1969",
+        "description": "塔吉克斯坦的大型斑岩铜金矿床，位于帕米尔高原西缘，目前处于勘探阶段，开发前景广阔。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0,
+          -16.5
+        ]
+      },
+      "properties": {
+        "name": "韦帕铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 4 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "氧化铝含量 50%",
+        "discovery_year": "1955",
+        "operator": "力拓 (Rio Tinto)",
+        "description": "澳大利亚最大的铝土矿之一，位于约克角半岛西海岸，以高品位三水铝石型铝土矿著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5,
+          -23.2
+        ]
+      },
+      "properties": {
+        "name": "达令山铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 3 亿吨",
+        "annual_production": "年产 2000 万吨",
+        "grade": "氧化铝含量 30%",
+        "discovery_year": "1957",
+        "operator": "南32集团 (South32)",
+        "description": "位于西澳大利亚州珀斯附近的达令山脉，以一水硬铝石型铝土矿为主，是澳洲重要的氧化铝原料来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.5,
+          11.0
+        ]
+      },
+      "properties": {
+        "name": "桑加雷迪铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "几内亚",
+        "country_id": "324",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "氧化铝含量 55%",
+        "discovery_year": "1952",
+        "operator": "俄铝 (Rusal) / 哈尔科矿业 (Halco)",
+        "description": "几内亚最大的铝土矿之一，位于博凯地区，以高品位三水铝石矿闻名，是全球铝土矿贸易的重要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5,
+          11.8
+        ]
+      },
+      "properties": {
+        "name": "弗里亚铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "几内亚",
+        "country_id": "324",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 6 亿吨",
+        "annual_production": "年产 800 万吨",
+        "grade": "氧化铝含量 48%",
+        "discovery_year": "1942",
+        "operator": "俄铝 (Rusal)",
+        "description": "几内亚历史最悠久的铝土矿区之一，配套建有氧化铝厂，是西非地区最早实现铝土矿工业化开采的矿山。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0,
+          -1.5
+        ]
+      },
+      "properties": {
+        "name": "特龙贝塔斯铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 亿吨",
+        "annual_production": "年产 1000 万吨",
+        "grade": "氧化铝含量 50%",
+        "discovery_year": "1967",
+        "operator": "淡水河谷 (Vale) / MRN 联合体",
+        "description": "巴西最重要的铝土矿区之一，位于亚马孙河支流特龙贝塔斯河流域，以红土型风化壳铝土矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0,
+          23.0
+        ]
+      },
+      "properties": {
+        "name": "奥里萨邦铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 6 亿吨",
+        "annual_production": "年产 500 万吨",
+        "grade": "氧化铝含量 45%",
+        "discovery_year": "1960",
+        "operator": "韦丹塔资源 (Vedanta Resources) / 国家铝业 (NALCO)",
+        "description": "印度最大的铝土矿资源区，位于东高止山脉的奥里萨邦，以红土风化壳型铝土矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8,
+          23.8
+        ]
+      },
+      "properties": {
+        "name": "平果铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 3 亿吨",
+        "annual_production": "年产 600 万吨",
+        "grade": "氧化铝含量 56%",
+        "discovery_year": "1958",
+        "operator": "中国铝业集团 (中铝)",
+        "description": "广西最重要的铝土矿基地，位于百色市平果县，以三水铝石型一水硬铝石矿为主，品位较高。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5,
+          24.5
+        ]
+      },
+      "properties": {
+        "name": "云南铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 4 亿吨",
+        "annual_production": "年产 500 万吨",
+        "grade": "氧化铝含量 52%",
+        "discovery_year": "1940",
+        "operator": "云南铝业股份有限公司 / 云南冶金集团",
+        "description": "中国西南地区重要的铝土矿资源区，分布在文山、红河等地，以一水硬铝石型为主，伴生镓等稀有金属。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5,
+          -22.5
+        ]
+      },
+      "properties": {
+        "name": "巴西帕拉铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 12 亿吨",
+        "annual_production": "年产 2500 万吨",
+        "grade": "氧化铝含量 50%",
+        "discovery_year": "1974",
+        "operator": "海德鲁 (Norsk Hydro) / 淡水河谷 (Vale)",
+        "description": "巴西最大的铝土矿区，位于帕拉州亚马孙雨林中，以巨型红土型风化壳铝土矿体为特征，储量世界级。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5,
+          6.0
+        ]
+      },
+      "properties": {
+        "name": "林登铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "圭亚那",
+        "country_id": "328",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 亿吨",
+        "annual_production": "年产 500 万吨",
+        "grade": "氧化铝含量 50%",
+        "discovery_year": "1916",
+        "operator": "俄铝 (Rusal) / 圭亚那铝土矿公司 (BCGI)",
+        "description": "圭亚那最大的铝土矿区，位于该国内陆的林登地区，以高品位三水铝石型矿石为主，出口至多个国家。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8,
+          18.2
+        ]
+      },
+      "properties": {
+        "name": "牙买加铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "牙买加",
+        "country_id": "388",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 亿吨",
+        "annual_production": "年产 800 万吨",
+        "grade": "氧化铝含量 48%",
+        "discovery_year": "1942",
+        "operator": "加拿大铝业 (Alcan) / UC Rusal",
+        "description": "加勒比地区最大的铝土矿国，全岛广泛分布红土型铝土矿，曾为全球第一大铝土矿出口国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0,
+          1.5
+        ]
+      },
+      "properties": {
+        "name": "沙捞越铝土矿",
+        "mineral_type": "铝土矿",
+        "country": "马来西亚",
+        "country_id": "458",
+        "reserve_level": "中型",
+        "status": "开采中",
+        "reserves": "探明储量 5000 万吨",
+        "annual_production": "年产 200 万吨",
+        "grade": "氧化铝含量 42%",
+        "discovery_year": "1960",
+        "operator": "马来西亚矿业公司",
+        "description": "马来西亚沙捞越州的中等规模铝土矿，以红土风化壳型为主，近年来产量有所增长。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5,
+          -20.5
+        ]
+      },
+      "properties": {
+        "name": "乌尤尼盐湖锂矿",
+        "mineral_type": "锂矿",
+        "country": "玻利维亚",
+        "country_id": "068",
+        "reserve_level": "超大型",
+        "status": "勘探中",
+        "reserves": "探明储量 2100 万吨 (碳酸锂当量)",
+        "grade": "卤水锂浓度 0.045%",
+        "discovery_year": "1976",
+        "operator": "玻利维亚锂业国营公司 (YLB)",
+        "description": "全球最大的锂资源储量所在地，位于玻利维亚西南部安第斯高原，面积超过 1 万平方公里的巨型盐湖。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3,
+          -23.4
+        ]
+      },
+      "properties": {
+        "name": "阿塔卡马盐湖锂矿",
+        "mineral_type": "锂矿",
+        "country": "智利",
+        "country_id": "152",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 700 万吨 (碳酸锂当量)",
+        "annual_production": "年产 18 万吨 (碳酸锂当量)",
+        "grade": "卤水锂浓度 0.15%",
+        "discovery_year": "1962",
+        "operator": "雅宝 (Albemarle) / 智利化工矿业 (SQM)",
+        "description": "全球产量最大的盐湖锂矿，位于智利阿塔卡马沙漠，以高浓度锂卤水和极低降雨量实现高效蒸发提锂。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7,
+          -33.9
+        ]
+      },
+      "properties": {
+        "name": "格林布什锂矿",
+        "mineral_type": "锂矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 130 万吨 (碳酸锂当量)",
+        "annual_production": "年产 160 万吨 (锂辉石精矿)",
+        "grade": "品位 Li₂O 2.4%",
+        "discovery_year": "1888",
+        "operator": "天齐锂业 / 美国雅宝 (Albemarle / Tianqi Lithium)",
+        "description": "全球最大的硬岩锂矿，位于西澳大利亚州，以高品位锂辉石伟晶岩矿体著称，是全球锂精矿供应的核心来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3,
+          -33.4
+        ]
+      },
+      "properties": {
+        "name": "皮尔甘古拉锂矿",
+        "mineral_type": "锂矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 万吨 (碳酸锂当量)",
+        "annual_production": "年产 40 万吨 (锂辉石精矿)",
+        "grade": "品位 Li₂O 1.3%",
+        "discovery_year": "2010",
+        "operator": "皮尔巴拉矿业 (Pilbara Minerals)",
+        "description": "澳大利亚新兴的大型锂矿，位于西澳皮尔巴拉地区，以锂-钽伟晶岩矿床为主，近年来快速扩产。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7,
+          32.9
+        ]
+      },
+      "properties": {
+        "name": "甲基卡锂矿",
+        "mineral_type": "锂矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 190 万吨 (氧化锂)",
+        "grade": "品位 Li₂O 1.4%",
+        "discovery_year": "1960",
+        "operator": "融捷股份 / 川能动力",
+        "description": "亚洲最大的锂辉石矿床之一，位于四川省甘孜州康定市，海拔 4300 米以上，以伟晶岩型锂矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1,
+          28.7
+        ]
+      },
+      "properties": {
+        "name": "宜春锂云母矿",
+        "mineral_type": "锂矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 640 万吨 (氧化锂)",
+        "annual_production": "年产 20 万吨 (碳酸锂当量)",
+        "grade": "品位 Li₂O 0.5%",
+        "discovery_year": "1970",
+        "operator": "赣锋锂业 / 宜春钽铌矿",
+        "description": "中国最大的锂云母资源基地，位于江西省宜春市，以含锂花岗岩和伟晶岩为主，推动了锂云母提锂技术突破。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5,
+          -24.0
+        ]
+      },
+      "properties": {
+        "name": "翁布雷穆埃尔托盐湖锂矿",
+        "mineral_type": "锂矿",
+        "country": "阿根廷",
+        "country_id": "032",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 万吨 (碳酸锂当量)",
+        "annual_production": "年产 2.5 万吨 (碳酸锂当量)",
+        "grade": "卤水锂浓度 0.06%",
+        "discovery_year": "1969",
+        "operator": "银河资源 (Galaxy Resources) / 韩国浦项 (POSCO)",
+        "description": "阿根廷\"锂三角\"中的重要盐湖，位于萨尔塔省安第斯高原，近年来吸引大量国际投资进行开发。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9,
+          -23.4
+        ]
+      },
+      "properties": {
+        "name": "卡奇锂矿",
+        "mineral_type": "锂矿",
+        "country": "阿根廷",
+        "country_id": "032",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 150 万吨 (碳酸锂当量)",
+        "annual_production": "年产 4 万吨 (碳酸锂当量)",
+        "grade": "卤水锂浓度 0.05%",
+        "discovery_year": "2009",
+        "operator": "赣锋锂业 (Ganfeng Lithium)",
+        "description": "阿根廷大型盐湖锂矿项目，位于胡胡伊省普纳高原，由中国赣锋锂业控股开发，采用直接提锂技术。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7,
+          35.8
+        ]
+      },
+      "properties": {
+        "name": "塞尔斯湖锂矿",
+        "mineral_type": "锂矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 万吨 (碳酸锂当量)",
+        "annual_production": "年产 5000 吨 (碳酸锂)",
+        "grade": "卤水锂浓度 0.022%",
+        "discovery_year": "1938",
+        "operator": "雅宝 (Albemarle)",
+        "description": "美国唯一正在生产的卤水锂矿，位于加利福尼亚州莫哈韦沙漠，利用地热卤水提取锂已有数十年历史。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2,
+          33.5
+        ]
+      },
+      "properties": {
+        "name": "萨尔顿海锂矿",
+        "mineral_type": "锂矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 340 万吨 (碳酸锂当量)",
+        "grade": "卤水锂浓度 0.04%",
+        "discovery_year": "2010",
+        "operator": "能源先锋 (EnergySource) / Berkshire Hathaway Energy",
+        "description": "美国最具潜力的新兴锂资源，位于加州萨尔顿海地热区，拟利用地热发电副产卤水进行直接提锂。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0,
+          -2.5
+        ]
+      },
+      "properties": {
+        "name": "刚果锂矿",
+        "mineral_type": "锂矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 300 万吨 (碳酸锂当量)",
+        "grade": "品位 Li₂O 1.6%",
+        "discovery_year": "2018",
+        "operator": "AVZ矿业 (AVZ Minerals) / 紫金矿业",
+        "description": "非洲最大的硬岩锂矿之一 (Manono 矿床)，位于刚果(金)坦噶尼喀省，以超大型含锂伟晶岩矿体著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2,
+          -1.9
+        ]
+      },
+      "properties": {
+        "name": "比绍夫图锂矿",
+        "mineral_type": "锂矿",
+        "country": "津巴布韦",
+        "country_id": "716",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 万吨 (碳酸锂当量)",
+        "annual_production": "年产 5 万吨 (锂精矿)",
+        "grade": "品位 Li₂O 1.0%",
+        "discovery_year": "1955",
+        "operator": "Bikita矿业 / 中矿资源",
+        "description": "津巴布韦最重要的锂矿，位于马斯温戈省，是非洲历史最悠久的锂矿开采区之一，以锂辉石和透锂长石为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5,
+          39.8
+        ]
+      },
+      "properties": {
+        "name": "大同煤矿",
+        "mineral_type": "煤矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 亿吨",
+        "annual_production": "年产 1.5 亿吨",
+        "grade": "低硫优质动力煤",
+        "discovery_year": "1469",
+        "operator": "晋能控股集团 (原大同煤矿集团)",
+        "description": "中国最大的动力煤产区之一，位于山西省大同市，以低硫低灰优质动力煤著称，开采历史超过 500 年。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0,
+          39.0
+        ]
+      },
+      "properties": {
+        "name": "神东煤田",
+        "mineral_type": "煤矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 亿吨",
+        "annual_production": "年产 2 亿吨",
+        "grade": "低灰低硫优质动力煤",
+        "discovery_year": "1984",
+        "operator": "国家能源集团 (国能神东煤炭)",
+        "description": "中国产量最大的煤炭基地，横跨陕蒙交界，以大型现代化综采放顶煤技术闻名，单矿产量世界领先。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6,
+          35.5
+        ]
+      },
+      "properties": {
+        "name": "晋城无烟煤",
+        "mineral_type": "煤矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨",
+        "annual_production": "年产 8000 万吨",
+        "grade": "高固定碳无烟煤",
+        "discovery_year": "1950",
+        "operator": "晋能控股集团 (原晋煤集团)",
+        "description": "中国最大的无烟煤产区，位于山西省晋城市，无烟煤质量居全国之首，广泛用于化工和民用燃料。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0,
+          33.5
+        ]
+      },
+      "properties": {
+        "name": "淮南煤田",
+        "mineral_type": "煤矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 80 亿吨",
+        "annual_production": "年产 6000 万吨",
+        "grade": "中灰中硫气肥煤",
+        "discovery_year": "1903",
+        "operator": "淮河能源集团 (原淮南矿业集团)",
+        "description": "华东地区最大的煤炭基地，位于安徽省淮南市，以深部大水矿井开采著称，煤种以气煤和肥煤为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0,
+          38.0
+        ]
+      },
+      "properties": {
+        "name": "阿巴拉契亚煤田",
+        "mineral_type": "煤矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 亿吨",
+        "annual_production": "年产 3 亿吨",
+        "grade": "高品质炼焦煤和动力煤",
+        "discovery_year": "1750",
+        "operator": "阿奇煤业 (Arch Resources) / 矗石能源 (CONSOL Energy)",
+        "description": "美国历史最悠久的煤田，纵贯东部九个州，是美国冶金煤的主产区，曾推动美国工业革命的发展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.0,
+          44.5
+        ]
+      },
+      "properties": {
+        "name": "粉河盆地煤田",
+        "mineral_type": "煤矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1000 亿吨",
+        "annual_production": "年产 3 亿吨",
+        "grade": "低硫亚烟煤",
+        "discovery_year": "1880",
+        "operator": "博地能源 (Peabody Energy) / 阿奇煤业 (Arch Resources)",
+        "description": "美国最大的煤炭产区，位于怀俄明州和蒙大拿州，以超厚煤层露天开采和低硫环保煤著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5,
+          53.7
+        ]
+      },
+      "properties": {
+        "name": "库兹巴斯煤田",
+        "mineral_type": "煤矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 700 亿吨",
+        "annual_production": "年产 2.5 亿吨",
+        "grade": "优质炼焦煤和动力煤",
+        "discovery_year": "1721",
+        "operator": "库兹巴斯燃料公司 (Kuzbassrazrezugol) / 苏艾科集团 (SUEK)",
+        "description": "俄罗斯最大的煤炭产区，位于西伯利亚南部库兹涅茨盆地，煤种齐全，从褐煤到无烟煤均有分布。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0,
+          -32.5
+        ]
+      },
+      "properties": {
+        "name": "猎人谷煤田",
+        "mineral_type": "煤矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 亿吨",
+        "annual_production": "年产 1.5 亿吨",
+        "grade": "优质动力煤和炼焦煤",
+        "discovery_year": "1791",
+        "operator": "嘉能可 (Glencore) / 兖矿澳洲 (Yancoal)",
+        "description": "澳大利亚最重要的煤炭出口基地，位于新南威尔士州纽卡斯尔港附近，以高热值动力煤出口亚洲为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5,
+          -23.5
+        ]
+      },
+      "properties": {
+        "name": "鲍恩盆地煤田",
+        "mineral_type": "煤矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 亿吨",
+        "annual_production": "年产 2 亿吨",
+        "grade": "优质硬焦煤",
+        "discovery_year": "1845",
+        "operator": "必和必拓 (BHP) / 英美资源 (Anglo American)",
+        "description": "全球最重要的冶金煤产区之一，位于澳大利亚昆士兰州，出口的硬焦煤品质居世界之首。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0,
+          23.7
+        ]
+      },
+      "properties": {
+        "name": "贾里亚煤田",
+        "mineral_type": "煤矿",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 亿吨",
+        "annual_production": "年产 7000 万吨",
+        "grade": "非炼焦煤和弱粘结煤",
+        "discovery_year": "1894",
+        "operator": "印度煤炭公司 (Coal India / BCCL)",
+        "description": "印度最大的煤田之一，位于贾坎德邦，因长期煤层自燃问题而闻名，地下火灾已持续燃烧超过百年。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0,
+          51.5
+        ]
+      },
+      "properties": {
+        "name": "鲁尔煤田",
+        "mineral_type": "煤矿",
+        "country": "德国",
+        "country_id": "276",
+        "reserve_level": "大型",
+        "status": "已关闭",
+        "reserves": "探明储量 50 亿吨",
+        "grade": "优质炼焦煤和无烟煤",
+        "discovery_year": "1740",
+        "operator": "已关闭 (原RAG矿业公司)",
+        "description": "德国历史上最重要的煤田，是欧洲工业革命的核心动力，2018 年最后一座矿井关闭，标志着德国硬煤开采时代的终结。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0,
+          50.2
+        ]
+      },
+      "properties": {
+        "name": "上西里西亚煤田",
+        "mineral_type": "煤矿",
+        "country": "波兰",
+        "country_id": "616",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨",
+        "annual_production": "年产 5000 万吨",
+        "grade": "硬煤 (炼焦煤和动力煤)",
+        "discovery_year": "1740",
+        "operator": "波兰矿业集团 (PGG) / JSW 公司",
+        "description": "欧洲最大的仍在开采的硬煤田之一，横跨波兰南部和捷克北部，以深部开采的炼焦煤为主要产品。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          -25.5
+        ]
+      },
+      "properties": {
+        "name": "莫桑比克煤田",
+        "mineral_type": "煤矿",
+        "country": "莫桑比克",
+        "country_id": "508",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "优质炼焦煤",
+        "discovery_year": "1850",
+        "operator": "淡水河谷 (Vale) / 维利矿业 (Vulcan)",
+        "description": "非洲新兴的重要煤炭产区，位于莫桑比克太特省，以高品质炼焦煤闻名，通过纳卡拉铁路出口。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          -26.0
+        ]
+      },
+      "properties": {
+        "name": "南非姆普马兰加煤田",
+        "mineral_type": "煤矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 亿吨",
+        "annual_production": "年产 2.5 亿吨",
+        "grade": "动力煤 (热值 5500 kcal/kg)",
+        "discovery_year": "1870",
+        "operator": "嘉能可 (Glencore) / 南32 (South32) / 塞班耶 (Seriti Resources)",
+        "description": "南非最大的煤炭产区，火力发电用煤占全国的 85%，同时大量出口至亚洲，是非洲最大的煤炭出口基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8,
+          21.0
+        ]
+      },
+      "properties": {
+        "name": "鸿基煤田",
+        "mineral_type": "煤矿",
+        "country": "越南",
+        "country_id": "704",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 亿吨",
+        "annual_production": "年产 4000 万吨",
+        "grade": "高品质无烟煤",
+        "discovery_year": "1839",
+        "operator": "越南煤炭矿产集团 (Vinacomin)",
+        "description": "越南最大的煤田，位于广宁省下龙湾附近，以优质无烟煤享誉国际市场，开采历史超过百年。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0,
+          40.0
+        ]
+      },
+      "properties": {
+        "name": "平壤煤田",
+        "mineral_type": "煤矿",
+        "country": "朝鲜",
+        "country_id": "408",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 亿吨",
+        "annual_production": "年产 2000 万吨",
+        "grade": "无烟煤",
+        "discovery_year": "1910",
+        "operator": "朝鲜国营煤矿",
+        "description": "朝鲜最重要的煤炭产区，位于平安南道地区，以无烟煤为主，是朝鲜能源和化工原料的主要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5,
+          52.0
+        ]
+      },
+      "properties": {
+        "name": "艾伯塔煤田",
+        "mineral_type": "煤矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 亿吨",
+        "annual_production": "年产 3000 万吨",
+        "grade": "亚烟煤和炼焦煤",
+        "discovery_year": "1870",
+        "operator": "泰克资源 (Teck Resources) / 加拿大自然资源公司",
+        "description": "加拿大最大的煤田，位于艾伯塔省落基山脉东坡，以优质冶金煤和动力煤出口为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.8,
+          48.0
+        ]
+      },
+      "properties": {
+        "name": "哈萨克斯坦卡拉干达煤田",
+        "mineral_type": "煤矿",
+        "country": "哈萨克斯坦",
+        "country_id": "398",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 90 亿吨",
+        "annual_production": "年产 3000 万吨",
+        "grade": "炼焦煤和动力煤",
+        "discovery_year": "1833",
+        "operator": "安赛乐米塔尔 (ArcelorMittal Temirtau)",
+        "description": "中亚最大的煤田之一，位于哈萨克斯坦中部，以炼焦煤为主要煤种，供应本国和出口独联体市场。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5,
+          27.0
+        ]
+      },
+      "properties": {
+        "name": "加瓦尔油田",
+        "mineral_type": "石油",
+        "country": "沙特阿拉伯",
+        "country_id": "682",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨 (可采储量约 75 亿吨)",
+        "annual_production": "年产 2.5 亿吨",
+        "grade": "API 比重 33°，轻质低硫原油",
+        "discovery_year": "1948",
+        "operator": "沙特阿美 (Saudi Aramco)",
+        "description": "全球最大的常规油田，位于沙特阿拉伯东部省，长 280 公里，宽 30 公里，单田产量占全球约 6%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.3,
+          28.9
+        ]
+      },
+      "properties": {
+        "name": "布尔甘油田",
+        "mineral_type": "石油",
+        "country": "科威特",
+        "country_id": "414",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 70 亿吨",
+        "annual_production": "年产 1.2 亿吨",
+        "grade": "API 比重 28-36°，中质低硫原油",
+        "discovery_year": "1938",
+        "operator": "科威特石油公司 (KOC)",
+        "description": "世界第二大油田，位于科威特南部沙漠地区，拥有超过 80 年的开采历史，仍保持高产。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.0,
+          30.0
+        ]
+      },
+      "properties": {
+        "name": "马伦油田",
+        "mineral_type": "石油",
+        "country": "伊朗",
+        "country_id": "364",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 亿吨",
+        "annual_production": "年产 5000 万吨",
+        "grade": "API 比重 31°，轻质原油",
+        "discovery_year": "1963",
+        "operator": "伊朗国家石油公司 (NIOC)",
+        "description": "伊朗最大的陆上油田之一，位于法尔斯省扎格罗斯山脉前缘，以大型背斜构造油藏闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "name": "鲁迈拉油田",
+        "mineral_type": "石油",
+        "country": "伊拉克",
+        "country_id": "368",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 亿吨",
+        "annual_production": "年产 7000 万吨",
+        "grade": "API 比重 33°，中质低硫原油",
+        "discovery_year": "1953",
+        "operator": "BP / 中国石油 (CNPC) / 伊拉克南方石油公司",
+        "description": "伊拉克最大的油田，位于巴士拉省南部沙漠，日产量超过 140 万桶，是伊拉克石油出口的核心。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5,
+          24.5
+        ]
+      },
+      "properties": {
+        "name": "扎库姆油田",
+        "mineral_type": "石油",
+        "country": "阿联酋",
+        "country_id": "784",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 40 亿吨",
+        "annual_production": "年产 5000 万吨",
+        "grade": "API 比重 40°，轻质优质原油",
+        "discovery_year": "1964",
+        "operator": "阿布扎比国家石油公司 (ADNOC)",
+        "description": "中东主要的海上油田，位于阿布扎比西北海域，以高品质轻质原油闻名，是阿联酋石油出口的重要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5,
+          61.5
+        ]
+      },
+      "properties": {
+        "name": "萨莫特洛尔油田",
+        "mineral_type": "石油",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 40 亿吨",
+        "annual_production": "年产 2000 万吨",
+        "grade": "API 比重 34°，轻质低硫原油",
+        "discovery_year": "1965",
+        "operator": "俄罗斯石油公司 (Rosneft)",
+        "description": "俄罗斯最大的油田，位于西西伯利亚秋明州沼泽地带，巅峰期日产量超过 350 万桶，现已进入递减阶段。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "name": "大庆油田",
+        "mineral_type": "石油",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 亿吨 (累计探明地质储量)",
+        "annual_production": "年产 3000 万吨",
+        "grade": "API 比重 32°，中质含蜡原油",
+        "discovery_year": "1959",
+        "operator": "中国石油天然气集团 (CNPC / 大庆油田有限责任公司)",
+        "description": "中国最大的油田，位于黑龙江省松嫩平原，铁人王进喜精神的发源地，累计产油超过 24 亿吨。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.5,
+          38.0
+        ]
+      },
+      "properties": {
+        "name": "胜利油田",
+        "mineral_type": "石油",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 亿吨 (累计探明地质储量)",
+        "annual_production": "年产 2300 万吨",
+        "grade": "API 比重 20-30°，中质含硫原油",
+        "discovery_year": "1961",
+        "operator": "中国石化集团 (Sinopec / 胜利油田分公司)",
+        "description": "中国第二大油田，位于山东省东营市黄河三角洲地区，以复杂断块油藏和稠油开采技术著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5,
+          5.5
+        ]
+      },
+      "properties": {
+        "name": "尼日尔三角洲油田",
+        "mineral_type": "石油",
+        "country": "尼日利亚",
+        "country_id": "566",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 亿吨",
+        "annual_production": "年产 1 亿吨",
+        "grade": "API 比重 22-38°，轻质低硫至中质原油",
+        "discovery_year": "1956",
+        "operator": "壳牌 (Shell) / 道达尔 (TotalEnergies) / 尼日利亚国家石油公司 (NNPC)",
+        "description": "非洲最大的产油区，位于尼日利亚南部尼日尔河三角洲，以高品质轻质原油闻名，但面临环境污染和安全挑战。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "name": "二叠纪盆地",
+        "mineral_type": "石油",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 80 亿吨",
+        "annual_production": "年产 3.5 亿吨",
+        "grade": "API 比重 38-42°，轻质致密油",
+        "discovery_year": "1920",
+        "operator": "先锋自然资源 (Pioneer) / 埃克森美孚 (ExxonMobil) / 雪佛龙 (Chevron)",
+        "description": "美国页岩油革命的核心产区，横跨德州和新墨西哥州，受益于水平井和水力压裂技术，产量居全球前列。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5,
+          70.3
+        ]
+      },
+      "properties": {
+        "name": "普拉德霍湾油田",
+        "mineral_type": "石油",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 13 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "API 比重 27°，中质原油",
+        "discovery_year": "1968",
+        "operator": "BP / 康菲石油 (ConocoPhillips) / 埃克森美孚 (ExxonMobil)",
+        "description": "北美最大的油田，位于阿拉斯加北坡北冰洋沿岸，通过 1300 公里跨阿拉斯加输油管道输送原油至南部。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.5,
+          56.7
+        ]
+      },
+      "properties": {
+        "name": "阿萨巴斯卡油砂",
+        "mineral_type": "石油",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 270 亿吨 (可采油砂储量)",
+        "annual_production": "年产 1.5 亿吨",
+        "grade": "API 比重 8-14°，超重质沥青",
+        "discovery_year": "1719",
+        "operator": "森科能源 (Suncor) / 加拿大自然资源 (CNRL) / 帝国石油 (Imperial Oil)",
+        "description": "全球最大的油砂资源，位于加拿大艾伯塔省北部，以露天采矿和蒸汽辅助重力泄油 (SAGD) 技术开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5,
+          8.5
+        ]
+      },
+      "properties": {
+        "name": "奥里诺科重油带",
+        "mineral_type": "石油",
+        "country": "委内瑞拉",
+        "country_id": "862",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 350 亿吨 (技术可采储量)",
+        "annual_production": "年产 5000 万吨",
+        "grade": "API 比重 6-12°，超重质原油",
+        "discovery_year": "1935",
+        "operator": "委内瑞拉国家石油公司 (PDVSA)",
+        "description": "全球最大的超重质原油资源，位于委内瑞拉奥里诺科河北岸，使委内瑞拉拥有世界最大的石油探明储量。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0,
+          28.0
+        ]
+      },
+      "properties": {
+        "name": "哈西梅萨乌德油田",
+        "mineral_type": "石油",
+        "country": "阿尔及利亚",
+        "country_id": "012",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 亿吨",
+        "annual_production": "年产 3000 万吨",
+        "grade": "API 比重 43°，极轻质低硫原油",
+        "discovery_year": "1956",
+        "operator": "阿尔及利亚国家石油公司 (Sonatrach)",
+        "description": "阿尔及利亚最大的油田，位于撒哈拉沙漠中部，以极高品质的轻质低硫原油闻名，是非洲重要的原油出口来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          -6.0
+        ]
+      },
+      "properties": {
+        "name": "刚果盆地油田",
+        "mineral_type": "石油",
+        "country": "安哥拉",
+        "country_id": "024",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 13 亿吨",
+        "annual_production": "年产 6000 万吨",
+        "grade": "API 比重 30-38°，中轻质原油",
+        "discovery_year": "1955",
+        "operator": "道达尔 (TotalEnergies) / 安哥拉国家石油公司 (Sonangol)",
+        "description": "安哥拉最重要的深水油气产区，位于大西洋海域，以深海盐下层油藏开发技术著称，是非洲第二大产油国的核心区。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          57.5
+        ]
+      },
+      "properties": {
+        "name": "北海油田",
+        "mineral_type": "石油",
+        "country": "英国",
+        "country_id": "826",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 18 亿吨",
+        "annual_production": "年产 4500 万吨",
+        "grade": "API 比重 38°，轻质低硫布伦特原油",
+        "discovery_year": "1969",
+        "operator": "BP / 壳牌 (Shell) / 挪威国家石油 (Equinor)",
+        "description": "欧洲最重要的油气产区，布伦特原油是全球石油定价基准之一，位于英国和挪威之间的北海海域。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.0,
+          -22.0
+        ]
+      },
+      "properties": {
+        "name": "盐下层油田",
+        "mineral_type": "石油",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨",
+        "annual_production": "年产 1.5 亿吨",
+        "grade": "API 比重 28-30°，中质低硫原油",
+        "discovery_year": "2006",
+        "operator": "巴西国家石油公司 (Petrobras)",
+        "description": "21 世纪全球最大的石油发现，位于巴西东南海域深海盐层之下，使巴西跃升为全球十大产油国之一。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.5,
+          16.5
+        ]
+      },
+      "properties": {
+        "name": "缅甸油田",
+        "mineral_type": "石油",
+        "country": "缅甸",
+        "country_id": "104",
+        "reserve_level": "中型",
+        "status": "开采中",
+        "reserves": "探明储量 1 亿吨",
+        "annual_production": "年产 500 万吨",
+        "grade": "API 比重 35°，轻质含蜡原油",
+        "discovery_year": "1853",
+        "operator": "缅甸石油天然气企业 (MOGE)",
+        "description": "缅甸中部伊洛瓦底盆地的陆上油田群，开采历史悠久，曾是亚洲最早的石油产区之一，目前产量有限。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "name": "北方-南帕斯气田",
+        "mineral_type": "天然气",
+        "country": "卡塔尔",
+        "country_id": "634",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 25 万亿立方米 (卡塔尔份额约 14 万亿)",
+        "annual_production": "年产 1800 亿立方米",
+        "discovery_year": "1971",
+        "operator": "卡塔尔能源公司 (QatarEnergy)",
+        "description": "全球最大的天然气田，位于波斯湾海域，卡塔尔与伊朗共享，使卡塔尔成为全球最大的 LNG 出口国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "name": "南帕斯气田",
+        "mineral_type": "天然气",
+        "country": "伊朗",
+        "country_id": "364",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 14 万亿立方米 (伊朗份额)",
+        "annual_production": "年产 2500 亿立方米",
+        "discovery_year": "1990",
+        "operator": "伊朗国家石油公司 (NIOC)",
+        "description": "与卡塔尔北方气田为同一地质构造的伊朗部分，以分阶段开发闻名，是伊朗天然气供应的核心来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.4,
+          38.5
+        ]
+      },
+      "properties": {
+        "name": "加尔金内什气田",
+        "mineral_type": "天然气",
+        "country": "土库曼斯坦",
+        "country_id": "795",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 21 万亿立方米",
+        "annual_production": "年产 800 亿立方米",
+        "discovery_year": "2006",
+        "operator": "土库曼斯坦国家天然气集团 (Turkmengaz)",
+        "description": "世界第二大天然气田，位于土库曼斯坦东南部阿姆河右岸，储量仅次于北方-南帕斯气田。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0,
+          67.5
+        ]
+      },
+      "properties": {
+        "name": "乌连戈伊气田",
+        "mineral_type": "天然气",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 万亿立方米",
+        "annual_production": "年产 2000 亿立方米",
+        "discovery_year": "1966",
+        "operator": "俄罗斯天然气工业公司 (Gazprom)",
+        "description": "俄罗斯最大的天然气田之一，位于西西伯利亚亚马尔-涅涅茨自治区，曾是世界产量最大的气田。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5,
+          66.0
+        ]
+      },
+      "properties": {
+        "name": "亚马尔气田",
+        "mineral_type": "天然气",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 万亿立方米",
+        "annual_production": "年产 1000 亿立方米",
+        "discovery_year": "1969",
+        "operator": "诺瓦泰克 (Novatek) / 道达尔 (TotalEnergies) / 中国石油 (CNPC)",
+        "description": "位于北极圈内亚马尔半岛的大型天然气项目，以 LNG 出口为主，是北极地区最大的液化天然气生产基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0,
+          36.0
+        ]
+      },
+      "properties": {
+        "name": "马塞勒斯页岩气",
+        "mineral_type": "天然气",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 14 万亿立方米",
+        "annual_production": "年产 3000 亿立方米",
+        "discovery_year": "2003",
+        "operator": "EQT 公司 / 西南能源 (Southwestern Energy) / 切萨皮克能源 (Chesapeake Energy)",
+        "description": "美国最大的页岩气产区，覆盖阿巴拉契亚盆地六个州，推动了美国页岩气革命和天然气出口转型。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.5,
+          29.5
+        ]
+      },
+      "properties": {
+        "name": "涪陵页岩气田",
+        "mineral_type": "天然气",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 6000 亿立方米",
+        "annual_production": "年产 85 亿立方米",
+        "discovery_year": "2012",
+        "operator": "中国石化 (Sinopec / 江汉油田涪陵页岩气公司)",
+        "description": "中国首个商业开发的大型页岩气田，位于重庆市涪陵区，标志着中国页岩气进入规模化开发阶段。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5,
+          31.0
+        ]
+      },
+      "properties": {
+        "name": "祖赫尔气田",
+        "mineral_type": "天然气",
+        "country": "埃及",
+        "country_id": "818",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 8500 亿立方米",
+        "annual_production": "年产 300 亿立方米",
+        "discovery_year": "2015",
+        "operator": "埃尼集团 (Eni)",
+        "description": "地中海最大的天然气发现，位于埃及尼罗河三角洲深海海域，使埃及从天然气进口国转变为潜在出口国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          57.0
+        ]
+      },
+      "properties": {
+        "name": "北海气田",
+        "mineral_type": "天然气",
+        "country": "挪威",
+        "country_id": "578",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 万亿立方米",
+        "annual_production": "年产 1100 亿立方米",
+        "discovery_year": "1959",
+        "operator": "挪威国家石油 (Equinor) / 壳牌 (Shell)",
+        "description": "挪威大陆架上的大型气田群，包括特罗尔等超级气田，是欧洲天然气供应的重要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          -10.0
+        ]
+      },
+      "properties": {
+        "name": "巴布亚新几内亚LNG",
+        "mineral_type": "天然气",
+        "country": "巴布亚新几内亚",
+        "country_id": "598",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 5000 亿立方米",
+        "annual_production": "年产 100 亿立方米 (LNG)",
+        "discovery_year": "2007",
+        "operator": "埃克森美孚 (ExxonMobil) / 桑托斯 (Santos)",
+        "description": "太平洋岛国最大的 LNG 项目，位于巴布亚新几内亚南部高地，通过管道输至沿海液化设施出口亚洲。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0,
+          -20.0
+        ]
+      },
+      "properties": {
+        "name": "西北大陆架气田",
+        "mineral_type": "天然气",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 3 万亿立方米",
+        "annual_production": "年产 500 亿立方米",
+        "discovery_year": "1971",
+        "operator": "伍德赛德 (Woodside Energy) / 壳牌 (Shell) / BP",
+        "description": "澳大利亚最大的天然气产区，位于西澳大利亚州海域，包括高庚和惠特斯通等世界级 LNG 项目。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5,
+          56.5
+        ]
+      },
+      "properties": {
+        "name": "蒙特尼气田",
+        "mineral_type": "天然气",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1.5 万亿立方米",
+        "annual_production": "年产 400 亿立方米",
+        "discovery_year": "2005",
+        "operator": "加拿大自然资源 (CNRL) / 七代能源 (Seven Generations)",
+        "description": "加拿大西部最重要的致密气和页岩气产区，位于艾伯塔省深盆地，凝析液含量高，经济价值突出。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0,
+          -10.5
+        ]
+      },
+      "properties": {
+        "name": "莫桑比克气田",
+        "mineral_type": "天然气",
+        "country": "莫桑比克",
+        "country_id": "508",
+        "reserve_level": "超大型",
+        "status": "开发中",
+        "reserves": "探明储量 5 万亿立方米",
+        "annual_production": "年产 50 亿立方米 (规划产能)",
+        "discovery_year": "2010",
+        "operator": "道达尔 (TotalEnergies) / 埃克森美孚 (ExxonMobil) / 埃尼 (Eni)",
+        "description": "非洲东南海岸最大的天然气发现之一，位于莫桑比克鲁伍马盆地，规划建设世界级 LNG 出口基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0,
+          41.8
+        ]
+      },
+      "properties": {
+        "name": "白云鄂博稀土矿",
+        "mineral_type": "稀土",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 4800 万吨 (稀土氧化物)",
+        "annual_production": "年产 6 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 3-5%",
+        "discovery_year": "1927",
+        "operator": "北方稀土 (中国北方稀土集团)",
+        "description": "全球最大的稀土矿，位于内蒙古自治区包头市，与铁矿和铌矿共生，轻稀土储量约占全球 40%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.0,
+          24.5
+        ]
+      },
+      "properties": {
+        "name": "赣南离子型稀土矿",
+        "mineral_type": "稀土",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (稀土氧化物)",
+        "annual_production": "年产 3 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 0.05-0.3%",
+        "discovery_year": "1969",
+        "operator": "中国南方稀土集团 / 赣州稀土集团",
+        "description": "全球最重要的中重稀土来源，分布在江西省南部花岗岩风化壳中，以离子吸附型稀土矿独特成因著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5,
+          24.0
+        ]
+      },
+      "properties": {
+        "name": "四川冕宁稀土矿",
+        "mineral_type": "稀土",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (稀土氧化物)",
+        "annual_production": "年产 2 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 2-5%",
+        "discovery_year": "1960",
+        "operator": "四川江铜稀土 / 盛和资源",
+        "description": "中国重要的轻稀土矿区，位于四川省凉山州冕宁县，以氟碳铈矿为主要稀土矿物。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "name": "芒廷帕斯稀土矿",
+        "mineral_type": "稀土",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (稀土氧化物)",
+        "annual_production": "年产 4 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 7%",
+        "discovery_year": "1949",
+        "operator": "MP Materials (盛美达材料)",
+        "description": "美国唯一的稀土矿山，位于加利福尼亚州莫哈韦沙漠，曾在 1990 年代前主导全球稀土供应。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0,
+          -33.8
+        ]
+      },
+      "properties": {
+        "name": "韦尔德山稀土矿",
+        "mineral_type": "稀土",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 240 万吨 (稀土氧化物)",
+        "annual_production": "年产 1 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 8%",
+        "discovery_year": "1988",
+        "operator": "莱纳斯稀土 (Lynas Rare Earths)",
+        "description": "中国以外最大的稀土矿，位于西澳大利亚州拉弗顿附近，精矿运至马来西亚关丹进行冶炼分离。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5,
+          18.0
+        ]
+      },
+      "properties": {
+        "name": "缅甸稀土矿",
+        "mineral_type": "稀土",
+        "country": "缅甸",
+        "country_id": "104",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 万吨 (稀土氧化物)",
+        "annual_production": "年产 3 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 0.1-0.5%",
+        "discovery_year": "2012",
+        "operator": "缅甸私营矿业公司",
+        "description": "近年来快速崛起的稀土来源，主要分布在缅甸北部克钦邦，以离子吸附型中重稀土矿为主，出口至中国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0,
+          11.0
+        ]
+      },
+      "properties": {
+        "name": "印度独居石稀土矿",
+        "mineral_type": "稀土",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 690 万吨 (稀土氧化物)",
+        "annual_production": "年产 3000 吨 (稀土氧化物)",
+        "grade": "独居石精矿稀土含量 55-60%",
+        "discovery_year": "1900",
+        "operator": "印度稀土有限公司 (IREL)",
+        "description": "印度沿海砂矿中的独居石是重要的稀土资源，分布在喀拉拉邦和泰米尔纳德邦海岸，伴生钍资源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0,
+          -21.0
+        ]
+      },
+      "properties": {
+        "name": "巴西稀土矿",
+        "mineral_type": "稀土",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 2100 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 2-8%",
+        "discovery_year": "1948",
+        "operator": "CBMM (巴西矿冶公司) / Serra Verde 矿业",
+        "description": "巴西拥有巨量稀土资源储量，主要与碳酸岩和碱性岩体相关，尚处于早期勘探和开发阶段。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          68.0
+        ]
+      },
+      "properties": {
+        "name": "科拉半岛稀土矿",
+        "mineral_type": "稀土",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (稀土氧化物)",
+        "annual_production": "年产 2500 吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 1%",
+        "discovery_year": "1920",
+        "operator": "俄罗斯稀土公司 / 磷灰石联合体 (Apatit)",
+        "description": "俄罗斯最大的稀土矿区，位于科拉半岛碱性岩体中，稀土矿物以磷钇矿和独居石为主，与磷灰石共生。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "name": "越南稀土矿",
+        "mineral_type": "稀土",
+        "country": "越南",
+        "country_id": "704",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 2200 万吨 (稀土氧化物)",
+        "grade": "稀土氧化物品位 1-5%",
+        "discovery_year": "1958",
+        "operator": "越南稀土公司 (VTRE)",
+        "description": "越南拥有全球第二大稀土储量，分布在西北部莱州省和永福省，目前大部分资源尚未进入工业开发。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          0.5
+        ]
+      },
+      "properties": {
+        "name": "苏拉威西镍矿",
+        "mineral_type": "镍矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 2000 万吨 (镍金属量)",
+        "annual_production": "年产 50 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.5%",
+        "discovery_year": "1900",
+        "operator": "淡水河谷印尼 (PT Vale Indonesia) / 青山控股 / 中国华友钴业",
+        "description": "全球最大的红土镍矿产区之一，位于印尼苏拉威西岛，以大规模镍铁和湿法冶炼产能著称，驱动全球镍供应格局变化。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5,
+          -1.5
+        ]
+      },
+      "properties": {
+        "name": "哈马黑拉镍矿",
+        "mineral_type": "镍矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1500 万吨 (镍金属量)",
+        "annual_production": "年产 20 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.3%",
+        "discovery_year": "1996",
+        "operator": "力勤资源 (Lygend Mining) / 华科镍业",
+        "description": "印尼马鲁古群岛的新兴红土镍矿开发区，以大规模高压酸浸 (HPAL) 技术生产电池级镍产品。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5,
+          8.0
+        ]
+      },
+      "properties": {
+        "name": "苏里高镍矿",
+        "mineral_type": "镍矿",
+        "country": "菲律宾",
+        "country_id": "608",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (镍金属量)",
+        "annual_production": "年产 25 万吨 (镍矿石)",
+        "grade": "矿石品位 Ni 1.0%",
+        "discovery_year": "1920",
+        "operator": "尼克尔亚洲 (Nickel Asia) / 全球镍矿 (Global Ferronickel)",
+        "description": "菲律宾最大的镍矿区，位于棉兰老岛苏里高地区，以直运镍矿石 (DSO) 出口中国和日本为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.5,
+          -21.5
+        ]
+      },
+      "properties": {
+        "name": "新喀里多尼亚镍矿",
+        "mineral_type": "镍矿",
+        "country": "法国",
+        "country_id": "250",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 700 万吨 (镍金属量)",
+        "annual_production": "年产 20 万吨 (镍矿石)",
+        "grade": "矿石品位 Ni 2.5%",
+        "discovery_year": "1864",
+        "operator": "法国埃赫曼 (Eramet) / 普罗尼资源 (Prony Resources)",
+        "description": "南太平洋最大的镍矿区，位于法属新喀里多尼亚岛，以高品位腐泥土型镍矿著称，镍资源储量世界前列。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5,
+          61.5
+        ]
+      },
+      "properties": {
+        "name": "诺里尔斯克镍矿",
+        "mineral_type": "镍矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 700 万吨 (镍金属量)",
+        "annual_production": "年产 20 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.8%",
+        "discovery_year": "1920",
+        "operator": "诺里尔斯克镍业 (Nornickel)",
+        "description": "全球最大的硫化物型镍矿，位于西伯利亚北极圈内，是世界最大的精炼镍和钯的生产商。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2,
+          69.3
+        ]
+      },
+      "properties": {
+        "name": "泰梅尔镍矿",
+        "mineral_type": "镍矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (镍金属量)",
+        "annual_production": "年产 5 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.5%",
+        "discovery_year": "1930",
+        "operator": "诺里尔斯克镍业 (Nornickel)",
+        "description": "诺里尔斯克矿业综合体的扩展区域，位于泰梅尔半岛，以铜镍硫化物矿床为主，伴生铂族金属。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0,
+          48.5
+        ]
+      },
+      "properties": {
+        "name": "萨德伯里镍矿",
+        "mineral_type": "镍矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1000 万吨 (镍金属量)",
+        "annual_production": "年产 10 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.2%",
+        "discovery_year": "1883",
+        "operator": "淡水河谷 (Vale) / 嘉能可 (Glencore)",
+        "description": "世界最著名的陨石撞击成因镍矿，位于加拿大安大略省，以大型岩浆型铜镍硫化物矿床闻名，已开采超过 130 年。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.0,
+          -19.5
+        ]
+      },
+      "properties": {
+        "name": "穆林穆林镍矿",
+        "mineral_type": "镍矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 350 万吨 (镍金属量)",
+        "annual_production": "年产 3 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.5%",
+        "discovery_year": "1955",
+        "operator": "必和必拓 (BHP) / 南32 (South32)",
+        "description": "澳大利亚北领地的红土镍矿，以高品位腐泥土型矿石为特征，配套建有湿法冶炼厂。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0,
+          9.0
+        ]
+      },
+      "properties": {
+        "name": "塞罗马托索镍矿",
+        "mineral_type": "镍矿",
+        "country": "哥伦比亚",
+        "country_id": "170",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (镍金属量)",
+        "annual_production": "年产 4 万吨 (镍铁)",
+        "grade": "矿石品位 Ni 1.8%",
+        "discovery_year": "1956",
+        "operator": "南32 (South32)",
+        "description": "南美最大的红土镍矿，位于哥伦比亚科尔多瓦省，采用火法冶炼生产镍铁产品。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "name": "莫亚镍矿",
+        "mineral_type": "镍矿",
+        "country": "古巴",
+        "country_id": "192",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 300 万吨 (镍金属量)",
+        "annual_production": "年产 3 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.3%",
+        "discovery_year": "1942",
+        "operator": "谢里特国际 (Sherritt International) / 古巴国营矿业",
+        "description": "古巴最大的红土镍矿区，位于奥尔金省莫亚地区，以酸浸法生产混合硫化物和烧结氧化镍。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0,
+          25.0
+        ]
+      },
+      "properties": {
+        "name": "金川镍矿",
+        "mineral_type": "镍矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (镍金属量)",
+        "annual_production": "年产 13 万吨 (镍)",
+        "grade": "矿石品位 Ni 1.1%",
+        "discovery_year": "1958",
+        "operator": "金川集团",
+        "description": "中国最大的镍矿，位于甘肃省金昌市，以岩浆熔离型铜镍硫化物矿床为主，伴生铂族金属和钴。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          -25.5
+        ]
+      },
+      "properties": {
+        "name": "卡拉哈里锰矿",
+        "mineral_type": "锰矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 40 亿吨",
+        "annual_production": "年产 1600 万吨",
+        "grade": "品位 Mn 38-50%",
+        "discovery_year": "1930",
+        "operator": "南32 (South32) / 联合锰矿 (UMK)",
+        "description": "全球最大的锰矿区，位于南非北开普省卡拉哈里盆地，锰矿资源量约占全球 70%，以高品位氧化锰矿著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5,
+          -1.5
+        ]
+      },
+      "properties": {
+        "name": "莫安达锰矿",
+        "mineral_type": "锰矿",
+        "country": "加蓬",
+        "country_id": "266",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 亿吨",
+        "annual_production": "年产 800 万吨",
+        "grade": "品位 Mn 48-52%",
+        "discovery_year": "1953",
+        "operator": "法国埃赫曼 (Eramet / Comilog)",
+        "description": "全球第二大锰矿，位于加蓬东南部热带雨林中，以高品位二氧化锰矿石闻名，是全球冶金锰矿的重要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.0,
+          -22.3
+        ]
+      },
+      "properties": {
+        "name": "格鲁特岛锰矿",
+        "mineral_type": "锰矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 亿吨",
+        "annual_production": "年产 600 万吨",
+        "grade": "品位 Mn 46%",
+        "discovery_year": "1960",
+        "operator": "南32 (South32 / GEMCO)",
+        "description": "澳大利亚最大的锰矿，位于北领地卡奔塔利亚湾格鲁特岛上，以高品位氧化锰矿露天开采为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          43.5
+        ]
+      },
+      "properties": {
+        "name": "奇阿图拉锰矿",
+        "mineral_type": "锰矿",
+        "country": "格鲁吉亚",
+        "country_id": "268",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 亿吨",
+        "annual_production": "年产 200 万吨",
+        "grade": "品位 Mn 25-30%",
+        "discovery_year": "1879",
+        "operator": "格鲁吉亚锰业公司 (Georgian Manganese)",
+        "description": "格鲁吉亚最重要的矿产资源，位于高加索山脉南麓，19 世纪末曾占全球锰产量的一半以上。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.0,
+          -6.0
+        ]
+      },
+      "properties": {
+        "name": "卡拉雅斯锰矿",
+        "mineral_type": "锰矿",
+        "country": "巴西",
+        "country_id": "076",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 3 亿吨",
+        "annual_production": "年产 400 万吨",
+        "grade": "品位 Mn 40-46%",
+        "discovery_year": "1967",
+        "operator": "淡水河谷 (Vale)",
+        "description": "巴西最大的锰矿区，位于帕拉州卡拉加斯矿区内，与铁矿毗邻，以高品位氧化锰矿和碳酸锰矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3,
+          22.5
+        ]
+      },
+      "properties": {
+        "name": "广西大新锰矿",
+        "mineral_type": "锰矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 亿吨",
+        "annual_production": "年产 300 万吨",
+        "grade": "品位 Mn 20-30%",
+        "discovery_year": "1958",
+        "operator": "中信大锰 / 广西大新锰矿",
+        "description": "中国最大的锰矿产区，位于广西壮族自治区大新县，以沉积型碳酸锰矿为主，是国内电解锰原料的主要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0,
+          22.0
+        ]
+      },
+      "properties": {
+        "name": "印度锰矿带",
+        "mineral_type": "锰矿",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 4 亿吨",
+        "annual_production": "年产 300 万吨",
+        "grade": "品位 Mn 30-45%",
+        "discovery_year": "1860",
+        "operator": "印度锰矿公司 (MOIL) / 塔塔钢铁 (Tata Steel)",
+        "description": "印度中部和南部的锰矿集中区，主要分布在马哈拉施特拉邦和中央邦，以氧化锰矿和碳酸锰矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.0,
+          9.0
+        ]
+      },
+      "properties": {
+        "name": "尼基托波尔锰矿",
+        "mineral_type": "锰矿",
+        "country": "乌克兰",
+        "country_id": "804",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 亿吨",
+        "annual_production": "年产 200 万吨",
+        "grade": "品位 Mn 22-28%",
+        "discovery_year": "1883",
+        "operator": "乌克兰国有锰矿企业",
+        "description": "世界级特大型沉积锰矿床，位于乌克兰南部第聂伯河流域，以巨厚的氧化锰和碳酸锰矿层著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0,
+          -2.0
+        ]
+      },
+      "properties": {
+        "name": "邦加锡矿",
+        "mineral_type": "锡矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 80 万吨 (锡金属量)",
+        "annual_production": "年产 3 万吨 (锡)",
+        "grade": "砂矿品位 Sn 0.5 kg/m³",
+        "discovery_year": "1710",
+        "operator": "印尼国营锡业公司 (PT Timah)",
+        "description": "全球最重要的锡矿产区之一，位于印尼邦加岛，以冲积型砂锡矿和近海采锡为主，有 300 年开采历史。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0,
+          -3.5
+        ]
+      },
+      "properties": {
+        "name": "勿里洞锡矿",
+        "mineral_type": "锡矿",
+        "country": "印度尼西亚",
+        "country_id": "360",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 万吨 (锡金属量)",
+        "annual_production": "年产 1 万吨 (锡)",
+        "grade": "砂矿品位 Sn 0.3 kg/m³",
+        "discovery_year": "1851",
+        "operator": "印尼国营锡业公司 (PT Timah) / 私营采矿公司",
+        "description": "印尼第二大锡矿岛屿，位于邦加岛南面，以海洋砂锡采矿和小型陆上矿山为主要开采形式。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0,
+          5.3
+        ]
+      },
+      "properties": {
+        "name": "马来西亚锡矿带",
+        "mineral_type": "锡矿",
+        "country": "马来西亚",
+        "country_id": "458",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 25 万吨 (锡金属量)",
+        "annual_production": "年产 3000 吨 (锡)",
+        "grade": "砂矿品位 Sn 0.4 kg/m³",
+        "discovery_year": "1820",
+        "operator": "马来西亚矿业公司 (MSC)",
+        "description": "东南亚锡矿带的核心区域，主要分布在马来半岛西海岸，19-20 世纪曾是全球最大的锡生产国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0,
+          19.0
+        ]
+      },
+      "properties": {
+        "name": "泰国锡矿",
+        "mineral_type": "锡矿",
+        "country": "泰国",
+        "country_id": "764",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 万吨 (锡金属量)",
+        "annual_production": "年产 1000 吨 (锡)",
+        "grade": "砂矿品位 Sn 0.3 kg/m³",
+        "discovery_year": "1850",
+        "operator": "泰国矿业企业",
+        "description": "东南亚锡矿带的北延部分，分布在泰国南部和缅甸边境地区，以冲积砂锡和原生锡矿脉为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.5,
+          16.0
+        ]
+      },
+      "properties": {
+        "name": "缅甸锡矿",
+        "mineral_type": "锡矿",
+        "country": "缅甸",
+        "country_id": "104",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 万吨 (锡金属量)",
+        "annual_production": "年产 3 万吨 (锡)",
+        "grade": "品位 Sn 1-5%",
+        "discovery_year": "1880",
+        "operator": "缅甸私营采矿公司",
+        "description": "近年来快速增长的锡矿生产区，主要位于掸邦佤族地区，以原生锡石矿脉开采为主，产量已跃居全球前三。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5,
+          -18.5
+        ]
+      },
+      "properties": {
+        "name": "波托西锡矿",
+        "mineral_type": "锡矿",
+        "country": "玻利维亚",
+        "country_id": "068",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 万吨 (锡金属量)",
+        "annual_production": "年产 1.5 万吨 (锡)",
+        "grade": "品位 Sn 1.5%",
+        "discovery_year": "1545",
+        "operator": "玻利维亚国营矿业 (Comibol) / 合作社矿工",
+        "description": "历史上最著名的银锡矿之一，位于玻利维亚安第斯山脉海拔 4090 米的富山，16 世纪起以银矿闻名，后转为锡矿开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.5,
+          24.0
+        ]
+      },
+      "properties": {
+        "name": "广西大厂锡矿",
+        "mineral_type": "锡矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 万吨 (锡金属量)",
+        "annual_production": "年产 1 万吨 (锡)",
+        "grade": "品位 Sn 1-3%",
+        "discovery_year": "1919",
+        "operator": "华锡集团",
+        "description": "中国最大的锡多金属矿区之一，位于广西壮族自治区南丹县，以复杂的锡铅锌铜多金属矿体著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5,
+          23.4
+        ]
+      },
+      "properties": {
+        "name": "个旧锡矿",
+        "mineral_type": "锡矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 万吨 (锡金属量)",
+        "annual_production": "年产 3 万吨 (锡)",
+        "grade": "品位 Sn 0.5-2%",
+        "discovery_year": "1884",
+        "operator": "云南锡业集团",
+        "description": "中国\"锡都\"，位于云南省个旧市，开采历史超过 2000 年，以大型花岗岩类锡多金属矿床闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0,
+          -11.0
+        ]
+      },
+      "properties": {
+        "name": "加丹加铜钴矿带",
+        "mineral_type": "钴矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 350 万吨 (钴金属量)",
+        "annual_production": "年产 10 万吨 (钴)",
+        "grade": "品位 Co 0.3-0.5%",
+        "discovery_year": "1892",
+        "operator": "嘉能可 (Glencore) / 中国钼业 / 中国有色矿业集团",
+        "description": "全球最大的钴矿集中区，位于刚果(金)加丹加省，钴产量占全球 70% 以上，是电动汽车电池产业链的关键矿源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          -10.5
+        ]
+      },
+      "properties": {
+        "name": "科卢韦齐钴矿",
+        "mineral_type": "钴矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (钴金属量)",
+        "annual_production": "年产 4 万吨 (钴)",
+        "grade": "品位 Co 0.4%",
+        "discovery_year": "1937",
+        "operator": "洛阳钼业 (CMOC / Tenke Fungurume 矿) / 嘉能可 (Glencore)",
+        "description": "刚果(金)铜钴矿带的核心矿区之一，以世界级的铜钴矿床闻名，近年来中国企业大量投资开发。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          -12.0
+        ]
+      },
+      "properties": {
+        "name": "赞比亚铜钴矿",
+        "mineral_type": "钴矿",
+        "country": "赞比亚",
+        "country_id": "894",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 万吨 (钴金属量)",
+        "annual_production": "年产 5000 吨 (钴)",
+        "grade": "品位 Co 0.1%",
+        "discovery_year": "1928",
+        "operator": "第一量子 (FQM) / 嘉能可 (Glencore)",
+        "description": "与赞比亚铜矿带共生的钴资源，钴作为铜矿的伴生元素回收，是全球第二大钴来源国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0,
+          -31.0
+        ]
+      },
+      "properties": {
+        "name": "奥林匹克坝钴矿",
+        "mineral_type": "钴矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 万吨 (钴金属量)",
+        "annual_production": "年产 3000 吨 (钴)",
+        "grade": "品位 Co 0.02%",
+        "discovery_year": "1975",
+        "operator": "必和必拓 (BHP)",
+        "description": "澳大利亚最大的钴资源，作为奥林匹克坝铜铀金银多金属矿的伴生元素回收，品位低但总量大。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5,
+          7.5
+        ]
+      },
+      "properties": {
+        "name": "哥伦比亚钴矿",
+        "mineral_type": "钴矿",
+        "country": "哥伦比亚",
+        "country_id": "170",
+        "reserve_level": "中型",
+        "status": "勘探中",
+        "reserves": "探明储量 5 万吨 (钴金属量)",
+        "grade": "品位 Co 0.1%",
+        "discovery_year": "2005",
+        "description": "哥伦比亚境内与镍矿共生的钴资源，主要分布在科尔多瓦省塞罗马托索地区，尚处于评估和勘探阶段。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0,
+          8.5
+        ]
+      },
+      "properties": {
+        "name": "菲律宾镍钴矿",
+        "mineral_type": "钴矿",
+        "country": "菲律宾",
+        "country_id": "608",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 万吨 (钴金属量)",
+        "annual_production": "年产 5000 吨 (钴)",
+        "grade": "品位 Co 0.05-0.1%",
+        "discovery_year": "1950",
+        "operator": "尼克尔亚洲 (Nickel Asia) / 住友金属",
+        "description": "菲律宾红土镍矿的伴生钴资源，分布在棉兰老岛和巴拉望岛，通过湿法冶炼回收钴产品。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.0,
+          69.0
+        ]
+      },
+      "properties": {
+        "name": "诺里尔斯克钴矿",
+        "mineral_type": "钴矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 万吨 (钴金属量)",
+        "annual_production": "年产 6000 吨 (钴)",
+        "grade": "品位 Co 0.1%",
+        "discovery_year": "1920",
+        "operator": "诺里尔斯克镍业 (Nornickel)",
+        "description": "俄罗斯最大的钴来源，作为诺里尔斯克铜镍矿的伴生元素回收，是全球第三大精炼钴生产商。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3,
+          25.8
+        ]
+      },
+      "properties": {
+        "name": "赣南钨矿",
+        "mineral_type": "钨矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 万吨 (WO₃)",
+        "annual_production": "年产 2 万吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.3-1.5%",
+        "discovery_year": "1907",
+        "operator": "五矿稀土 / 赣州钨业",
+        "description": "\"世界钨都\"，位于江西省南部，以石英脉型黑钨矿著称，钨矿开采历史超过百年，资源储量居世界之首。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0,
+          25.3
+        ]
+      },
+      "properties": {
+        "name": "行洛坑钨矿",
+        "mineral_type": "钨矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 万吨 (WO₃)",
+        "annual_production": "年产 1 万吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.2%",
+        "discovery_year": "1969",
+        "operator": "厦门钨业集团",
+        "description": "中国最大的单体白钨矿，位于福建省宁化县，以大型矽卡岩型白钨矿床闻名，品位低但总量巨大。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.5,
+          25.5
+        ]
+      },
+      "properties": {
+        "name": "湖南柿竹园钨矿",
+        "mineral_type": "钨矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 50 万吨 (WO₃)",
+        "annual_production": "年产 8000 吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.3%",
+        "discovery_year": "1959",
+        "operator": "中国五矿集团",
+        "description": "世界上矿物种类最多的矿床之一，位于湖南省郴州市，含钨锡钼铋等多金属，被誉为\"世界有色金属博物馆\"。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.0,
+          69.5
+        ]
+      },
+      "properties": {
+        "name": "俄罗斯钨矿",
+        "mineral_type": "钨矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 40 万吨 (WO₃)",
+        "annual_production": "年产 2500 吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.3-0.8%",
+        "discovery_year": "1930",
+        "operator": "俄罗斯钨业公司",
+        "description": "俄罗斯钨矿资源分布在北高加索和远东地区，以矽卡岩型和石英脉型矿床为主，是全球重要的钨供应来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0,
+          40.0
+        ]
+      },
+      "properties": {
+        "name": "西班牙钨矿",
+        "mineral_type": "钨矿",
+        "country": "西班牙",
+        "country_id": "724",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 万吨 (WO₃)",
+        "annual_production": "年产 1000 吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.5%",
+        "discovery_year": "1910",
+        "operator": "Almonty Industries",
+        "description": "欧洲最重要的钨矿资源之一，主要分布在西部和西北部地区，以石英脉型黑钨矿和锡钨共生矿为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5,
+          50.5
+        ]
+      },
+      "properties": {
+        "name": "赫默登钨矿",
+        "mineral_type": "钨矿",
+        "country": "英国",
+        "country_id": "826",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 4 万吨 (WO₃)",
+        "annual_production": "年产 1500 吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.4%",
+        "discovery_year": "1867",
+        "operator": "钨业西方公司 (Tungsten West)",
+        "description": "英国唯一的钨矿，位于英格兰德文郡，以石英脉型黑钨矿为主，是欧洲保障钨资源安全的战略矿山。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          17.8
+        ]
+      },
+      "properties": {
+        "name": "越南钨矿",
+        "mineral_type": "钨矿",
+        "country": "越南",
+        "country_id": "704",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 万吨 (WO₃)",
+        "annual_production": "年产 4000 吨 (钨精矿)",
+        "grade": "品位 WO₃ 0.5%",
+        "discovery_year": "1930",
+        "operator": "越南矿业集团",
+        "description": "越南北部和中部地区的钨矿资源，以石英脉型和矽卡岩型矿床为主，是东南亚主要的钨供应国。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.5,
+          -31.5
+        ]
+      },
+      "properties": {
+        "name": "布罗肯希尔锌矿",
+        "mineral_type": "锌矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 2000 万吨 (锌金属量)",
+        "annual_production": "年产 10 万吨 (锌)",
+        "grade": "品位 Zn 8-12%",
+        "discovery_year": "1883",
+        "operator": "格兰内 (Glencore) / 必和必拓 (BHP) / 佩里利亚矿业 (Perilya)",
+        "description": "澳大利亚最著名的铅锌矿，位于新南威尔士州远西部，以世界级高品位条带状铅锌矿体闻名，催生了必和必拓和力拓公司。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0,
+          -20.5
+        ]
+      },
+      "properties": {
+        "name": "坎宁顿锌矿",
+        "mineral_type": "锌矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (锌铅银金属量)",
+        "annual_production": "年产 8 万吨 (锌)",
+        "grade": "品位 Zn 5% / Pb 6% / Ag 200 g/t",
+        "discovery_year": "1990",
+        "operator": "南32 (South32)",
+        "description": "世界上品位最高的铅锌银矿之一，位于昆士兰州西北部，以富含银的铅锌矿体著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5,
+          -10.0
+        ]
+      },
+      "properties": {
+        "name": "塞罗德帕斯科锌矿",
+        "mineral_type": "锌矿",
+        "country": "秘鲁",
+        "country_id": "604",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1000 万吨 (锌金属量)",
+        "annual_production": "年产 15 万吨 (锌)",
+        "grade": "品位 Zn 7%",
+        "discovery_year": "1630",
+        "operator": "沃尔坎矿业 (Volcan Compania Minera / 嘉能可子公司)",
+        "description": "秘鲁中部安第斯高原上的大型多金属矿区，海拔 4300 米，以铅锌银铜多金属矿体闻名，有近 400 年采矿历史。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5,
+          27.5
+        ]
+      },
+      "properties": {
+        "name": "兰坪锌铅矿",
+        "mineral_type": "锌矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1500 万吨 (锌铅金属量)",
+        "annual_production": "年产 10 万吨 (锌)",
+        "grade": "品位 Zn 4-8%",
+        "discovery_year": "1984",
+        "operator": "云南金鼎锌业",
+        "description": "中国最大的铅锌矿之一，位于云南省兰坪县，以沉积-构造型巨型铅锌矿床闻名，伴生铊等稀有金属。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          53.0
+        ]
+      },
+      "properties": {
+        "name": "塔拉锌矿",
+        "mineral_type": "锌矿",
+        "country": "爱尔兰",
+        "country_id": "372",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (锌金属量)",
+        "annual_production": "年产 8 万吨 (锌)",
+        "grade": "品位 Zn 8%",
+        "discovery_year": "1970",
+        "operator": "Boliden 集团",
+        "description": "欧洲最大的锌矿之一，位于爱尔兰米斯郡，以密西西比河谷型 (MVT) 碳酸盐岩赋存的锌铅矿体闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0,
+          23.5
+        ]
+      },
+      "properties": {
+        "name": "拉贾斯坦锌矿",
+        "mineral_type": "锌矿",
+        "country": "印度",
+        "country_id": "356",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 800 万吨 (锌金属量)",
+        "annual_production": "年产 100 万吨 (锌矿石)",
+        "grade": "品位 Zn 12-15%",
+        "discovery_year": "1977",
+        "operator": "印度斯坦锌业 (Hindustan Zinc / 韦丹塔集团)",
+        "description": "印度最大且品位最高的锌矿，位于拉贾斯坦邦拉杰普拉地区，以高品位热液交代型锌铅矿体闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.0,
+          24.5
+        ]
+      },
+      "properties": {
+        "name": "墨西哥锌矿",
+        "mineral_type": "锌矿",
+        "country": "墨西哥",
+        "country_id": "484",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 万吨 (锌金属量)",
+        "annual_production": "年产 60 万吨 (锌矿石)",
+        "grade": "品位 Zn 5-10%",
+        "discovery_year": "1880",
+        "operator": "Industrias Penoles / Grupo Mexico",
+        "description": "墨西哥中部和北部的多个锌铅银矿区，以矽卡岩型和碳酸盐岩赋存型矿床为主，产量居拉美前列。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0,
+          54.5
+        ]
+      },
+      "properties": {
+        "name": "红狗锌矿",
+        "mineral_type": "锌矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 2500 万吨 (锌金属量)",
+        "annual_production": "年产 55 万吨 (锌精矿)",
+        "grade": "品位 Zn 17%",
+        "discovery_year": "1968",
+        "operator": "泰克资源 (Teck Resources)",
+        "description": "世界最大的锌矿之一，位于加拿大(应为美国阿拉斯加)北极地区，以超高品位的沉积喷流型锌铅矿体著称。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.0,
+          39.5
+        ]
+      },
+      "properties": {
+        "name": "哈萨克斯坦锌矿",
+        "mineral_type": "锌矿",
+        "country": "哈萨克斯坦",
+        "country_id": "398",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 400 万吨 (锌金属量)",
+        "annual_production": "年产 30 万吨 (锌矿石)",
+        "grade": "品位 Zn 5-8%",
+        "discovery_year": "1930",
+        "operator": "哈萨克锌业 (Kazzinc / 嘉能可子公司)",
+        "description": "哈萨克斯坦中部和东部的锌铅矿集中区，以火山成因块状硫化物型矿床为主，嘉能可旗下公司主导开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.5,
+          -25.5
+        ]
+      },
+      "properties": {
+        "name": "奥林匹克坝铀矿",
+        "mineral_type": "铀矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 200 万吨 (U₃O₈)",
+        "annual_production": "年产 3500 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.04%",
+        "discovery_year": "1975",
+        "operator": "必和必拓 (BHP)",
+        "description": "全球最大的铀矿资源量所在地，位于南澳大利亚州，铀作为铜矿的伴生产品回收，品位低但总储量巨大。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.0,
+          55.5
+        ]
+      },
+      "properties": {
+        "name": "阿萨巴斯卡铀矿",
+        "mineral_type": "铀矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 万吨 (U₃O₈)",
+        "annual_production": "年产 7000 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 15-20%",
+        "discovery_year": "1968",
+        "operator": "卡梅科 (Cameco) / 奥拉诺 (Orano)",
+        "description": "全球品位最高的铀矿区，位于加拿大萨斯喀彻温省北部，麦克阿瑟河矿床品位高达 20%，是全球铀供应的核心。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.5,
+          41.5
+        ]
+      },
+      "properties": {
+        "name": "纳沃伊铀矿",
+        "mineral_type": "铀矿",
+        "country": "乌兹别克斯坦",
+        "country_id": "860",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 13 万吨 (U₃O₈)",
+        "annual_production": "年产 3500 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.05%",
+        "discovery_year": "1958",
+        "operator": "纳沃伊矿冶联合体 (NMMC)",
+        "description": "乌兹别克斯坦最大的铀矿区，位于克孜勒库姆沙漠中，采用地浸法 (ISR) 开采砂岩型铀矿。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.0,
+          48.5
+        ]
+      },
+      "properties": {
+        "name": "哈萨克斯坦铀矿",
+        "mineral_type": "铀矿",
+        "country": "哈萨克斯坦",
+        "country_id": "398",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 90 万吨 (U₃O₈)",
+        "annual_production": "年产 2.2 万吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.05-0.1%",
+        "discovery_year": "1950",
+        "operator": "哈萨克斯坦国家原子能公司 (Kazatomprom)",
+        "description": "全球最大的铀生产国，占全球铀产量约 43%，以地浸法大规模开采砂岩型铀矿著称，成本全球最低。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          17.5
+        ]
+      },
+      "properties": {
+        "name": "阿尔利特铀矿",
+        "mineral_type": "铀矿",
+        "country": "尼日尔",
+        "country_id": "562",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 万吨 (U₃O₈)",
+        "annual_production": "年产 3000 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.3%",
+        "discovery_year": "1957",
+        "operator": "奥拉诺 (Orano / 原阿海珐 Areva)",
+        "description": "非洲最重要的铀矿之一，位于尼日尔北部撒哈拉沙漠边缘，以砂岩型铀矿闻名，法国是主要合作方。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5,
+          -22.5
+        ]
+      },
+      "properties": {
+        "name": "罗辛铀矿",
+        "mineral_type": "铀矿",
+        "country": "纳米比亚",
+        "country_id": "516",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 万吨 (U₃O₈)",
+        "annual_production": "年产 2500 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.03%",
+        "discovery_year": "1928",
+        "operator": "中广核矿业 (CGN Mining / 力拓前股东)",
+        "description": "世界上最大的露天铀矿之一，位于纳米比亚西部纳米布沙漠边缘，以白岗岩赋存型铀矿闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          -26.5
+        ]
+      },
+      "properties": {
+        "name": "南非铀矿",
+        "mineral_type": "铀矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 万吨 (U₃O₈)",
+        "annual_production": "年产 400 吨 (U₃O₈)",
+        "grade": "品位 U₃O₈ 0.02%",
+        "discovery_year": "1923",
+        "operator": "南非矿业公司 / 西巴涅 (Sibanye-Stillwater)",
+        "description": "南非的铀矿主要作为威特沃特斯兰德金矿的伴生产品回收，品位极低但历史累计产量可观。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5,
+          -24.5
+        ]
+      },
+      "properties": {
+        "name": "奥拉帕钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "博茨瓦纳",
+        "country_id": "072",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 8000 万克拉",
+        "annual_production": "年产 300 万克拉",
+        "grade": "品位 60 克拉/百吨",
+        "discovery_year": "1967",
+        "operator": "德比尔斯 (De Beers) / 博茨瓦纳政府 (Debswana 合资)",
+        "description": "非洲最富裕的金伯利岩筒钻石矿之一，位于博茨瓦纳东部，以高品质宝石级钻石著称，支撑该国经济发展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3,
+          -21.3
+        ]
+      },
+      "properties": {
+        "name": "杰万嫩钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "博茨瓦纳",
+        "country_id": "072",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1.3 亿克拉",
+        "annual_production": "年产 1200 万克拉",
+        "grade": "品位 120 克拉/百吨",
+        "discovery_year": "1971",
+        "operator": "德比尔斯 (De Beers / Debswana 合资)",
+        "description": "全球产值最大的钻石矿，位于博茨瓦纳东北部，以产出大量高品质宝石级钻石闻名，贡献了博茨瓦纳 GDP 的重要份额。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0,
+          62.0
+        ]
+      },
+      "properties": {
+        "name": "雅库特钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 亿克拉",
+        "annual_production": "年产 3000 万克拉",
+        "grade": "品位 40-80 克拉/百吨",
+        "discovery_year": "1954",
+        "operator": "埃罗莎 (ALROSA)",
+        "description": "全球最大的钻石矿区，位于俄罗斯萨哈共和国永久冻土带，包括和平号、奇迹号等多个著名金伯利岩筒。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          65.0
+        ]
+      },
+      "properties": {
+        "name": "阿尔汉格尔斯克钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2 亿克拉",
+        "annual_production": "年产 500 万克拉",
+        "grade": "品位 50 克拉/百吨",
+        "discovery_year": "1980",
+        "operator": "埃罗莎 (ALROSA)",
+        "description": "俄罗斯欧洲部分的重要钻石产区，位于阿尔汉格尔斯克州，以洛蒙诺索夫金伯利岩筒群为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5,
+          -26.0
+        ]
+      },
+      "properties": {
+        "name": "金伯利钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "大型",
+        "status": "已关闭",
+        "reserves": "探明储量 已采尽 (历史累计产出约 3000 万克拉)",
+        "grade": "历史品位约 30 克拉/百吨",
+        "discovery_year": "1871",
+        "operator": "德比尔斯 (De Beers / 已关闭)",
+        "description": "\"大洞\"矿——人类历史上最著名的钻石矿，位于南非金伯利市，金伯利岩即以此地命名，1914 年关闭。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          -5.0
+        ]
+      },
+      "properties": {
+        "name": "刚果钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "刚果(金)",
+        "country_id": "180",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1.5 亿克拉",
+        "annual_production": "年产 1500 万克拉",
+        "grade": "品位较低，以工业级钻石为主",
+        "discovery_year": "1907",
+        "operator": "刚果国营矿业公司 (MIBA) / 手工采矿者",
+        "description": "非洲最大的钻石产量国之一 (按数量)，以冲积砂矿型钻石开采为主，大部分为工业级钻石。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0,
+          -8.5
+        ]
+      },
+      "properties": {
+        "name": "安哥拉钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "安哥拉",
+        "country_id": "024",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1 亿克拉",
+        "annual_production": "年产 900 万克拉",
+        "grade": "品位 40 克拉/百吨",
+        "discovery_year": "1912",
+        "operator": "安哥拉国营钻石公司 (Endiama) / 卡图卡矿业 (Catoca)",
+        "description": "非洲第四大钻石生产国，以高品质宝石级钻石著称，卡图卡矿是世界第四大金伯利岩筒钻石矿。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0,
+          64.8
+        ]
+      },
+      "properties": {
+        "name": "戴维克钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 3000 万克拉",
+        "annual_production": "年产 400 万克拉",
+        "grade": "品位 300 克拉/百吨",
+        "discovery_year": "1991",
+        "operator": "力拓 (Rio Tinto / Diavik 合资)",
+        "description": "加拿大北极地区的高品质钻石矿，位于西北地区冻原湖中的小岛上，以高品位和大比例宝石级钻石闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.0,
+          -14.5
+        ]
+      },
+      "properties": {
+        "name": "阿盖尔钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "澳大利亚",
+        "country_id": "036",
+        "reserve_level": "大型",
+        "status": "已关闭",
+        "reserves": "探明储量 已采尽 (历史累计产出超 8 亿克拉)",
+        "grade": "品位极高 (600 克拉/百吨)",
+        "discovery_year": "1979",
+        "operator": "力拓 (Rio Tinto / 2020年关闭)",
+        "description": "曾为全球产量最大的钻石矿，位于西澳大利亚州金伯利地区，以产出稀有的粉钻和红钻闻名于世，2020 年关闭。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.0,
+          7.5
+        ]
+      },
+      "properties": {
+        "name": "塞拉利昂钻石矿",
+        "mineral_type": "钻石矿",
+        "country": "塞拉利昂",
+        "country_id": "694",
+        "reserve_level": "中型",
+        "status": "开采中",
+        "reserves": "探明储量 3000 万克拉",
+        "annual_production": "年产 50 万克拉",
+        "grade": "品位不定，以冲积砂矿为主",
+        "discovery_year": "1930",
+        "operator": "科度公司 (Koidu Holdings) / 手工采矿者",
+        "description": "西非重要的钻石产区，以冲积型砂矿和金伯利岩筒为主，曾因\"血钻\"问题引发国际关注。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8,
+          -25.8
+        ]
+      },
+      "properties": {
+        "name": "布什维尔德铂矿",
+        "mineral_type": "铂族金属",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 6.3 万吨 (铂族金属)",
+        "annual_production": "年产 130 吨 (铂)",
+        "grade": "品位 PGM 4-7 g/t",
+        "discovery_year": "1924",
+        "operator": "英美铂业 (Anglo American Platinum) / 英帕拉铂业 (Impala Platinum)",
+        "description": "全球最大的铂族金属矿区，位于南非布什维尔德层状杂岩体中，铂族金属资源量占全球 75% 以上。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0,
+          -25.0
+        ]
+      },
+      "properties": {
+        "name": "英帕拉铂矿",
+        "mineral_type": "铂族金属",
+        "country": "南非",
+        "country_id": "710",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1.5 万吨 (铂族金属)",
+        "annual_production": "年产 60 吨 (铂)",
+        "grade": "品位 PGM 5 g/t",
+        "discovery_year": "1924",
+        "operator": "英帕拉铂业 (Impala Platinum / Implats)",
+        "description": "布什维尔德层状杂岩体内的主力铂矿，位于南非西北省，以稳定的梅伦斯基礁和 UG2 铬铁矿含铂层开采。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.5,
+          69.5
+        ]
+      },
+      "properties": {
+        "name": "诺里尔斯克铂钯矿",
+        "mineral_type": "铂族金属",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 1 万吨 (铂族金属)",
+        "annual_production": "年产 100 吨 (钯) / 20 吨 (铂)",
+        "grade": "品位 PGM 6-10 g/t",
+        "discovery_year": "1920",
+        "operator": "诺里尔斯克镍业 (Nornickel)",
+        "description": "全球最大的钯金属来源，位于西伯利亚北极圈内，铂族金属作为镍铜矿的伴生产品回收，钯产量占全球约 40%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0,
+          -15.5
+        ]
+      },
+      "properties": {
+        "name": "津巴布韦大岩墙铂矿",
+        "mineral_type": "铂族金属",
+        "country": "津巴布韦",
+        "country_id": "716",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1.3 万吨 (铂族金属)",
+        "annual_production": "年产 15 吨 (铂族金属)",
+        "grade": "品位 PGM 3-4 g/t",
+        "discovery_year": "1918",
+        "operator": "英美铂业 (Anglo American Platinum / Unki 矿) / 英帕拉 (Zimplats) / 中资企业",
+        "description": "世界第二大铂族金属储量所在地，位于津巴布韦中部大岩墙层状杂岩体中，资源潜力巨大但开发程度较低。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5,
+          46.5
+        ]
+      },
+      "properties": {
+        "name": "萨德伯里铂钯矿",
+        "mineral_type": "铂族金属",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 2000 吨 (铂族金属)",
+        "annual_production": "年产 10 吨 (铂族金属)",
+        "grade": "品位 PGM 0.5-1.5 g/t",
+        "discovery_year": "1883",
+        "operator": "淡水河谷 (Vale) / 嘉能可 (Glencore)",
+        "description": "加拿大重要的铂族金属来源，作为萨德伯里镍铜矿的伴生产品回收，源自约 18.5 亿年前的陨石撞击事件。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5,
+          44.0
+        ]
+      },
+      "properties": {
+        "name": "斯蒂尔沃特铂钯矿",
+        "mineral_type": "铂族金属",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 3000 吨 (铂族金属)",
+        "annual_production": "年产 16 吨 (钯) / 5 吨 (铂)",
+        "grade": "品位 PGM 15-20 g/t",
+        "discovery_year": "1974",
+        "operator": "西巴涅-斯蒂尔沃特 (Sibanye-Stillwater)",
+        "description": "美国唯一的铂族金属原生矿山，位于蒙大拿州贝尔图斯山脉，以极高品位的 J-M 礁含铂钯层闻名。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          62.5
+        ]
+      },
+      "properties": {
+        "name": "科拉半岛磷灰石矿",
+        "mineral_type": "磷矿",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 亿吨 (P₂O₅)",
+        "annual_production": "年产 1000 万吨 (磷灰石精矿)",
+        "grade": "品位 P₂O₅ 15%",
+        "discovery_year": "1926",
+        "operator": "磷化工联合体 (PhosAgro)",
+        "description": "全球最大的磷灰石矿区，位于俄罗斯科拉半岛希宾山碱性岩体中，以高品质磷灰石精矿供应全球化肥工业。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8,
+          32.0
+        ]
+      },
+      "properties": {
+        "name": "摩洛哥磷矿",
+        "mineral_type": "磷矿",
+        "country": "摩洛哥",
+        "country_id": "504",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 500 亿吨 (磷矿石)",
+        "annual_production": "年产 4000 万吨 (磷矿石)",
+        "grade": "品位 P₂O₅ 30%",
+        "discovery_year": "1912",
+        "operator": "摩洛哥磷酸盐集团 (OCP Group)",
+        "description": "全球最大的磷矿资源国，储量占全球 70% 以上，位于摩洛哥中部地区，是全球磷肥和磷酸市场的主导力量。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0,
+          24.0
+        ]
+      },
+      "properties": {
+        "name": "贵州开阳磷矿",
+        "mineral_type": "磷矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 亿吨",
+        "annual_production": "年产 1500 万吨",
+        "grade": "品位 P₂O₅ 24%",
+        "discovery_year": "1958",
+        "operator": "贵州开磷集团 / 贵州磷化集团",
+        "description": "中国最大的磷矿产区之一，位于贵州省开阳县，以大型沉积型磷块岩矿床闻名，是中国磷肥工业的重要原料基地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "name": "湖北宜昌磷矿",
+        "mineral_type": "磷矿",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 亿吨",
+        "annual_production": "年产 2000 万吨",
+        "grade": "品位 P₂O₅ 20-28%",
+        "discovery_year": "1956",
+        "operator": "兴发集团 / 宜化集团",
+        "description": "中国三大磷矿基地之一，位于湖北省宜昌市，以震旦系至寒武系磷块岩矿层为主，储量居全国前列。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0,
+          28.0
+        ]
+      },
+      "properties": {
+        "name": "佛罗里达磷矿",
+        "mineral_type": "磷矿",
+        "country": "美国",
+        "country_id": "840",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 亿吨 (P₂O₅)",
+        "annual_production": "年产 2500 万吨 (磷矿石)",
+        "grade": "品位 P₂O₅ 25-30%",
+        "discovery_year": "1881",
+        "operator": "美盛公司 (Mosaic Company) / 纽特里恩 (Nutrien)",
+        "description": "美国最大的磷矿产区，位于佛罗里达州中部，以沉积型磷钙土矿层闻名，是全球磷肥出口的重要来源。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0,
+          34.0
+        ]
+      },
+      "properties": {
+        "name": "突尼斯磷矿",
+        "mineral_type": "磷矿",
+        "country": "突尼斯",
+        "country_id": "788",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 1 亿吨 (P₂O₅)",
+        "annual_production": "年产 400 万吨 (磷矿石)",
+        "grade": "品位 P₂O₅ 25%",
+        "discovery_year": "1885",
+        "operator": "突尼斯磷酸盐公司 (CPG)",
+        "description": "北非重要的磷矿产区，位于突尼斯南部加夫萨盆地，以沉积型磷块岩为主，产品主要出口欧洲市场。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5,
+          31.5
+        ]
+      },
+      "properties": {
+        "name": "约旦磷矿",
+        "mineral_type": "磷矿",
+        "country": "约旦",
+        "country_id": "400",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 15 亿吨 (磷矿石)",
+        "annual_production": "年产 800 万吨 (磷矿石)",
+        "grade": "品位 P₂O₅ 28%",
+        "discovery_year": "1935",
+        "operator": "约旦磷酸盐矿业公司 (JPMC)",
+        "description": "中东最重要的磷矿资源国之一，位于约旦南部沙漠地区，以白垩系沉积磷块岩为主，产品出口亚洲和欧洲。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "name": "萨斯喀彻温钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "加拿大",
+        "country_id": "124",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 100 亿吨 (KCl)",
+        "annual_production": "年产 1400 万吨 (KCl)",
+        "grade": "品位 KCl 25-30%",
+        "discovery_year": "1943",
+        "operator": "纽特里恩 (Nutrien) / 美盛 (Mosaic) / K+S 集团",
+        "description": "全球最大的钾盐矿区，位于加拿大萨斯喀彻温省泥盆系蒸发岩层中，钾盐产量约占全球 30%。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5,
+          52.5
+        ]
+      },
+      "properties": {
+        "name": "白俄罗斯钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "白俄罗斯",
+        "country_id": "112",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 60 亿吨 (KCl)",
+        "annual_production": "年产 800 万吨 (KCl)",
+        "grade": "品位 KCl 22-28%",
+        "discovery_year": "1949",
+        "operator": "白俄罗斯钾肥公司 (Belaruskali)",
+        "description": "世界第三大钾盐生产国的核心矿区，位于白俄罗斯索利戈尔斯克地区，以泥盆系钾石盐和光卤石矿层为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.5,
+          58.5
+        ]
+      },
+      "properties": {
+        "name": "别列兹尼基钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "俄罗斯",
+        "country_id": "643",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 30 亿吨 (KCl)",
+        "annual_production": "年产 700 万吨 (KCl)",
+        "grade": "品位 KCl 20-25%",
+        "discovery_year": "1925",
+        "operator": "乌拉尔钾肥公司 (Uralkali)",
+        "description": "俄罗斯最大的钾盐矿区，位于彼尔姆边疆区上卡姆斯克钾盐盆地，以地下溶洞和地面沉降问题引发关注。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          51.5
+        ]
+      },
+      "properties": {
+        "name": "德国钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "德国",
+        "country_id": "276",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 亿吨 (KCl)",
+        "annual_production": "年产 300 万吨 (KCl)",
+        "grade": "品位 KCl 15-20%",
+        "discovery_year": "1856",
+        "operator": "K+S 集团 (K+S AG)",
+        "description": "欧洲最大的钾盐矿区之一，位于德国中部图林根和萨克森-安哈尔特州的二叠系蒸发岩层中，有超过 150 年的开采历史。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          31.0
+        ]
+      },
+      "properties": {
+        "name": "死海钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "以色列",
+        "country_id": "376",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 20 亿吨 (KCl)",
+        "annual_production": "年产 600 万吨 (KCl)",
+        "grade": "卤水 KCl 浓度 3-4%",
+        "discovery_year": "1930",
+        "operator": "以色列化工集团 (ICL) / 阿拉伯钾肥 (APC, 约旦)",
+        "description": "利用死海高浓度卤水通过日晒蒸发法提取钾盐，以色列和约旦分别在死海两岸建有大型蒸发池。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.5,
+          37.5
+        ]
+      },
+      "properties": {
+        "name": "青海察尔汗钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "中国",
+        "country_id": "156",
+        "reserve_level": "超大型",
+        "status": "开采中",
+        "reserves": "探明储量 5 亿吨 (KCl)",
+        "annual_production": "年产 500 万吨 (KCl)",
+        "grade": "卤水 KCl 浓度 1.5%",
+        "discovery_year": "1950",
+        "operator": "青海盐湖工业股份有限公司",
+        "description": "中国最大的钾肥生产基地，位于青海省柴达木盆地察尔汗盐湖，利用盐湖卤水光卤石矿生产氯化钾。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5,
+          16.5
+        ]
+      },
+      "properties": {
+        "name": "泰国钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "泰国",
+        "country_id": "764",
+        "reserve_level": "大型",
+        "status": "勘探中",
+        "reserves": "探明储量 3 亿吨 (KCl)",
+        "grade": "品位 KCl 20%",
+        "discovery_year": "1966",
+        "operator": "亚洲钾肥 (Asia Pacific Potash / ASEAN Potash)",
+        "description": "东南亚最大的钾盐资源，位于泰国东北部呵叻高原地下，以白垩系蒸发岩层中的钾石盐和光卤石为主。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0,
+          17.5
+        ]
+      },
+      "properties": {
+        "name": "老挝钾盐矿",
+        "mineral_type": "钾盐",
+        "country": "老挝",
+        "country_id": "418",
+        "reserve_level": "大型",
+        "status": "开采中",
+        "reserves": "探明储量 10 亿吨 (KCl)",
+        "annual_production": "年产 200 万吨 (KCl)",
+        "grade": "品位 KCl 15-25%",
+        "discovery_year": "1970",
+        "operator": "中农钾肥 / 老挝钾盐有限公司 (东方铁塔控股)",
+        "description": "东南亚最重要的钾盐矿区之一，位于老挝万象省，由中国企业主导开发，采用地下开采和溶解法生产钾肥。"
+      }
     }
   ]
 }
