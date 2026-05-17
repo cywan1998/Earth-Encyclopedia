@@ -5,9 +5,11 @@ import type { LayerState } from '../hooks/useLayers'
 interface LayerPanelProps {
   layerStates: LayerState[]
   onToggle: (layerId: string) => void
+  selectedMineralType: string | null
+  onSelectMineralType: (type: string | null) => void
 }
 
-export default function LayerPanel({ layerStates, onToggle }: LayerPanelProps) {
+export default function LayerPanel({ layerStates, onToggle, selectedMineralType, onSelectMineralType }: LayerPanelProps) {
   return (
     <div className="layer-panel">
       <div className="layer-panel-header">
@@ -35,7 +37,11 @@ export default function LayerPanel({ layerStates, onToggle }: LayerPanelProps) {
             {visible && config.legend && (
               <div className="layer-legend">
                 {config.legend.map(item => (
-                  <span key={item.label} className="legend-item">
+                  <span
+                    key={item.label}
+                    className={`legend-item legend-item-clickable${selectedMineralType === item.label ? ' legend-item-active' : ''}${selectedMineralType && selectedMineralType !== item.label ? ' legend-item-dimmed' : ''}`}
+                    onClick={() => onSelectMineralType(selectedMineralType === item.label ? null : item.label)}
+                  >
                     <span className="legend-dot" style={{ background: item.color }} />
                     {item.label}
                   </span>
@@ -46,7 +52,9 @@ export default function LayerPanel({ layerStates, onToggle }: LayerPanelProps) {
         ))}
       </div>
       <div className="layer-panel-footer">
-        点击地图上着色区域查看矿产明细
+        {selectedMineralType
+          ? `当前筛选：${selectedMineralType}（点击取消）`
+          : '点击矿种图例可筛选，点击地图着色区域查看明细'}
       </div>
     </div>
   )

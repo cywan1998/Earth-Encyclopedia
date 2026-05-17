@@ -15,6 +15,7 @@ interface SelectedCountry {
 export default function App() {
   const { layerStates, toggleLayer } = useLayers()
   const [selected, setSelected] = useState<SelectedCountry | null>(null)
+  const [selectedMineralType, setSelectedMineralType] = useState<string | null>(null)
 
   const handleSelectCountry = useCallback((id: string, name: string, minerals: MineralRecord[]) => {
     setSelected({ id, name, minerals })
@@ -22,11 +23,20 @@ export default function App() {
 
   const handleClose = useCallback(() => setSelected(null), [])
 
+  const handleSelectMineralType = useCallback((type: string | null) => {
+    setSelectedMineralType(type)
+  }, [])
+
   return (
     <ConfigProvider theme={{ algorithm: theme.defaultAlgorithm }}>
       <div className="app-layout">
-        <LayerPanel layerStates={layerStates} onToggle={toggleLayer} />
-        <MapView layerStates={layerStates} onSelectCountry={handleSelectCountry} />
+        <LayerPanel
+          layerStates={layerStates}
+          onToggle={toggleLayer}
+          selectedMineralType={selectedMineralType}
+          onSelectMineralType={handleSelectMineralType}
+        />
+        <MapView layerStates={layerStates} onSelectCountry={handleSelectCountry} selectedMineralType={selectedMineralType} />
         <CountryDetail
           open={selected !== null}
           countryName={selected?.name ?? ''}

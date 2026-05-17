@@ -31,9 +31,51 @@ function fixAntimeridian(geo: GeoJSON.FeatureCollection): void {
   }
 }
 
+const RESERVE_WEIGHT: Record<string, number> = { '超大型': 4, '大型': 2, '中型': 1 }
+
+function buildCountryFeatures(
+  baseFeatures: GeoJSON.Feature[],
+  grouped: Map<string, MineralRecord[]>,
+  mineralTypeFilter: string | null,
+): GeoJSON.Feature[] {
+  return baseFeatures.reduce<GeoJSON.Feature[]>((acc, feature) => {
+    const id = String(feature.id)
+    let minerals = grouped.get(id)
+    if (!minerals?.length) return acc
+
+    if (mineralTypeFilter) {
+      minerals = minerals.filter(m => m.mineral_type === mineralTypeFilter)
+      if (!minerals.length) return acc
+    }
+
+    const typeScores = new Map<string, number>()
+    for (const m of minerals) {
+      const weight = RESERVE_WEIGHT[m.reserve_level] ?? 1
+      typeScores.set(m.mineral_type, (typeScores.get(m.mineral_type) ?? 0) + weight)
+    }
+    let dominantType = ''
+    let maxScore = 0
+    for (const [type, score] of typeScores) {
+      if (score > maxScore) { dominantType = type; maxScore = score }
+    }
+
+    acc.push({
+      ...feature,
+      properties: {
+        ...feature.properties,
+        mineral_count: minerals.length,
+        country_id: id,
+        dominant_color: MINERAL_COLORS[dominantType] ?? '#95a5a6',
+      },
+    })
+    return acc
+  }, [])
+}
+
 interface MapViewProps {
   layerStates: LayerState[]
   onSelectCountry: (countryId: string, countryName: string, minerals: MineralRecord[]) => void
+  selectedMineralType: string | null
 }
 
 const COUNTRY_FILL_LAYER = 'country-fill'
@@ -43,13 +85,16 @@ const MINERAL_POINTS_LAYER = 'mineral-points'
 const COUNTRIES_SOURCE = 'countries'
 const MINERALS_SOURCE = 'minerals'
 
-export default function MapView({ layerStates, onSelectCountry }: MapViewProps) {
+export default function MapView({ layerStates, onSelectCountry, selectedMineralType }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<maplibregl.Map | null>(null)
   const mineralDataRef = useRef<Map<string, MineralRecord[]>>(new Map())
   const countryNamesRef = useRef<Map<string, string>>(new Map())
   const onSelectRef = useRef(onSelectCountry)
   onSelectRef.current = onSelectCountry
+
+  const baseFeaturesRef = useRef<GeoJSON.Feature[]>([])
+  const readyRef = useRef(false)
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -99,108 +144,75 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
       const grouped = groupMineralsByCountryId(mineralGeo.features)
       mineralDataRef.current = grouped
 
-      geo.features = geo.features.filter(feature => {
-        const id = String(feature.id)
-        const minerals = grouped.get(id)
-        if (!minerals?.length) return false
+      baseFeaturesRef.current = geo.features
 
-        const RESERVE_WEIGHT: Record<string, number> = { '超大型': 4, '大型': 2, '中型': 1 }
-        const typeScores = new Map<string, number>()
-        for (const m of minerals) {
-          const weight = RESERVE_WEIGHT[m.reserve_level] ?? 1
-          typeScores.set(m.mineral_type, (typeScores.get(m.mineral_type) ?? 0) + weight)
-        }
-        let dominantType = ''
-        let maxScore = 0
-        for (const [type, score] of typeScores) {
-          if (score > maxScore) { dominantType = type; maxScore = score }
-        }
+      const countryFeatures = buildCountryFeatures(geo.features, grouped, null)
+      const countryGeo: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: countryFeatures }
 
-        feature.properties = {
-          ...feature.properties,
-          mineral_count: minerals.length,
-          country_id: id,
-          dominant_color: MINERAL_COLORS[dominantType] ?? '#95a5a6',
-        }
-        return true
+      map.addSource(COUNTRIES_SOURCE, { type: 'geojson', data: countryGeo })
+      map.addSource(MINERALS_SOURCE, { type: 'geojson', data: mineralGeo })
+
+      map.addLayer({
+        id: COUNTRY_FILL_LAYER,
+        type: 'fill',
+        source: COUNTRIES_SOURCE,
+        paint: {
+          'fill-color': ['get', 'dominant_color'],
+          'fill-opacity': [
+            'interpolate', ['linear'], ['get', 'mineral_count'],
+            1, 0.25,
+            3, 0.4,
+            6, 0.55,
+            10, 0.7,
+            15, 0.8,
+          ],
+        },
       })
 
-      if (!map.getSource(COUNTRIES_SOURCE)) {
-        map.addSource(COUNTRIES_SOURCE, { type: 'geojson', data: geo })
-      }
-      if (!map.getSource(MINERALS_SOURCE)) {
-        map.addSource(MINERALS_SOURCE, { type: 'geojson', data: mineralGeo })
-      }
+      map.addLayer({
+        id: COUNTRY_LINE_LAYER,
+        type: 'line',
+        source: COUNTRIES_SOURCE,
+        paint: {
+          'line-color': '#cbd5e1',
+          'line-width': 0.5,
+        },
+      })
 
-      if (!map.getLayer(COUNTRY_FILL_LAYER)) {
-        map.addLayer({
-          id: COUNTRY_FILL_LAYER,
-          type: 'fill',
-          source: COUNTRIES_SOURCE,
-          paint: {
-            'fill-color': ['get', 'dominant_color'],
-            'fill-opacity': [
-              'interpolate', ['linear'], ['get', 'mineral_count'],
-              1, 0.25,
-              3, 0.4,
-              6, 0.55,
-              10, 0.7,
-              15, 0.8,
-            ],
-          },
-        })
-      }
+      map.addLayer({
+        id: COUNTRY_HOVER_LAYER,
+        type: 'line',
+        source: COUNTRIES_SOURCE,
+        paint: {
+          'line-color': '#2563eb',
+          'line-width': 2,
+        },
+        filter: ['==', 'country_id', ''],
+      })
 
-      if (!map.getLayer(COUNTRY_LINE_LAYER)) {
-        map.addLayer({
-          id: COUNTRY_LINE_LAYER,
-          type: 'line',
-          source: COUNTRIES_SOURCE,
-          paint: {
-            'line-color': '#cbd5e1',
-            'line-width': 0.5,
-          },
-        })
-      }
-
-      if (!map.getLayer(COUNTRY_HOVER_LAYER)) {
-        map.addLayer({
-          id: COUNTRY_HOVER_LAYER,
-          type: 'line',
-          source: COUNTRIES_SOURCE,
-          paint: {
-            'line-color': '#2563eb',
-            'line-width': 2,
-          },
-          filter: ['==', 'country_id', ''],
-        })
-      }
-
-      if (!map.getLayer(MINERAL_POINTS_LAYER)) {
-        map.addLayer({
-          id: MINERAL_POINTS_LAYER,
-          type: 'circle',
-          source: MINERALS_SOURCE,
-          paint: {
-            'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 3, 5, 5, 10, 8],
-            'circle-color': [
-              'match', ['get', 'mineral_type'],
-              '铁矿', '#e74c3c',
-              '铜矿', '#e67e22',
-              '金矿', '#f1c40f',
-              '铝土矿', '#9b59b6',
-              '锂矿', '#1abc9c',
-              '煤矿', '#546e7a',
-              '石油', '#2c3e50',
-              '稀土', '#e91e63',
-              '#95a5a6',
-            ],
-            'circle-opacity': 0.9,
-            'circle-stroke-width': 1.5,
-            'circle-stroke-color': '#fff',
-          },
-        })
-      }
+      map.addLayer({
+        id: MINERAL_POINTS_LAYER,
+        type: 'circle',
+        source: MINERALS_SOURCE,
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 3, 5, 5, 10, 8],
+          'circle-color': [
+            'match', ['get', 'mineral_type'],
+            '铁矿', '#e74c3c',
+            '铜矿', '#e67e22',
+            '金矿', '#f1c40f',
+            '铝土矿', '#9b59b6',
+            '锂矿', '#1abc9c',
+            '煤矿', '#546e7a',
+            '石油', '#2c3e50',
+            '稀土', '#e91e63',
+            '#95a5a6',
+          ],
+          'circle-opacity': 0.9,
+          'circle-stroke-width': 1.5,
+          'circle-stroke-color': '#fff',
+        },
+      })
 
       let hoveredId: string | null = null
 
@@ -230,6 +242,8 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
         const name = countryNamesRef.current.get(countryId) ?? countryId
         onSelectRef.current(countryId, name, minerals)
       })
+
+      readyRef.current = true
     })
 
     return () => {
@@ -240,7 +254,7 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
 
   useEffect(() => {
     const map = mapRef.current
-    if (!map || !map.loaded()) return
+    if (!map || !readyRef.current) return
 
     const mineralsLayer = layerStates.find(ls => ls.config.id === 'minerals')
     if (!mineralsLayer) return
@@ -250,6 +264,27 @@ export default function MapView({ layerStates, onSelectCountry }: MapViewProps) 
     if (map.getLayer(COUNTRY_LINE_LAYER)) map.setLayoutProperty(COUNTRY_LINE_LAYER, 'visibility', vis)
     if (map.getLayer(MINERAL_POINTS_LAYER)) map.setLayoutProperty(MINERAL_POINTS_LAYER, 'visibility', vis)
   }, [layerStates])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !readyRef.current) return
+
+    if (selectedMineralType) {
+      map.setFilter(MINERAL_POINTS_LAYER, ['==', ['get', 'mineral_type'], selectedMineralType])
+    } else {
+      map.setFilter(MINERAL_POINTS_LAYER, null)
+    }
+
+    const countryFeatures = buildCountryFeatures(
+      baseFeaturesRef.current,
+      mineralDataRef.current,
+      selectedMineralType,
+    )
+    const source = map.getSource(COUNTRIES_SOURCE) as maplibregl.GeoJSONSource | undefined
+    if (source) {
+      source.setData({ type: 'FeatureCollection', features: countryFeatures })
+    }
+  }, [selectedMineralType])
 
   return <div ref={containerRef} className="map-container" />
 }

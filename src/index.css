@@ -133,6 +133,27 @@ html, body, #root {
   flex-shrink: 0;
 }
 
+.legend-item-clickable {
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1.5px solid transparent;
+}
+
+.legend-item-clickable:hover {
+  background: rgba(255,255,255,0.12);
+  color: #e2e8f0;
+}
+
+.legend-item-active {
+  background: rgba(59,130,246,0.25) !important;
+  border-color: #3b82f6;
+  color: #f1f5f9;
+}
+
+.legend-item-dimmed {
+  opacity: 0.35;
+}
+
 .layer-panel-footer {
   padding: 16px 20px;
   font-size: 11px;
