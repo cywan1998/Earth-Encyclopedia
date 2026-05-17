@@ -8,7 +8,19 @@ export const MINERAL_COLORS: Record<string, string> = {
   '锂矿': '#1abc9c',
   '煤矿': '#546e7a',
   '石油': '#2c3e50',
+  '天然气': '#3498db',
   '稀土': '#e91e63',
+  '镍矿': '#27ae60',
+  '锰矿': '#8d6e63',
+  '锡矿': '#78909c',
+  '钴矿': '#5c6bc0',
+  '钨矿': '#ff7043',
+  '锌矿': '#26a69a',
+  '铀矿': '#66bb6a',
+  '钻石矿': '#00bcd4',
+  '铂族金属': '#b0bec5',
+  '磷矿': '#ab47bc',
+  '钾盐': '#d4e157',
 }
 
 const minerals: LayerConfig = {

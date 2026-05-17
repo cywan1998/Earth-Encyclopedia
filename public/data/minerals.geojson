@@ -3,13 +3,28 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [117.0, 36.7] },
+      "geometry": { "type": "Point", "coordinates": [122.9, 41.1] },
       "properties": { "name": "鞍山铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.0, 36.7] },
+      "properties": { "name": "莱芜铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.9, 40.1] },
+      "properties": { "name": "迁安铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.8, 36.6] },
+      "properties": { "name": "镜铁山铁矿", "mineral_type": "铁矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [25.5, -29.0] },
-      "properties": { "name": "Sishen 铁矿", "mineral_type": "铁矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "开采中" }
+      "properties": { "name": "Sishen铁矿", "mineral_type": "铁矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "开采中" }
     },
     {
       "type": "Feature",
@@ -28,9 +43,45 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [37.5, 52.6] },
+      "properties": { "name": "库尔斯克磁异常铁矿", "mineral_type": "铁矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-92.5, 47.5] },
       "properties": { "name": "梅萨比铁矿", "mineral_type": "铁矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
     },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [20.5, 67.8] },
+      "properties": { "name": "基律纳铁矿", "mineral_type": "铁矿", "country": "瑞典", "country_id": "752", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-67.5, 7.5] },
+      "properties": { "name": "塞罗博利瓦尔铁矿", "mineral_type": "铁矿", "country": "委内瑞拉", "country_id": "862", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [36.8, -3.4] },
+      "properties": { "name": "利甘加铁矿", "mineral_type": "铁矿", "country": "坦桑尼亚", "country_id": "834", "reserve_level": "大型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-66.8, 52.8] },
+      "properties": { "name": "拉布拉多铁矿", "mineral_type": "铁矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.0, 22.5] },
+      "properties": { "name": "奥里萨邦铁矿", "mineral_type": "铁矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-10.5, 12.5] },
+      "properties": { "name": "西芒杜铁矿", "mineral_type": "铁矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开发中" }
+    },
+
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [28.1, -26.2] },
@@ -43,24 +94,80 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-80.9, -3.7] },
+      "geometry": { "type": "Point", "coordinates": [-78.5, -6.8] },
       "properties": { "name": "亚纳科查金矿", "mineral_type": "金矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.3, 44.5] },
+      "geometry": { "type": "Point", "coordinates": [-117.0, 40.8] },
       "properties": { "name": "内华达金矿带", "mineral_type": "金矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [40.0, 62.0] },
-      "properties": { "name": "苏霍伊洛格金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "勘探中" }
+      "geometry": { "type": "Point", "coordinates": [114.8, 62.5] },
+      "properties": { "name": "苏霍伊洛格金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [107.5, 22.0] },
+      "geometry": { "type": "Point", "coordinates": [116.4, 25.0] },
       "properties": { "name": "紫金山金铜矿", "mineral_type": "金矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
     },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [120.3, 37.5] },
+      "properties": { "name": "招远金矿", "mineral_type": "金矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-2.0, 7.5] },
+      "properties": { "name": "塔克瓦金矿", "mineral_type": "金矿", "country": "加纳", "country_id": "288", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-1.6, 6.1] },
+      "properties": { "name": "奥布阿西金矿", "mineral_type": "金矿", "country": "加纳", "country_id": "288", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.0, 47.5] },
+      "properties": { "name": "蒂明斯金矿", "mineral_type": "金矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [60.0, 52.0] },
+      "properties": { "name": "南乌拉尔金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.0, 41.0] },
+      "properties": { "name": "穆龙套金矿", "mineral_type": "金矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.6, -2.5] },
+      "properties": { "name": "基巴利金矿", "mineral_type": "金矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [34.8, 0.1] },
+      "properties": { "name": "北马拉金矿", "mineral_type": "金矿", "country": "坦桑尼亚", "country_id": "834", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.4, -14.5] },
+      "properties": { "name": "坦纳米沙漠金矿", "mineral_type": "金矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-4.0, 12.0] },
+      "properties": { "name": "赛灵吉金矿", "mineral_type": "金矿", "country": "马里", "country_id": "466", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-54.0, 4.5] },
+      "properties": { "name": "罗西纽金矿", "mineral_type": "金矿", "country": "苏里南", "country_id": "740", "reserve_level": "大型", "status": "开采中" }
+    },
+
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-69.1, -21.5] },
@@ -68,12 +175,17 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-69.5, -17.0] },
+      "geometry": { "type": "Point", "coordinates": [-70.1, -24.3] },
       "properties": { "name": "埃斯孔迪达铜矿", "mineral_type": "铜矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [137.0, 4.0] },
+      "geometry": { "type": "Point", "coordinates": [-70.3, -33.1] },
+      "properties": { "name": "埃尔特尼恩特铜矿", "mineral_type": "铜矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.1, -4.1] },
       "properties": { "name": "格拉斯伯格铜金矿", "mineral_type": "铜矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
     },
     {
@@ -83,8 +195,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [102.0, 26.5] },
+      "geometry": { "type": "Point", "coordinates": [117.6, 28.9] },
       "properties": { "name": "德兴铜矿", "mineral_type": "铜矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [89.5, 29.3] },
+      "properties": { "name": "驱龙铜矿", "mineral_type": "铜矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开发中" }
     },
     {
       "type": "Feature",
@@ -93,9 +210,45 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [135.5, -23.5] },
+      "geometry": { "type": "Point", "coordinates": [-110.8, 31.9] },
+      "properties": { "name": "莫伦西铜矿", "mineral_type": "铜矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.5, -31.3] },
       "properties": { "name": "奥林匹克坝铜矿", "mineral_type": "铜矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
     },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [25.0, -11.5] },
+      "properties": { "name": "刚果铜钴矿带", "mineral_type": "铜矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.5, -15.0] },
+      "properties": { "name": "塞罗贝尔德铜矿", "mineral_type": "铜矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.1, -10.4] },
+      "properties": { "name": "安塔米纳铜锌矿", "mineral_type": "铜矿", "country": "秘鲁", "country_id": "604", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [66.4, 40.5] },
+      "properties": { "name": "阿尔马雷克铜矿", "mineral_type": "铜矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [106.8, -2.6] },
+      "properties": { "name": "邦加锡铜矿", "mineral_type": "铜矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [68.5, 39.5] },
+      "properties": { "name": "艾达克铜金矿", "mineral_type": "铜矿", "country": "塔吉克斯坦", "country_id": "762", "reserve_level": "大型", "status": "勘探中" }
+    },
+
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [130.0, -16.5] },
@@ -103,8 +256,18 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [149.5, -23.2] },
+      "properties": { "name": "达令山铝土矿", "mineral_type": "铝土矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-12.5, 11.0] },
       "properties": { "name": "桑加雷迪铝土矿", "mineral_type": "铝土矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-13.5, 11.8] },
+      "properties": { "name": "弗里亚铝土矿", "mineral_type": "铝土矿", "country": "几内亚", "country_id": "324", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
@@ -123,12 +286,38 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.5, 24.5] },
+      "properties": { "name": "云南铝土矿", "mineral_type": "铝土矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-57.5, -22.5] },
+      "properties": { "name": "巴西帕拉铝土矿", "mineral_type": "铝土矿", "country": "巴西", "country_id": "076", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-58.5, 6.0] },
+      "properties": { "name": "林登铝土矿", "mineral_type": "铝土矿", "country": "圭亚那", "country_id": "328", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-77.8, 18.2] },
+      "properties": { "name": "牙买加铝土矿", "mineral_type": "铝土矿", "country": "牙买加", "country_id": "388", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.0, 1.5] },
+      "properties": { "name": "沙捞越铝土矿", "mineral_type": "铝土矿", "country": "马来西亚", "country_id": "458", "reserve_level": "中型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-68.5, -20.5] },
       "properties": { "name": "乌尤尼盐湖锂矿", "mineral_type": "锂矿", "country": "玻利维亚", "country_id": "068", "reserve_level": "超大型", "status": "勘探中" }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-68.3, -23.5] },
+      "geometry": { "type": "Point", "coordinates": [-68.3, -23.4] },
       "properties": { "name": "阿塔卡马盐湖锂矿", "mineral_type": "锂矿", "country": "智利", "country_id": "152", "reserve_level": "超大型", "status": "开采中" }
     },
     {
@@ -138,8 +327,18 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [121.3, -33.4] },
+      "properties": { "name": "皮尔甘古拉锂矿", "mineral_type": "锂矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [101.7, 32.9] },
       "properties": { "name": "甲基卡锂矿", "mineral_type": "锂矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.1, 28.7] },
+      "properties": { "name": "宜春锂云母矿", "mineral_type": "锂矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
@@ -148,13 +347,59 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-66.9, -23.4] },
+      "properties": { "name": "卡奇锂矿", "mineral_type": "锂矿", "country": "阿根廷", "country_id": "032", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-119.7, 35.8] },
+      "properties": { "name": "塞尔斯湖锂矿", "mineral_type": "锂矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-117.2, 33.5] },
+      "properties": { "name": "萨尔顿海锂矿", "mineral_type": "锂矿", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.0, -2.5] },
+      "properties": { "name": "刚果锂矿", "mineral_type": "锂矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.2, -1.9] },
+      "properties": { "name": "比绍夫图锂矿", "mineral_type": "锂矿", "country": "津巴布韦", "country_id": "716", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [112.5, 39.8] },
       "properties": { "name": "大同煤矿", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.0, 39.0] },
+      "properties": { "name": "神东煤田", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.6, 35.5] },
+      "properties": { "name": "晋城无烟煤", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.0, 33.5] },
+      "properties": { "name": "淮南煤田", "mineral_type": "煤矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-81.0, 38.0] },
       "properties": { "name": "阿巴拉契亚煤田", "mineral_type": "煤矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-106.0, 44.5] },
+      "properties": { "name": "粉河盆地煤田", "mineral_type": "煤矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
@@ -168,118 +413,13 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [148.5, -23.5] },
+      "properties": { "name": "鲍恩盆地煤田", "mineral_type": "煤矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [84.0, 23.7] },
       "properties": { "name": "贾里亚煤田", "mineral_type": "煤矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [49.5, 27.0] },
-      "properties": { "name": "加瓦尔油田", "mineral_type": "石油", "country": "沙特阿拉伯", "country_id": "682", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [53.0, 30.0] },
-      "properties": { "name": "马伦油田", "mineral_type": "石油", "country": "伊朗", "country_id": "364", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [47.5, 30.5] },
-      "properties": { "name": "鲁迈拉油田", "mineral_type": "石油", "country": "伊拉克", "country_id": "368", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [73.5, 61.5] },
-      "properties": { "name": "萨莫特洛尔油田", "mineral_type": "石油", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [124.5, 45.5] },
-      "properties": { "name": "大庆油田", "mineral_type": "石油", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-5.5, 5.5] },
-      "properties": { "name": "西非几内亚湾油田", "mineral_type": "石油", "country": "尼日利亚", "country_id": "566", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-97.5, 28.5] },
-      "properties": { "name": "二叠纪盆地", "mineral_type": "石油", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [109.5, 22.0] },
-      "properties": { "name": "白云鄂博稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [115.0, 24.5] },
-      "properties": { "name": "赣南离子型稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-103.0, 30.0] },
-      "properties": { "name": "芒廷帕斯稀土矿", "mineral_type": "稀土", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.0, -33.8] },
-      "properties": { "name": "韦尔德山稀土矿", "mineral_type": "稀土", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [100.5, 7.0] },
-      "properties": { "name": "泰国锡矿", "mineral_type": "稀土", "country": "缅甸", "country_id": "104", "reserve_level": "中型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.0, -11.5] },
-      "properties": { "name": "刚果铜钴矿带", "mineral_type": "铜矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-75.5, -15.0] },
-      "properties": { "name": "塞罗贝尔德铜矿", "mineral_type": "铜矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [36.0, 62.5] },
-      "properties": { "name": "科拉半岛磷灰石", "mineral_type": "铝土矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.0, 7.5] },
-      "properties": { "name": "塔克瓦金矿", "mineral_type": "金矿", "country": "加纳", "country_id": "288", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-80.0, 47.5] },
-      "properties": { "name": "蒂明斯金矿", "mineral_type": "金矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [60.0, 52.0] },
-      "properties": { "name": "南乌拉尔金矿", "mineral_type": "金矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [110.0, 1.5] },
-      "properties": { "name": "沙捞越铝土矿", "mineral_type": "铝土矿", "country": "马来西亚", "country_id": "458", "reserve_level": "中型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [18.5, -4.3] },
-      "properties": { "name": "刚果盆地钴矿", "mineral_type": "稀土", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-110.5, 56.7] },
-      "properties": { "name": "阿萨巴斯卡油砂", "mineral_type": "石油", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-63.5, 8.5] },
-      "properties": { "name": "奥里诺科重油带", "mineral_type": "石油", "country": "委内瑞拉", "country_id": "862", "reserve_level": "超大型", "status": "开采中" }
     },
     {
       "type": "Feature",
@@ -298,8 +438,687 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [69.0, 41.0] },
-      "properties": { "name": "穆龙套金矿", "mineral_type": "金矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "超大型", "status": "开采中" }
+      "geometry": { "type": "Point", "coordinates": [29.0, -26.0] },
+      "properties": { "name": "南非姆普马兰加煤田", "mineral_type": "煤矿", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [105.8, 21.0] },
+      "properties": { "name": "鸿基煤田", "mineral_type": "煤矿", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [129.0, 40.0] },
+      "properties": { "name": "平壤煤田", "mineral_type": "煤矿", "country": "朝鲜", "country_id": "408", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-114.5, 52.0] },
+      "properties": { "name": "艾伯塔煤田", "mineral_type": "煤矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [67.8, 48.0] },
+      "properties": { "name": "哈萨克斯坦卡拉干达煤田", "mineral_type": "煤矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [49.5, 27.0] },
+      "properties": { "name": "加瓦尔油田", "mineral_type": "石油", "country": "沙特阿拉伯", "country_id": "682", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [50.3, 28.9] },
+      "properties": { "name": "布尔甘油田", "mineral_type": "石油", "country": "科威特", "country_id": "414", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [53.0, 30.0] },
+      "properties": { "name": "马伦油田", "mineral_type": "石油", "country": "伊朗", "country_id": "364", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [47.5, 30.5] },
+      "properties": { "name": "鲁迈拉油田", "mineral_type": "石油", "country": "伊拉克", "country_id": "368", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [54.5, 24.5] },
+      "properties": { "name": "扎库姆油田", "mineral_type": "石油", "country": "阿联酋", "country_id": "784", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [73.5, 61.5] },
+      "properties": { "name": "萨莫特洛尔油田", "mineral_type": "石油", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [124.5, 45.5] },
+      "properties": { "name": "大庆油田", "mineral_type": "石油", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [118.5, 38.0] },
+      "properties": { "name": "胜利油田", "mineral_type": "石油", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [5.5, 5.5] },
+      "properties": { "name": "尼日尔三角洲油田", "mineral_type": "石油", "country": "尼日利亚", "country_id": "566", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.5, 31.5] },
+      "properties": { "name": "二叠纪盆地", "mineral_type": "石油", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-149.5, 70.3] },
+      "properties": { "name": "普拉德霍湾油田", "mineral_type": "石油", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-110.5, 56.7] },
+      "properties": { "name": "阿萨巴斯卡油砂", "mineral_type": "石油", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-63.5, 8.5] },
+      "properties": { "name": "奥里诺科重油带", "mineral_type": "石油", "country": "委内瑞拉", "country_id": "862", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [2.0, 28.0] },
+      "properties": { "name": "哈西梅萨乌德油田", "mineral_type": "石油", "country": "阿尔及利亚", "country_id": "012", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [18.5, -6.0] },
+      "properties": { "name": "刚果盆地油田", "mineral_type": "石油", "country": "安哥拉", "country_id": "024", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [1.5, 57.5] },
+      "properties": { "name": "北海油田", "mineral_type": "石油", "country": "英国", "country_id": "826", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-46.0, -22.0] },
+      "properties": { "name": "盐下层油田", "mineral_type": "石油", "country": "巴西", "country_id": "076", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [97.5, 16.5] },
+      "properties": { "name": "缅甸油田", "mineral_type": "石油", "country": "缅甸", "country_id": "104", "reserve_level": "中型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [51.5, 25.5] },
+      "properties": { "name": "北方-南帕斯气田", "mineral_type": "天然气", "country": "卡塔尔", "country_id": "634", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [52.5, 27.5] },
+      "properties": { "name": "南帕斯气田", "mineral_type": "天然气", "country": "伊朗", "country_id": "364", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [58.4, 38.5] },
+      "properties": { "name": "加尔金内什气田", "mineral_type": "天然气", "country": "土库曼斯坦", "country_id": "795", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [73.0, 67.5] },
+      "properties": { "name": "乌连戈伊气田", "mineral_type": "天然气", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [75.5, 66.0] },
+      "properties": { "name": "亚马尔气田", "mineral_type": "天然气", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-97.0, 36.0] },
+      "properties": { "name": "马塞勒斯页岩气", "mineral_type": "天然气", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [108.5, 29.5] },
+      "properties": { "name": "涪陵页岩气田", "mineral_type": "天然气", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.5, 31.0] },
+      "properties": { "name": "祖赫尔气田", "mineral_type": "天然气", "country": "埃及", "country_id": "818", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [2.5, 57.0] },
+      "properties": { "name": "北海气田", "mineral_type": "天然气", "country": "挪威", "country_id": "578", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.0, -10.0] },
+      "properties": { "name": "巴布亚新几内亚LNG", "mineral_type": "天然气", "country": "巴布亚新几内亚", "country_id": "598", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.0, -20.0] },
+      "properties": { "name": "西北大陆架气田", "mineral_type": "天然气", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-114.5, 56.5] },
+      "properties": { "name": "蒙特尼气田", "mineral_type": "天然气", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [41.0, -10.5] },
+      "properties": { "name": "莫桑比克气田", "mineral_type": "天然气", "country": "莫桑比克", "country_id": "508", "reserve_level": "超大型", "status": "开发中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.0, 41.8] },
+      "properties": { "name": "白云鄂博稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.0, 24.5] },
+      "properties": { "name": "赣南离子型稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [100.5, 24.0] },
+      "properties": { "name": "四川冕宁稀土矿", "mineral_type": "稀土", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-115.5, 35.5] },
+      "properties": { "name": "芒廷帕斯稀土矿", "mineral_type": "稀土", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.0, -33.8] },
+      "properties": { "name": "韦尔德山稀土矿", "mineral_type": "稀土", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [100.5, 18.0] },
+      "properties": { "name": "缅甸稀土矿", "mineral_type": "稀土", "country": "缅甸", "country_id": "104", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.0, 11.0] },
+      "properties": { "name": "印度独居石稀土矿", "mineral_type": "稀土", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-49.0, -21.0] },
+      "properties": { "name": "巴西稀土矿", "mineral_type": "稀土", "country": "巴西", "country_id": "076", "reserve_level": "大型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [37.5, 68.0] },
+      "properties": { "name": "科拉半岛稀土矿", "mineral_type": "稀土", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [104.5, 17.5] },
+      "properties": { "name": "越南稀土矿", "mineral_type": "稀土", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "勘探中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [121.5, 0.5] },
+      "properties": { "name": "苏拉威西镍矿", "mineral_type": "镍矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.5, -1.5] },
+      "properties": { "name": "哈马黑拉镍矿", "mineral_type": "镍矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [125.5, 8.0] },
+      "properties": { "name": "苏里高镍矿", "mineral_type": "镍矿", "country": "菲律宾", "country_id": "608", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [165.5, -21.5] },
+      "properties": { "name": "新喀里多尼亚镍矿", "mineral_type": "镍矿", "country": "法国", "country_id": "250", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [60.5, 61.5] },
+      "properties": { "name": "诺里尔斯克镍矿", "mineral_type": "镍矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [88.2, 69.3] },
+      "properties": { "name": "泰梅尔镍矿", "mineral_type": "镍矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.0, 48.5] },
+      "properties": { "name": "萨德伯里镍矿", "mineral_type": "镍矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.0, -19.5] },
+      "properties": { "name": "穆林穆林镍矿", "mineral_type": "镍矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.0, 9.0] },
+      "properties": { "name": "塞罗马托索镍矿", "mineral_type": "镍矿", "country": "哥伦比亚", "country_id": "170", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.5, 22.5] },
+      "properties": { "name": "莫亚镍矿", "mineral_type": "镍矿", "country": "古巴", "country_id": "192", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [102.0, 25.0] },
+      "properties": { "name": "金川镍矿", "mineral_type": "镍矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.5, -25.5] },
+      "properties": { "name": "卡拉哈里锰矿", "mineral_type": "锰矿", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.5, -1.5] },
+      "properties": { "name": "莫安达锰矿", "mineral_type": "锰矿", "country": "加蓬", "country_id": "266", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.0, -22.3] },
+      "properties": { "name": "格鲁特岛锰矿", "mineral_type": "锰矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [47.5, 43.5] },
+      "properties": { "name": "奇阿图拉锰矿", "mineral_type": "锰矿", "country": "格鲁吉亚", "country_id": "268", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-46.0, -6.0] },
+      "properties": { "name": "卡拉雅斯锰矿", "mineral_type": "锰矿", "country": "巴西", "country_id": "076", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.3, 22.5] },
+      "properties": { "name": "广西大新锰矿", "mineral_type": "锰矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [85.0, 22.0] },
+      "properties": { "name": "印度锰矿带", "mineral_type": "锰矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [47.0, 9.0] },
+      "properties": { "name": "尼基托波尔锰矿", "mineral_type": "锰矿", "country": "乌克兰", "country_id": "804", "reserve_level": "超大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [106.0, -2.0] },
+      "properties": { "name": "邦加锡矿", "mineral_type": "锡矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [105.0, -3.5] },
+      "properties": { "name": "勿里洞锡矿", "mineral_type": "锡矿", "country": "印度尼西亚", "country_id": "360", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.0, 5.3] },
+      "properties": { "name": "马来西亚锡矿带", "mineral_type": "锡矿", "country": "马来西亚", "country_id": "458", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [99.0, 19.0] },
+      "properties": { "name": "泰国锡矿", "mineral_type": "锡矿", "country": "泰国", "country_id": "764", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [98.5, 16.0] },
+      "properties": { "name": "缅甸锡矿", "mineral_type": "锡矿", "country": "缅甸", "country_id": "104", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-66.5, -18.5] },
+      "properties": { "name": "波托西锡矿", "mineral_type": "锡矿", "country": "玻利维亚", "country_id": "068", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [111.5, 24.0] },
+      "properties": { "name": "广西大厂锡矿", "mineral_type": "锡矿", "country": "中国", "country_id": "156", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [103.5, 23.4] },
+      "properties": { "name": "个旧锡矿", "mineral_type": "锡矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.0, -11.0] },
+      "properties": { "name": "加丹加铜钴矿带", "mineral_type": "钴矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.5, -10.5] },
+      "properties": { "name": "科卢韦齐钴矿", "mineral_type": "钴矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [28.5, -12.0] },
+      "properties": { "name": "赞比亚铜钴矿", "mineral_type": "钴矿", "country": "赞比亚", "country_id": "894", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.0, -31.0] },
+      "properties": { "name": "奥林匹克坝钴矿", "mineral_type": "钴矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.5, 7.5] },
+      "properties": { "name": "哥伦比亚钴矿", "mineral_type": "钴矿", "country": "哥伦比亚", "country_id": "170", "reserve_level": "中型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [125.0, 8.5] },
+      "properties": { "name": "菲律宾镍钴矿", "mineral_type": "钴矿", "country": "菲律宾", "country_id": "608", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [88.0, 69.0] },
+      "properties": { "name": "诺里尔斯克钴矿", "mineral_type": "钴矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.3, 25.8] },
+      "properties": { "name": "赣南钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.0, 25.3] },
+      "properties": { "name": "行洛坑钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [111.5, 25.5] },
+      "properties": { "name": "湖南柿竹园钨矿", "mineral_type": "钨矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [88.0, 69.5] },
+      "properties": { "name": "俄罗斯钨矿", "mineral_type": "钨矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-5.0, 40.0] },
+      "properties": { "name": "西班牙钨矿", "mineral_type": "钨矿", "country": "西班牙", "country_id": "724", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-4.5, 50.5] },
+      "properties": { "name": "赫默登钨矿", "mineral_type": "钨矿", "country": "英国", "country_id": "826", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [104.8, 17.8] },
+      "properties": { "name": "越南钨矿", "mineral_type": "钨矿", "country": "越南", "country_id": "704", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.5, -31.5] },
+      "properties": { "name": "布罗肯希尔锌矿", "mineral_type": "锌矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.0, -20.5] },
+      "properties": { "name": "坎宁顿锌矿", "mineral_type": "锌矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.5, -10.0] },
+      "properties": { "name": "塞罗德帕斯科锌矿", "mineral_type": "锌矿", "country": "秘鲁", "country_id": "604", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [104.5, 27.5] },
+      "properties": { "name": "兰坪锌铅矿", "mineral_type": "锌矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-8.5, 53.0] },
+      "properties": { "name": "塔拉锌矿", "mineral_type": "锌矿", "country": "爱尔兰", "country_id": "372", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [85.0, 23.5] },
+      "properties": { "name": "拉贾斯坦锌矿", "mineral_type": "锌矿", "country": "印度", "country_id": "356", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-103.0, 24.5] },
+      "properties": { "name": "墨西哥锌矿", "mineral_type": "锌矿", "country": "墨西哥", "country_id": "484", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-96.0, 54.5] },
+      "properties": { "name": "红狗锌矿", "mineral_type": "锌矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.0, 39.5] },
+      "properties": { "name": "哈萨克斯坦锌矿", "mineral_type": "锌矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.5, -25.5] },
+      "properties": { "name": "奥林匹克坝铀矿", "mineral_type": "铀矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-107.0, 55.5] },
+      "properties": { "name": "阿萨巴斯卡铀矿", "mineral_type": "铀矿", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [68.5, 41.5] },
+      "properties": { "name": "纳沃伊铀矿", "mineral_type": "铀矿", "country": "乌兹别克斯坦", "country_id": "860", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [68.0, 48.5] },
+      "properties": { "name": "哈萨克斯坦铀矿", "mineral_type": "铀矿", "country": "哈萨克斯坦", "country_id": "398", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [7.5, 17.5] },
+      "properties": { "name": "阿尔利特铀矿", "mineral_type": "铀矿", "country": "尼日尔", "country_id": "562", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.5, -22.5] },
+      "properties": { "name": "罗辛铀矿", "mineral_type": "铀矿", "country": "纳米比亚", "country_id": "516", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [28.5, -26.5] },
+      "properties": { "name": "南非铀矿", "mineral_type": "铀矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [25.5, -24.5] },
+      "properties": { "name": "奥拉帕钻石矿", "mineral_type": "钻石矿", "country": "博茨瓦纳", "country_id": "072", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [25.3, -21.3] },
+      "properties": { "name": "杰万嫩钻石矿", "mineral_type": "钻石矿", "country": "博茨瓦纳", "country_id": "072", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.0, 62.0] },
+      "properties": { "name": "雅库特钻石矿", "mineral_type": "钻石矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [37.5, 65.0] },
+      "properties": { "name": "阿尔汉格尔斯克钻石矿", "mineral_type": "钻石矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [28.5, -26.0] },
+      "properties": { "name": "金伯利钻石矿", "mineral_type": "钻石矿", "country": "南非", "country_id": "710", "reserve_level": "大型", "status": "已关闭" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.5, -5.0] },
+      "properties": { "name": "刚果钻石矿", "mineral_type": "钻石矿", "country": "刚果(金)", "country_id": "180", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [25.0, -8.5] },
+      "properties": { "name": "安哥拉钻石矿", "mineral_type": "钻石矿", "country": "安哥拉", "country_id": "024", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-114.0, 64.8] },
+      "properties": { "name": "戴维克钻石矿", "mineral_type": "钻石矿", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.0, -14.5] },
+      "properties": { "name": "阿盖尔钻石矿", "mineral_type": "钻石矿", "country": "澳大利亚", "country_id": "036", "reserve_level": "大型", "status": "已关闭" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-10.0, 7.5] },
+      "properties": { "name": "塞拉利昂钻石矿", "mineral_type": "钻石矿", "country": "塞拉利昂", "country_id": "694", "reserve_level": "中型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.8, -25.8] },
+      "properties": { "name": "布什维尔德铂矿", "mineral_type": "铂族金属", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.0, -25.0] },
+      "properties": { "name": "英帕拉铂矿", "mineral_type": "铂族金属", "country": "南非", "country_id": "710", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [88.5, 69.5] },
+      "properties": { "name": "诺里尔斯克铂钯矿", "mineral_type": "铂族金属", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [28.0, -15.5] },
+      "properties": { "name": "津巴布韦大岩墙铂矿", "mineral_type": "铂族金属", "country": "津巴布韦", "country_id": "716", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.5, 46.5] },
+      "properties": { "name": "萨德伯里铂钯矿", "mineral_type": "铂族金属", "country": "加拿大", "country_id": "124", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-111.5, 44.0] },
+      "properties": { "name": "斯蒂尔沃特铂钯矿", "mineral_type": "铂族金属", "country": "美国", "country_id": "840", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [36.0, 62.5] },
+      "properties": { "name": "科拉半岛磷灰石矿", "mineral_type": "磷矿", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-6.8, 32.0] },
+      "properties": { "name": "摩洛哥磷矿", "mineral_type": "磷矿", "country": "摩洛哥", "country_id": "504", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [107.0, 24.0] },
+      "properties": { "name": "贵州开阳磷矿", "mineral_type": "磷矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [111.5, 30.5] },
+      "properties": { "name": "湖北宜昌磷矿", "mineral_type": "磷矿", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.0, 28.0] },
+      "properties": { "name": "佛罗里达磷矿", "mineral_type": "磷矿", "country": "美国", "country_id": "840", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [8.0, 34.0] },
+      "properties": { "name": "突尼斯磷矿", "mineral_type": "磷矿", "country": "突尼斯", "country_id": "788", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [46.5, 31.5] },
+      "properties": { "name": "约旦磷矿", "mineral_type": "磷矿", "country": "约旦", "country_id": "400", "reserve_level": "大型", "status": "开采中" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-104.5, 51.5] },
+      "properties": { "name": "萨斯喀彻温钾盐矿", "mineral_type": "钾盐", "country": "加拿大", "country_id": "124", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.5, 52.5] },
+      "properties": { "name": "白俄罗斯钾盐矿", "mineral_type": "钾盐", "country": "白俄罗斯", "country_id": "112", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [56.5, 58.5] },
+      "properties": { "name": "别列兹尼基钾盐矿", "mineral_type": "钾盐", "country": "俄罗斯", "country_id": "643", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [11.5, 51.5] },
+      "properties": { "name": "德国钾盐矿", "mineral_type": "钾盐", "country": "德国", "country_id": "276", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.5, 31.0] },
+      "properties": { "name": "死海钾盐矿", "mineral_type": "钾盐", "country": "以色列", "country_id": "376", "reserve_level": "大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [90.5, 37.5] },
+      "properties": { "name": "青海察尔汗钾盐矿", "mineral_type": "钾盐", "country": "中国", "country_id": "156", "reserve_level": "超大型", "status": "开采中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [102.5, 16.5] },
+      "properties": { "name": "泰国钾盐矿", "mineral_type": "钾盐", "country": "泰国", "country_id": "764", "reserve_level": "大型", "status": "勘探中" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [102.0, 17.5] },
+      "properties": { "name": "老挝钾盐矿", "mineral_type": "钾盐", "country": "老挝", "country_id": "418", "reserve_level": "大型", "status": "开采中" }
     }
   ]
 }
