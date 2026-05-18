@@ -1,7 +1,7 @@
 import { Drawer, Tag, Empty, Collapse } from 'antd'
 import { EnvironmentOutlined } from '@ant-design/icons'
 import type { MineralRecord } from '../layers/types'
-import { MINERAL_COLORS } from '../layers/minerals'
+import { MINERAL_COLORS, MINERAL_ICONS } from '../layers/minerals'
 
 interface CountryDetailProps {
   open: boolean
@@ -73,7 +73,10 @@ export default function CountryDetail({ open, countryName, minerals, onClose }: 
         Array.from(byType.entries()).map(([type, records]) => (
           <div key={type} className="mineral-group">
             <div className="mineral-group-header">
-              <span className="mineral-type-dot" style={{ background: MINERAL_COLORS[type] ?? '#95a5a6' }} />
+              {MINERAL_ICONS[type]
+                ? <img src={MINERAL_ICONS[type]} alt={type} className="mineral-type-icon" />
+                : <span className="mineral-type-dot" style={{ background: MINERAL_COLORS[type] ?? '#95a5a6' }} />
+              }
               <span className="mineral-type-name">{type}</span>
               <span className="mineral-type-count">{records.length} 处</span>
             </div>

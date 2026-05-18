@@ -4,7 +4,7 @@ import * as topojson from 'topojson-client'
 import type { Topology, GeometryCollection } from 'topojson-specification'
 import type { LayerState } from '../hooks/useLayers'
 import type { MineralRecord } from '../layers/types'
-import { groupMineralsByCountryId, MINERAL_COLORS } from '../layers/minerals'
+import { groupMineralsByCountryId, MINERAL_COLORS, MINERAL_ICONS } from '../layers/minerals'
 
 function fixRing(ring: number[][]): number[][] {
   const result: number[][] = [ring[0]]
@@ -190,27 +190,42 @@ export default function MapView({ layerStates, onSelectCountry, selectedMineralT
         filter: ['==', 'country_id', ''],
       })
 
+      const iconSize = 32
+      const loadSvgIcon = (name: string, url: string): Promise<void> =>
+        new Promise((resolve) => {
+          const img = new Image(iconSize, iconSize)
+          img.onload = () => {
+            const canvas = document.createElement('canvas')
+            canvas.width = iconSize
+            canvas.height = iconSize
+            const ctx = canvas.getContext('2d')!
+            ctx.drawImage(img, 0, 0, iconSize, iconSize)
+            const data = ctx.getImageData(0, 0, iconSize, iconSize)
+            map.addImage(name, data)
+            resolve()
+          }
+          img.onerror = () => resolve()
+          img.src = url
+        })
+
+      await Promise.all(
+        Object.entries(MINERAL_ICONS).map(([type, url]) => loadSvgIcon(`mineral-${type}`, url))
+      )
+
+      const iconImageExpr: unknown[] = ['match', ['get', 'mineral_type']]
+      for (const type of Object.keys(MINERAL_ICONS)) {
+        iconImageExpr.push(type, `mineral-${type}`)
+      }
+      iconImageExpr.push(`mineral-${Object.keys(MINERAL_ICONS)[0]}`)
+
       map.addLayer({
         id: MINERAL_POINTS_LAYER,
-        type: 'circle',
+        type: 'symbol',
         source: MINERALS_SOURCE,
-        paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 3, 5, 5, 10, 8],
-          'circle-color': [
-            'match', ['get', 'mineral_type'],
-            '铁矿', '#e74c3c',
-            '铜矿', '#e67e22',
-            '金矿', '#f1c40f',
-            '铝土矿', '#9b59b6',
-            '锂矿', '#1abc9c',
-            '煤矿', '#546e7a',
-            '石油', '#2c3e50',
-            '稀土', '#e91e63',
-            '#95a5a6',
-          ],
-          'circle-opacity': 0.9,
-          'circle-stroke-width': 1.5,
-          'circle-stroke-color': '#fff',
+        layout: {
+          'icon-image': iconImageExpr as maplibregl.ExpressionSpecification,
+          'icon-size': ['interpolate', ['linear'], ['zoom'], 1, 0.5, 5, 0.75, 10, 1],
+          'icon-allow-overlap': true,
         },
       })
 

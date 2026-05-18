@@ -1,6 +1,7 @@
 export interface LegendItem {
   label: string
   color: string
+  icon?: string
 }
 
 export interface MineralRecord {

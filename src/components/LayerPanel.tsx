@@ -42,7 +42,10 @@ export default function LayerPanel({ layerStates, onToggle, selectedMineralType,
                     className={`legend-item legend-item-clickable${selectedMineralType === item.label ? ' legend-item-active' : ''}${selectedMineralType && selectedMineralType !== item.label ? ' legend-item-dimmed' : ''}`}
                     onClick={() => onSelectMineralType(selectedMineralType === item.label ? null : item.label)}
                   >
-                    <span className="legend-dot" style={{ background: item.color }} />
+                    {item.icon
+                      ? <img src={item.icon} alt={item.label} className="legend-icon" />
+                      : <span className="legend-dot" style={{ background: item.color }} />
+                    }
                     {item.label}
                   </span>
                 ))}

@@ -23,12 +23,35 @@ export const MINERAL_COLORS: Record<string, string> = {
   '钾盐': '#d4e157',
 }
 
+export const MINERAL_ICONS: Record<string, string> = {
+  '铁矿': '/icons/minerals/iron.svg',
+  '铜矿': '/icons/minerals/copper.svg',
+  '金矿': '/icons/minerals/gold.svg',
+  '铝土矿': '/icons/minerals/bauxite.svg',
+  '锂矿': '/icons/minerals/lithium.svg',
+  '煤矿': '/icons/minerals/coal.svg',
+  '石油': '/icons/minerals/oil.svg',
+  '天然气': '/icons/minerals/gas.svg',
+  '稀土': '/icons/minerals/rare-earth.svg',
+  '镍矿': '/icons/minerals/nickel.svg',
+  '锰矿': '/icons/minerals/manganese.svg',
+  '锡矿': '/icons/minerals/tin.svg',
+  '钴矿': '/icons/minerals/cobalt.svg',
+  '钨矿': '/icons/minerals/tungsten.svg',
+  '锌矿': '/icons/minerals/zinc.svg',
+  '铀矿': '/icons/minerals/uranium.svg',
+  '钻石矿': '/icons/minerals/diamond.svg',
+  '铂族金属': '/icons/minerals/platinum.svg',
+  '磷矿': '/icons/minerals/phosphate.svg',
+  '钾盐': '/icons/minerals/potash.svg',
+}
+
 const minerals: LayerConfig = {
   id: 'minerals',
   name: '全球矿产分布',
   description: '世界主要矿区及矿种分布，涵盖金属矿、能源矿和非金属矿',
   dataUrl: '/data/minerals.geojson',
-  legend: Object.entries(MINERAL_COLORS).map(([label, color]) => ({ label, color })),
+  legend: Object.entries(MINERAL_COLORS).map(([label, color]) => ({ label, color, icon: MINERAL_ICONS[label] })),
   defaultVisible: true,
 }
 
