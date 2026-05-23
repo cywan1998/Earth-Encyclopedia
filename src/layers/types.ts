@@ -1,23 +1,22 @@
-export interface LegendItem {
+export interface DataPoint {
+  id: string
+  name: string
+  category: string
+  country: string
+  country_id: string
+  coordinates: [number, number]
+  properties: Record<string, string | number | undefined>
+}
+
+export interface CategoryStyle {
   label: string
   color: string
   icon?: string
 }
 
-export interface MineralRecord {
-  name: string
-  mineral_type: string
-  country: string
-  country_id: string
-  reserve_level: string
-  reserves: string
-  annual_production?: string
-  grade?: string
-  discovery_year?: string
-  operator?: string
-  description: string
-  status: string
-  coordinates: [number, number]
+export interface DetailField {
+  key: string
+  label: string
 }
 
 export interface LayerConfig {
@@ -25,6 +24,9 @@ export interface LayerConfig {
   name: string
   description: string
   dataUrl: string
-  legend?: LegendItem[]
+  categories: Record<string, CategoryStyle>
+  parseFeature: (feature: GeoJSON.Feature) => DataPoint
+  getCountryColor?: (points: DataPoint[]) => { color: string; opacity: number }
+  detailFields?: DetailField[]
   defaultVisible?: boolean
 }

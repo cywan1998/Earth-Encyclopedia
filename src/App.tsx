@@ -1,30 +1,32 @@
 import { useState, useCallback } from 'react'
 import { ConfigProvider, theme } from 'antd'
-import MapView from './components/MapView'
+import GlobeView from './components/GlobeView'
 import LayerPanel from './components/LayerPanel'
 import CountryDetail from './components/CountryDetail'
 import { useLayers } from './hooks/useLayers'
-import type { MineralRecord } from './layers/types'
+import type { DataPoint } from './layers/types'
 
 interface SelectedCountry {
   id: string
   name: string
-  minerals: MineralRecord[]
+  points: DataPoint[]
 }
 
 export default function App() {
   const { layerStates, toggleLayer } = useLayers()
   const [selected, setSelected] = useState<SelectedCountry | null>(null)
-  const [selectedMineralType, setSelectedMineralType] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
 
-  const handleSelectCountry = useCallback((id: string, name: string, minerals: MineralRecord[]) => {
-    setSelected({ id, name, minerals })
+  const activeLayer = layerStates.find(ls => ls.visible)?.config ?? null
+
+  const handleSelectCountry = useCallback((id: string, name: string, points: DataPoint[]) => {
+    setSelected({ id, name, points })
   }, [])
 
   const handleClose = useCallback(() => setSelected(null), [])
 
-  const handleSelectMineralType = useCallback((type: string | null) => {
-    setSelectedMineralType(type)
+  const handleSelectCategory = useCallback((type: string | null) => {
+    setSelectedCategory(type)
   }, [])
 
   return (
@@ -33,14 +35,19 @@ export default function App() {
         <LayerPanel
           layerStates={layerStates}
           onToggle={toggleLayer}
-          selectedMineralType={selectedMineralType}
-          onSelectMineralType={handleSelectMineralType}
+          selectedCategory={selectedCategory}
+          onSelectCategory={handleSelectCategory}
         />
-        <MapView layerStates={layerStates} onSelectCountry={handleSelectCountry} selectedMineralType={selectedMineralType} />
+        <GlobeView
+          layerStates={layerStates}
+          onSelectCountry={handleSelectCountry}
+          selectedCategory={selectedCategory}
+        />
         <CountryDetail
           open={selected !== null}
           countryName={selected?.name ?? ''}
-          minerals={selected?.minerals ?? []}
+          points={selected?.points ?? []}
+          layerConfig={activeLayer}
           onClose={handleClose}
         />
       </div>

@@ -1,12 +1,12 @@
 import { Drawer, Tag, Empty, Collapse } from 'antd'
 import { EnvironmentOutlined } from '@ant-design/icons'
-import type { MineralRecord } from '../layers/types'
-import { MINERAL_COLORS, MINERAL_ICONS } from '../layers/minerals'
+import type { DataPoint, LayerConfig } from '../layers/types'
 
 interface CountryDetailProps {
   open: boolean
   countryName: string
-  minerals: MineralRecord[]
+  points: DataPoint[]
+  layerConfig: LayerConfig | null
   onClose: () => void
 }
 
@@ -31,24 +31,26 @@ const COUNTRY_NAME_ZH: Record<string, string> = {
   'United Arab Emirates': '阿联酋', 'Kuwait': '科威特', 'Suriname': '苏里南',
 }
 
-function InfoRow({ label, value }: { label: string; value?: string }) {
+function InfoRow({ label, value }: { label: string; value?: string | number }) {
   if (!value) return null
   return (
     <div className="mineral-info-row">
       <span className="mineral-info-label">{label}</span>
-      <span className="mineral-info-value">{value}</span>
+      <span className="mineral-info-value">{String(value)}</span>
     </div>
   )
 }
 
-export default function CountryDetail({ open, countryName, minerals, onClose }: CountryDetailProps) {
+export default function CountryDetail({ open, countryName, points, layerConfig, onClose }: CountryDetailProps) {
   const zhName = COUNTRY_NAME_ZH[countryName] ?? countryName
+  const categories = layerConfig?.categories ?? {}
+  const detailFields = layerConfig?.detailFields ?? []
 
-  const byType = new Map<string, MineralRecord[]>()
-  for (const m of minerals) {
-    const list = byType.get(m.mineral_type) ?? []
-    list.push(m)
-    byType.set(m.mineral_type, list)
+  const byCategory = new Map<string, DataPoint[]>()
+  for (const p of points) {
+    const list = byCategory.get(p.category) ?? []
+    list.push(p)
+    byCategory.set(p.category, list)
   }
 
   return (
@@ -58,7 +60,7 @@ export default function CountryDetail({ open, countryName, minerals, onClose }: 
           <EnvironmentOutlined style={{ marginRight: 8, color: '#3b82f6' }} />
           <span>{zhName}</span>
           <span className="detail-title-en">{zhName !== countryName ? countryName : ''}</span>
-          <Tag color="blue" style={{ marginLeft: 'auto' }}>{minerals.length} 个矿区</Tag>
+          <Tag color="blue" style={{ marginLeft: 'auto' }}>{points.length} 个数据点</Tag>
         </div>
       }
       placement="right"
@@ -67,53 +69,57 @@ export default function CountryDetail({ open, countryName, minerals, onClose }: 
       onClose={onClose}
       styles={{ body: { padding: '12px 16px', background: '#f8fafc' } }}
     >
-      {minerals.length === 0 ? (
-        <Empty description="该国家暂无矿产数据" />
+      {points.length === 0 ? (
+        <Empty description="该国家暂无数据" />
       ) : (
-        Array.from(byType.entries()).map(([type, records]) => (
-          <div key={type} className="mineral-group">
-            <div className="mineral-group-header">
-              {MINERAL_ICONS[type]
-                ? <img src={MINERAL_ICONS[type]} alt={type} className="mineral-type-icon" />
-                : <span className="mineral-type-dot" style={{ background: MINERAL_COLORS[type] ?? '#95a5a6' }} />
-              }
-              <span className="mineral-type-name">{type}</span>
-              <span className="mineral-type-count">{records.length} 处</span>
-            </div>
-            <Collapse
-              size="small"
-              expandIconPosition="end"
-              items={records.map(r => ({
-                key: r.name,
-                label: (
-                  <div className="mineral-collapse-label">
-                    <span className="mineral-card-name">{r.name}</span>
-                    <Tag
-                      color={r.reserve_level === '超大型' ? 'gold' : r.reserve_level === '大型' ? 'blue' : 'default'}
-                      bordered={false}
-                      style={{ marginLeft: 8, fontSize: 11 }}
-                    >
-                      {r.reserve_level}
-                    </Tag>
-                  </div>
-                ),
-                children: (
-                  <div className="mineral-detail-content">
-                    {r.description && <p className="mineral-description">{r.description}</p>}
-                    <div className="mineral-info-grid">
-                      <InfoRow label="探明储量" value={r.reserves} />
-                      <InfoRow label="年产量" value={r.annual_production} />
-                      <InfoRow label="品位/质量" value={r.grade} />
-                      <InfoRow label="发现年份" value={r.discovery_year} />
-                      <InfoRow label="运营方" value={r.operator} />
-                      <InfoRow label="开发状态" value={r.status} />
+        Array.from(byCategory.entries()).map(([category, records]) => {
+          const style = categories[category]
+          return (
+            <div key={category} className="mineral-group">
+              <div className="mineral-group-header">
+                {style?.icon
+                  ? <img src={style.icon} alt={category} className="mineral-type-icon" />
+                  : <span className="mineral-type-dot" style={{ background: style?.color ?? '#95a5a6' }} />
+                }
+                <span className="mineral-type-name">{style?.label ?? category}</span>
+                <span className="mineral-type-count">{records.length} 处</span>
+              </div>
+              <Collapse
+                size="small"
+                expandIconPosition="end"
+                items={records.map(r => ({
+                  key: r.id,
+                  label: (
+                    <div className="mineral-collapse-label">
+                      <span className="mineral-card-name">{r.name}</span>
+                      {r.properties.reserve_level && (
+                        <Tag
+                          color={r.properties.reserve_level === '超大型' ? 'gold' : r.properties.reserve_level === '大型' ? 'blue' : 'default'}
+                          bordered={false}
+                          style={{ marginLeft: 8, fontSize: 11 }}
+                        >
+                          {String(r.properties.reserve_level)}
+                        </Tag>
+                      )}
                     </div>
-                  </div>
-                ),
-              }))}
-            />
-          </div>
-        ))
+                  ),
+                  children: (
+                    <div className="mineral-detail-content">
+                      {r.properties.description && (
+                        <p className="mineral-description">{String(r.properties.description)}</p>
+                      )}
+                      <div className="mineral-info-grid">
+                        {detailFields.map(field => (
+                          <InfoRow key={field.key} label={field.label} value={r.properties[field.key]} />
+                        ))}
+                      </div>
+                    </div>
+                  ),
+                }))}
+              />
+            </div>
+          )
+        })
       )}
     </Drawer>
   )

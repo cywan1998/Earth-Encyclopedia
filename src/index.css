@@ -17,10 +17,11 @@ html, body, #root {
   height: 100%;
 }
 
-.map-container {
+.globe-container {
   flex: 1;
   height: 100%;
-  background: radial-gradient(ellipse at center, #4a90c2 0%, #2c5f8a 50%, #1a3a5c 100%);
+  background: radial-gradient(ellipse at center, #1a2a4a 0%, #0d1b2e 60%, #050d18 100%);
+  overflow: hidden;
 }
 
 /* ── Layer Panel (dark sidebar) ── */
@@ -305,8 +306,3 @@ html, body, #root {
   padding: 8px 12px 12px !important;
 }
 
-/* ── MapLibre overrides ── */
-.maplibregl-ctrl-group {
-  border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
-}

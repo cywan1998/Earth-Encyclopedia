@@ -5,11 +5,11 @@ import type { LayerState } from '../hooks/useLayers'
 interface LayerPanelProps {
   layerStates: LayerState[]
   onToggle: (layerId: string) => void
-  selectedMineralType: string | null
-  onSelectMineralType: (type: string | null) => void
+  selectedCategory: string | null
+  onSelectCategory: (type: string | null) => void
 }
 
-export default function LayerPanel({ layerStates, onToggle, selectedMineralType, onSelectMineralType }: LayerPanelProps) {
+export default function LayerPanel({ layerStates, onToggle, selectedCategory, onSelectCategory }: LayerPanelProps) {
   return (
     <div className="layer-panel">
       <div className="layer-panel-header">
@@ -34,19 +34,19 @@ export default function LayerPanel({ layerStates, onToggle, selectedMineralType,
               />
             </div>
             <div className="layer-item-desc">{config.description}</div>
-            {visible && config.legend && (
+            {visible && config.categories && (
               <div className="layer-legend">
-                {config.legend.map(item => (
+                {Object.entries(config.categories).map(([key, style]) => (
                   <span
-                    key={item.label}
-                    className={`legend-item legend-item-clickable${selectedMineralType === item.label ? ' legend-item-active' : ''}${selectedMineralType && selectedMineralType !== item.label ? ' legend-item-dimmed' : ''}`}
-                    onClick={() => onSelectMineralType(selectedMineralType === item.label ? null : item.label)}
+                    key={key}
+                    className={`legend-item legend-item-clickable${selectedCategory === key ? ' legend-item-active' : ''}${selectedCategory && selectedCategory !== key ? ' legend-item-dimmed' : ''}`}
+                    onClick={() => onSelectCategory(selectedCategory === key ? null : key)}
                   >
-                    {item.icon
-                      ? <img src={item.icon} alt={item.label} className="legend-icon" />
-                      : <span className="legend-dot" style={{ background: item.color }} />
+                    {style.icon
+                      ? <img src={style.icon} alt={style.label} className="legend-icon" />
+                      : <span className="legend-dot" style={{ background: style.color }} />
                     }
-                    {item.label}
+                    {style.label}
                   </span>
                 ))}
               </div>
@@ -55,9 +55,9 @@ export default function LayerPanel({ layerStates, onToggle, selectedMineralType,
         ))}
       </div>
       <div className="layer-panel-footer">
-        {selectedMineralType
-          ? `当前筛选：${selectedMineralType}（点击取消）`
-          : '点击矿种图例可筛选，点击地图着色区域查看明细'}
+        {selectedCategory
+          ? `当前筛选：${selectedCategory}（点击取消）`
+          : '点击图例可筛选，点击地图着色区域查看明细'}
       </div>
     </div>
   )
