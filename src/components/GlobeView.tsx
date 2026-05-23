@@ -25,11 +25,25 @@ interface GlobeViewProps {
 
 export default function GlobeView({ layerStates, onSelectCountry, selectedCategory }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const [containerSize, setContainerSize] = useState({ width: 0, height: 0 })
   const [countries, setCountries] = useState<GeoJSON.Feature[]>([])
   const [countryNames, setCountryNames] = useState<Map<string, string>>(new Map())
   const [dataPoints, setDataPoints] = useState<DataPoint[]>([])
   const [activeLayer, setActiveLayer] = useState<LayerConfig | null>(null)
   const initDone = useRef(false)
+
+  useEffect(() => {
+    const el = containerRef.current
+    if (!el) return
+    const ro = new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect
+      setContainerSize({ width, height })
+    })
+    ro.observe(el)
+    setContainerSize({ width: el.clientWidth, height: el.clientHeight })
+    return () => ro.disconnect()
+  }, [])
 
   useEffect(() => {
     async function loadWorld() {
@@ -63,6 +77,65 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
         setDataPoints(points)
       })
   }, [layerStates])
+
+  const autoRotateRaf = useRef<number>(0)
+  const rotating = useRef(false)
+
+  const startAutoRotate = useCallback(() => {
+    if (rotating.current) return
+    rotating.current = true
+    const rotate = () => {
+      if (!rotating.current) return
+      const globe = globeRef.current
+      if (globe) {
+        const pov = globe.pointOfView()
+        globe.pointOfView({ lat: pov.lat, lng: pov.lng + 0.03, altitude: pov.altitude }, 0)
+      }
+      autoRotateRaf.current = requestAnimationFrame(rotate)
+    }
+    autoRotateRaf.current = requestAnimationFrame(rotate)
+  }, [])
+
+  const stopAutoRotate = useCallback(() => {
+    rotating.current = false
+    if (autoRotateRaf.current) {
+      cancelAnimationFrame(autoRotateRaf.current)
+      autoRotateRaf.current = 0
+    }
+  }, [])
+
+  useEffect(() => {
+    const globe = globeRef.current
+    if (!globe) return
+    const renderer = globe.renderer()
+    const camera = globe.camera()
+    const raycaster = new THREE.Raycaster()
+    const mouse = new THREE.Vector2()
+    const globeSphere = new THREE.Sphere(new THREE.Vector3(0, 0, 0), 100)
+
+    const onMove = (e: MouseEvent) => {
+      const rect = renderer.domElement.getBoundingClientRect()
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1
+      raycaster.setFromCamera(mouse, camera)
+      const hit = raycaster.ray.intersectsSphere(globeSphere)
+      if (hit) {
+        stopAutoRotate()
+      } else if (!rotating.current) {
+        startAutoRotate()
+      }
+    }
+    const onLeave = () => startAutoRotate()
+
+    renderer.domElement.addEventListener('mousemove', onMove)
+    renderer.domElement.addEventListener('mouseleave', onLeave)
+    startAutoRotate()
+    return () => {
+      renderer.domElement.removeEventListener('mousemove', onMove)
+      renderer.domElement.removeEventListener('mouseleave', onLeave)
+      stopAutoRotate()
+    }
+  }, [startAutoRotate, stopAutoRotate])
 
   const handleGlobeReady = useCallback(() => {
     const globe = globeRef.current
@@ -140,6 +213,19 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
     `
     document.body.appendChild(tip)
     tooltipRef.current = tip
+
+    if (!document.getElementById('marker-pulse-style')) {
+      const styleEl = document.createElement('style')
+      styleEl.id = 'marker-pulse-style'
+      styleEl.textContent = `
+        @keyframes marker-pulse {
+          0% { transform: translate(-50%,-50%) scale(1); opacity: 0.9; }
+          100% { transform: translate(-50%,-50%) scale(3); opacity: 0; }
+        }
+      `
+      document.head.appendChild(styleEl)
+    }
+
     const onMove = (e: MouseEvent) => { mousePos.current = { x: e.clientX, y: e.clientY } }
     window.addEventListener('mousemove', onMove)
     return () => {
@@ -167,27 +253,54 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
   const createMarkerEl = useCallback((d: object) => {
     const point = d as DataPoint
     const style = activeLayer?.categories[point.category]
+    const color = style?.color ?? '#95a5a6'
     const el = document.createElement('div')
     el.style.width = '24px'
     el.style.height = '24px'
     el.style.cursor = 'pointer'
     el.style.pointerEvents = 'auto'
+    el.style.position = 'relative'
+
+    const ring = document.createElement('div')
+    ring.style.cssText = `
+      position:absolute;top:50%;left:50%;width:100%;height:100%;
+      border-radius:50%;border:3px solid ${color};
+      box-shadow:0 0 6px ${color}, inset 0 0 4px ${color};
+      transform:translate(-50%,-50%) scale(1);
+      animation:marker-pulse 2s ease-out infinite;
+      pointer-events:none;
+    `
+    el.appendChild(ring)
+
+    const ring2 = document.createElement('div')
+    ring2.style.cssText = `
+      position:absolute;top:50%;left:50%;width:100%;height:100%;
+      border-radius:50%;border:3px solid ${color};
+      box-shadow:0 0 6px ${color}, inset 0 0 4px ${color};
+      transform:translate(-50%,-50%) scale(1);
+      animation:marker-pulse 2s ease-out infinite 1s;
+      pointer-events:none;
+    `
+    el.appendChild(ring2)
 
     if (style?.icon) {
       const img = document.createElement('img')
       img.src = style.icon
       img.style.width = '100%'
       img.style.height = '100%'
+      img.style.position = 'relative'
       img.style.filter = 'drop-shadow(0 0 3px rgba(255,255,255,0.5))'
       el.appendChild(img)
     } else {
-      el.style.borderRadius = '50%'
-      el.style.background = style?.color ?? '#95a5a6'
-      el.style.border = '2px solid rgba(255,255,255,0.8)'
-      el.style.boxShadow = `0 0 6px ${style?.color ?? '#95a5a6'}`
+      const dot = document.createElement('div')
+      dot.style.cssText = `
+        width:100%;height:100%;border-radius:50%;position:relative;
+        background:${color};border:2px solid rgba(255,255,255,0.8);
+        box-shadow:0 0 6px ${color};
+      `
+      el.appendChild(dot)
     }
 
-    const color = style?.color ?? '#95a5a6'
     let html = `<div style="font-size:14px;font-weight:bold;margin-bottom:6px;color:${color}">${point.name}</div>`
     html += `<div style="color:#8bb8f0;margin-bottom:4px">${style?.label ?? point.category} · ${point.country}</div>`
     const fields = activeLayer?.detailFields ?? []
@@ -223,10 +336,37 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
     return el
   }, [activeLayer])
 
+  const handleZoomIn = useCallback(() => {
+    const globe = globeRef.current
+    if (!globe) return
+    const pov = globe.pointOfView()
+    globe.pointOfView({ ...pov, altitude: Math.max(pov.altitude - 0.4, 0.5) }, 300)
+  }, [])
+
+  const handleZoomOut = useCallback(() => {
+    const globe = globeRef.current
+    if (!globe) return
+    const pov = globe.pointOfView()
+    globe.pointOfView({ ...pov, altitude: Math.min(pov.altitude + 0.4, 5) }, 300)
+  }, [])
+
+  const handleReset = useCallback(() => {
+    const globe = globeRef.current
+    if (!globe) return
+    globe.pointOfView({ lat: 30, lng: 105, altitude: 2.2 }, 600)
+  }, [])
+
   return (
-    <div className="globe-container">
+    <div className="globe-container" ref={containerRef}>
+      <div className="globe-controls">
+        <button className="globe-ctrl-btn" onClick={handleZoomIn} title="放大">+</button>
+        <button className="globe-ctrl-btn" onClick={handleZoomOut} title="缩小">-</button>
+        <button className="globe-ctrl-btn globe-ctrl-reset" onClick={handleReset} title="复原">N</button>
+      </div>
       <Globe
         ref={globeRef}
+        width={containerSize.width || undefined}
+        height={containerSize.height || undefined}
         backgroundColor="rgba(0,0,0,0)"
         showAtmosphere={true}
         atmosphereColor="#3a7bd5"
