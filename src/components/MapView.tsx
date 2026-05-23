@@ -126,6 +126,12 @@ export default function MapView({ layerStates, onSelectCountry, selectedMineralT
 
     map.on('load', async () => {
       map.setProjection({ type: 'globe' })
+      map.setSky({
+        'sky-color': '#1a1a2e',
+        'horizon-color': '#16213e',
+        'sky-horizon-blend': 0.5,
+        'atmosphere-blend': 1,
+      })
       const [worldModule, mineralRes] = await Promise.all([
         import('world-atlas/countries-110m.json'),
         fetch('/data/minerals.geojson'),
