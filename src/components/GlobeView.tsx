@@ -126,6 +126,44 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
     }
   }, [pointsByCountry, onSelectCountry])
 
+  const tooltipRef = useRef<HTMLDivElement | null>(null)
+  const markerHovered = useRef(false)
+  const mousePos = useRef({ x: 0, y: 0 })
+
+  useEffect(() => {
+    const tip = document.createElement('div')
+    tip.style.cssText = `
+      position:fixed;pointer-events:none;opacity:0;transition:opacity 0.15s;
+      background:rgba(10,20,40,0.92);color:white;padding:10px 14px;border-radius:8px;
+      font-size:12px;white-space:nowrap;z-index:99999;
+      border:1px solid rgba(100,160,255,0.3);box-shadow:0 4px 12px rgba(0,0,0,0.4);
+    `
+    document.body.appendChild(tip)
+    tooltipRef.current = tip
+    const onMove = (e: MouseEvent) => { mousePos.current = { x: e.clientX, y: e.clientY } }
+    window.addEventListener('mousemove', onMove)
+    return () => {
+      document.body.removeChild(tip)
+      window.removeEventListener('mousemove', onMove)
+    }
+  }, [])
+
+  const handlePolygonHover = useCallback((polygon: object | null) => {
+    const tip = tooltipRef.current
+    if (!tip) return
+    if (!polygon || markerHovered.current) {
+      if (!markerHovered.current) tip.style.opacity = '0'
+      return
+    }
+    const p = polygon as CountryPolygon
+    const points = pointsByCountry.get(p.properties.country_id)
+    tip.innerHTML = `<div style="font-size:14px;font-weight:bold;margin-bottom:4px">${p.properties.name}</div>
+      <span style="color:#8bb8f0">${points?.length ?? 0} 个数据点</span>`
+    tip.style.left = `${mousePos.current.x + 12}px`
+    tip.style.top = `${mousePos.current.y - 12}px`
+    tip.style.opacity = '1'
+  }, [pointsByCountry])
+
   const createMarkerEl = useCallback((d: object) => {
     const point = d as DataPoint
     const style = activeLayer?.categories[point.category]
@@ -133,7 +171,7 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
     el.style.width = '24px'
     el.style.height = '24px'
     el.style.cursor = 'pointer'
-    el.title = point.name
+    el.style.pointerEvents = 'auto'
 
     if (style?.icon) {
       const img = document.createElement('img')
@@ -148,6 +186,40 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
       el.style.border = '2px solid rgba(255,255,255,0.8)'
       el.style.boxShadow = `0 0 6px ${style?.color ?? '#95a5a6'}`
     }
+
+    const color = style?.color ?? '#95a5a6'
+    let html = `<div style="font-size:14px;font-weight:bold;margin-bottom:6px;color:${color}">${point.name}</div>`
+    html += `<div style="color:#8bb8f0;margin-bottom:4px">${style?.label ?? point.category} · ${point.country}</div>`
+    const fields = activeLayer?.detailFields ?? []
+    for (const f of fields) {
+      const val = point.properties[f.key]
+      if (val) {
+        html += `<div style="margin-top:3px"><span style="color:#8899aa">${f.label}:</span> ${val}</div>`
+      }
+    }
+
+    el.addEventListener('mouseenter', (e) => {
+      markerHovered.current = true
+      const tip = tooltipRef.current
+      if (!tip) return
+      tip.innerHTML = html
+      tip.style.left = `${e.clientX + 12}px`
+      tip.style.top = `${e.clientY - 12}px`
+      tip.style.opacity = '1'
+    })
+    el.addEventListener('mousemove', (e) => {
+      const tip = tooltipRef.current
+      if (!tip) return
+      tip.style.left = `${e.clientX + 12}px`
+      tip.style.top = `${e.clientY - 12}px`
+    })
+    el.addEventListener('mouseleave', () => {
+      markerHovered.current = false
+      const tip = tooltipRef.current
+      if (!tip) return
+      tip.style.opacity = '0'
+    })
+
     return el
   }, [activeLayer])
 
@@ -176,13 +248,8 @@ export default function GlobeView({ layerStates, onSelectCountry, selectedCatego
         polygonSideColor={() => 'rgba(255,255,255,0.03)'}
         polygonStrokeColor={() => 'rgba(200,220,255,0.2)'}
         polygonAltitude={0.005}
-        polygonLabel={(d: object) => {
-          const p = d as CountryPolygon
-          const points = pointsByCountry.get(p.properties.country_id)
-          return `<div style="background:rgba(10,20,40,0.85);color:white;padding:8px 12px;border-radius:8px;font-size:13px;border:1px solid rgba(100,160,255,0.3)">
-            <b>${p.properties.name}</b><br/><span style="color:#8bb8f0">${points?.length ?? 0} 个数据点</span>
-          </div>`
-        }}
+        polygonLabel={() => ''}
+        onPolygonHover={handlePolygonHover}
         onPolygonClick={handlePolygonClick}
         htmlElementsData={activeLayer ? filteredPoints : []}
         htmlLat={(d: object) => (d as DataPoint).coordinates[1]}
