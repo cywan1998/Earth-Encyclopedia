@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import maplibregl from 'maplibre-gl'
+import maplibregl, { GlobeControl } from 'maplibre-gl'
 import * as topojson from 'topojson-client'
 import type { Topology, GeometryCollection } from 'topojson-specification'
 import type { LayerState } from '../hooks/useLayers'
@@ -121,9 +121,11 @@ export default function MapView({ layerStates, onSelectCountry, selectedMineralT
     })
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right')
+    map.addControl(new GlobeControl(), 'top-right')
     mapRef.current = map
 
     map.on('load', async () => {
+      map.setProjection({ type: 'globe' })
       const [worldModule, mineralRes] = await Promise.all([
         import('world-atlas/countries-110m.json'),
         fetch('/data/minerals.geojson'),
